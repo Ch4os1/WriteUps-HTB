@@ -150,6 +150,7 @@ Resources for more labs <br>
 
 - Dante
 - Offshore
+- Zephyr
 
 </details>
 
