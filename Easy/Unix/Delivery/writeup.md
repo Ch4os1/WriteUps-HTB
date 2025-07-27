@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy
-- Type: Linux
+- Type: Web App, MariaDB, Password Bruteforce,  Linux
 
 #### Enumeration
 - run nmap 
