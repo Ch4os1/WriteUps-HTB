@@ -1,0 +1,154 @@
+# Nmap 7.95 scan initiated Sat Jul 26 18:02:26 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -oA Delivery 10.10.10.222
+Increasing send delay for 10.10.10.222 from 0 to 5 due to 104 out of 259 dropped probes since last increase.
+Increasing send delay for 10.10.10.222 from 5 to 10 due to 17 out of 41 dropped probes since last increase.
+Warning: 10.10.10.222 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.10.222 (10.10.10.222)
+Host is up, received user-set (0.21s latency).
+Scanned at 2025-07-26 18:02:26 PDT for 1024s
+Not shown: 65518 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE REASON      VERSION
+22/tcp    open     ssh     syn-ack     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 9c:40:fa:85:9b:01:ac:ac:0e:bc:0c:19:51:8a:ee:27 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCq549E025Q9FR27LDR6WZRQ52ikKjKUQLmE9ndEKjB0i1qOoL+WzkvqTdqEU6fFW6AqUIdSEd7GMNSMOk66otFgSoerK6MmH5IZjy4JqMoNVPDdWfmEiagBlG3H7IZ7yAO8gcg0RRrIQjE7XTMV09GmxEUtjojoLoqudUvbUi8COHCO6baVmyjZRlXRCQ6qTKIxRZbUAo0GOY8bYmf9sMLf70w6u/xbE2EYDFH+w60ES2K906x7lyfEPe73NfAIEhHNL8DBAUfQWzQjVjYNOLqGp/WdlKA1RLAOklpIdJQ9iehsH0q6nqjeTUv47mIHUiqaM+vlkCEAN3AAQH5mB/1
+|   256 5a:0c:c0:3b:9b:76:55:2e:6e:c4:f4:b9:5d:76:17:09 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAiAKnk2lw0GxzzqMXNsPQ1bTk35WwxCa3ED5H34T1yYMiXnRlfssJwso60D34/IM8vYXH0rznR9tHvjdN7R3hY=
+|   256 b7:9d:f7:48:9d:a2:f2:76:30:fd:42:d3:35:3a:80:8c (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEV5D6eYjySqfhW4l4IF1SZkZHxIRihnY6Mn6D8mLEW7
+80/tcp    open     http    syn-ack     nginx 1.14.2
+|_http-title: Welcome
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-server-header: nginx/1.14.2
+4762/tcp  filtered unknown no-response
+4764/tcp  filtered unknown no-response
+8065/tcp  open     http    syn-ack     Golang net/http server
+| http-methods: 
+|_  Supported Methods: GET
+|_http-title: Mattermost
+|_http-favicon: Unknown favicon MD5: 6B215BD4A98C6722601D4F8A985BF370
+| http-robots.txt: 1 disallowed entry 
+|_/
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 200 OK
+|     Accept-Ranges: bytes
+|     Cache-Control: no-cache, max-age=31556926, public
+|     Content-Length: 3108
+|     Content-Security-Policy: frame-ancestors 'self'; script-src 'self' cdn.rudderlabs.com
+|     Content-Type: text/html; charset=utf-8
+|     Last-Modified: Sun, 27 Jul 2025 00:36:02 GMT
+|     X-Frame-Options: SAMEORIGIN
+|     X-Request-Id: pc6o77pqfiydpprd3n7pn1ibwc
+|     X-Version-Id: 5.30.0.5.30.1.57fb31b889bf81d99d8af8176d4bbaaa.false
+|     Date: Sun, 27 Jul 2025 00:55:26 GMT
+|     <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><meta name="robots" content="noindex, nofollow"><meta name="referrer" content="no-referrer"><title>Mattermost</title><meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Mattermost"><meta name="format-detection" content="telephone=no"><link re
+|   GenericLines, Help, RTSPRequest, SSLSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Accept-Ranges: bytes
+|     Cache-Control: no-cache, max-age=31556926, public
+|     Content-Length: 3108
+|     Content-Security-Policy: frame-ancestors 'self'; script-src 'self' cdn.rudderlabs.com
+|     Content-Type: text/html; charset=utf-8
+|     Last-Modified: Sun, 27 Jul 2025 00:36:02 GMT
+|     X-Frame-Options: SAMEORIGIN
+|     X-Request-Id: ai9gji7yu385if17f1za5jqokw
+|     X-Version-Id: 5.30.0.5.30.1.57fb31b889bf81d99d8af8176d4bbaaa.false
+|     Date: Sun, 27 Jul 2025 00:55:06 GMT
+|     <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><meta name="robots" content="noindex, nofollow"><meta name="referrer" content="no-referrer"><title>Mattermost</title><meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Mattermost"><meta name="format-detection" content="telephone=no"><link re
+|   HTTPOptions: 
+|     HTTP/1.0 405 Method Not Allowed
+|     Date: Sun, 27 Jul 2025 00:55:07 GMT
+|_    Content-Length: 0
+18976/tcp filtered unknown no-response
+31556/tcp filtered unknown no-response
+34246/tcp filtered unknown no-response
+39509/tcp filtered unknown no-response
+39610/tcp filtered unknown no-response
+42088/tcp filtered unknown no-response
+42190/tcp filtered unknown no-response
+43206/tcp filtered unknown no-response
+51211/tcp filtered unknown no-response
+53759/tcp filtered unknown no-response
+58073/tcp filtered unknown no-response
+59113/tcp filtered unknown no-response
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8065-TCP:V=7.95%I=7%D=7/26%Time=68857E79%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x
+SF:20Request")%r(GetRequest,DF3,"HTTP/1\.0\x20200\x20OK\r\nAccept-Ranges:\
+SF:x20bytes\r\nCache-Control:\x20no-cache,\x20max-age=31556926,\x20public\
+SF:r\nContent-Length:\x203108\r\nContent-Security-Policy:\x20frame-ancesto
+SF:rs\x20'self';\x20script-src\x20'self'\x20cdn\.rudderlabs\.com\r\nConten
+SF:t-Type:\x20text/html;\x20charset=utf-8\r\nLast-Modified:\x20Sun,\x2027\
+SF:x20Jul\x202025\x2000:36:02\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\n
+SF:X-Request-Id:\x20ai9gji7yu385if17f1za5jqokw\r\nX-Version-Id:\x205\.30\.
+SF:0\.5\.30\.1\.57fb31b889bf81d99d8af8176d4bbaaa\.false\r\nDate:\x20Sun,\x
+SF:2027\x20Jul\x202025\x2000:55:06\x20GMT\r\n\r\n<!doctype\x20html><html\x
+SF:20lang=\"en\"><head><meta\x20charset=\"utf-8\"><meta\x20name=\"viewport
+SF:\"\x20content=\"width=device-width,initial-scale=1,maximum-scale=1,user
+SF:-scalable=0\"><meta\x20name=\"robots\"\x20content=\"noindex,\x20nofollo
+SF:w\"><meta\x20name=\"referrer\"\x20content=\"no-referrer\"><title>Matter
+SF:most</title><meta\x20name=\"mobile-web-app-capable\"\x20content=\"yes\"
+SF:><meta\x20name=\"application-name\"\x20content=\"Mattermost\"><meta\x20
+SF:name=\"format-detection\"\x20content=\"telephone=no\"><link\x20re")%r(H
+SF:TTPOptions,5B,"HTTP/1\.0\x20405\x20Method\x20Not\x20Allowed\r\nDate:\x2
+SF:0Sun,\x2027\x20Jul\x202025\x2000:55:07\x20GMT\r\nContent-Length:\x200\r
+SF:\n\r\n")%r(RTSPRequest,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConten
+SF:t-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n
+SF:400\x20Bad\x20Request")%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r
+SF:\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close
+SF:\r\n\r\n400\x20Bad\x20Request")%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x2
+SF:0Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nCon
+SF:nection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(FourOhFourRequest,DF
+SF:3,"HTTP/1\.0\x20200\x20OK\r\nAccept-Ranges:\x20bytes\r\nCache-Control:\
+SF:x20no-cache,\x20max-age=31556926,\x20public\r\nContent-Length:\x203108\
+SF:r\nContent-Security-Policy:\x20frame-ancestors\x20'self';\x20script-src
+SF:\x20'self'\x20cdn\.rudderlabs\.com\r\nContent-Type:\x20text/html;\x20ch
+SF:arset=utf-8\r\nLast-Modified:\x20Sun,\x2027\x20Jul\x202025\x2000:36:02\
+SF:x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Request-Id:\x20pc6o77pqfi
+SF:ydpprd3n7pn1ibwc\r\nX-Version-Id:\x205\.30\.0\.5\.30\.1\.57fb31b889bf81
+SF:d99d8af8176d4bbaaa\.false\r\nDate:\x20Sun,\x2027\x20Jul\x202025\x2000:5
+SF:5:26\x20GMT\r\n\r\n<!doctype\x20html><html\x20lang=\"en\"><head><meta\x
+SF:20charset=\"utf-8\"><meta\x20name=\"viewport\"\x20content=\"width=devic
+SF:e-width,initial-scale=1,maximum-scale=1,user-scalable=0\"><meta\x20name
+SF:=\"robots\"\x20content=\"noindex,\x20nofollow\"><meta\x20name=\"referre
+SF:r\"\x20content=\"no-referrer\"><title>Mattermost</title><meta\x20name=\
+SF:"mobile-web-app-capable\"\x20content=\"yes\"><meta\x20name=\"applicatio
+SF:n-name\"\x20content=\"Mattermost\"><meta\x20name=\"format-detection\"\x
+SF:20content=\"telephone=no\"><link\x20re");
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.19
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=7/26%OT=22%CT=1%CU=44600%PV=Y%DS=2%DC=T%G=Y%TM=68857EA
+OS:2%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=105%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M542ST11NW7%O2=M542ST11NW7%O3=M542NNT11NW7%O4=M542ST11NW7%O5=M542ST1
+OS:1NW7%O6=M542ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN
+OS:(R=Y%DF=Y%T=40%W=FAF0%O=M542NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Uptime guess: 41.897 days (since Sat Jun 14 20:48:04 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   232.33 ms 10.10.16.1 (10.10.16.1)
+2   111.90 ms 10.10.10.222 (10.10.10.222)
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul 26 18:19:30 2025 -- 1 IP address (1 host up) scanned in 1024.39 seconds
