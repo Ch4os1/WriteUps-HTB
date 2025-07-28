@@ -11,7 +11,7 @@ Resources for more labs <br>
 
 ---
 
-### 🟢 Easy (Pwned 36/45)  
+### 🟢 Easy (Pwned 37/45)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -47,7 +47,7 @@ Resources for more labs <br>
 - Networked - retired (3/10)
 - Support - retired (5/10) 
 - Servmon - retired (3/10) 
-- Mailing - retired 
+- Mailing - retired (**WIP**)
 - Driver  - retired 
 - Crafty  - retired 
 - Granny  - retired <br>
@@ -56,7 +56,7 @@ Resources for more labs <br>
 - Busqueda    - retired (4/10)  - Adventure Mode <br>
 - Broadlight  - retired (2/10)  - Adventure Mode <br>
 - Delivery  - retired (3/10)   - Adventure Mode <br>
-- MetaTwo   - retird (**WIP**) - Adventure Mode <br>
+- MetaTwo   - retired (3/10) - Adventure Mode <br>
 - Trick     - retired - Adventure Mode <br>
 - Shoppy    - retired - Adventure Mode <br>
 - Sense     - retired - Adventure Mode <br>
