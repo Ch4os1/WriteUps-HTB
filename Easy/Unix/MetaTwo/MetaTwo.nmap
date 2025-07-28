@@ -1,0 +1,64 @@
+# Nmap 7.95 scan initiated Sun Jul 27 02:18:00 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -oA MetaTwo 10.10.11.186
+Increasing send delay for 10.10.11.186 from 0 to 5 due to 22 out of 54 dropped probes since last increase.
+Increasing send delay for 10.10.11.186 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Warning: 10.10.11.186 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.11.186 (10.10.11.186)
+Host is up, received user-set (0.25s latency).
+Scanned at 2025-07-27 02:18:00 PDT for 3920s
+Not shown: 63786 closed tcp ports (conn-refused), 1746 filtered tcp ports (no-response)
+PORT   STATE SERVICE REASON  VERSION
+21/tcp open  ftp?    syn-ack
+| fingerprint-strings: 
+|   GenericLines: 
+|     220 ProFTPD Server (Debian) [::ffff:10.10.11.186]
+|     Invalid command: try being more creative
+|_    Invalid command: try being more creative
+22/tcp open  ssh     syn-ack OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 c4:b4:46:17:d2:10:2d:8f:ec:1d:c9:27:fe:cd:79:ee (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPp9LmBKMOuXu2ZOpw8JorL5ah0sU0kIBXvJB8LX26rpbOhw+1MPdhx6ptZzXwQ8wkQc88xu5h+oB8NGkeHLYhvRqtZmvkTpOsyJiMm+0Udbg+IJCENPiKGSC5J+0tt4QPj92xtTe/f7WV4hbBLDQust46D1xVJVOCNfaloIC40BtWoMWIoEFWnk7U3kwXcM5336LuUnhm69XApDB4y/dt5CgXFoWlDQi45WLLQGbanCNAlT9XwyPnpIyqQdF7mRJ5yRXUOXGeGmoO9+JALVQIEJ/7Ljxts6QuV633wFefpxnmvTu7XX9W8vxUcmInIEIQCmunR5YH4ZgWRclT+6rzwRQw1DH1z/ZYui5Bjn82neoJunhweTJXQcotBp8glpvq3X/rQgZASSyYrOJghBlNVZDqPzp4vBC78gn6TyZyuJXhDxw+lHxF82IMT2fatp240InLVvoWrTWlXlEyPiHraKC0okOVtul6T0VRxsuT+QsyU7pdNFkn2wDVvC25AW8=
+|   256 2a:ea:2f:cb:23:e8:c5:29:40:9c:ab:86:6d:cd:44:11 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBB1ZmNogWBUF8MwkNsezebQ+0/yPq7RX3/j9s4Qh8jbGlmvAcN0Z/aIBrzbEuTRf3/cHehtaNf9qrF2ehQAeM94=
+|   256 fd:78:c0:b0:e2:20:16:fa:05:0d:eb:d8:3f:12:a4:ab (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOP4kxBr9kumAjfplon8fXJpuqhdMJy2rpd3FM7+mGw2
+80/tcp open  http    syn-ack nginx 1.18.0
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to http://metapress.htb/
+|_http-server-header: nginx/1.18.0
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port21-TCP:V=7.95%I=7%D=7/27%Time=6885FD3E%P=x86_64-pc-linux-gnu%r(Gene
+SF:ricLines,8F,"220\x20ProFTPD\x20Server\x20\(Debian\)\x20\[::ffff:10\.10\
+SF:.11\.186\]\r\n500\x20Invalid\x20command:\x20try\x20being\x20more\x20cre
+SF:ative\r\n500\x20Invalid\x20command:\x20try\x20being\x20more\x20creative
+SF:\r\n");
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.19
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=7/27%OT=21%CT=1%CU=37480%PV=Y%DS=2%DC=T%G=Y%TM=6885FE1
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M542ST11NW7%O2=M542ST11NW7%O3=M542NNT11NW7%O4=M542ST11NW7%O5=M542ST1
+OS:1NW7%O6=M542ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN
+OS:(R=Y%DF=Y%T=40%W=FAF0%O=M542NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Uptime guess: 44.459 days (since Thu Jun 12 16:22:26 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   645.09 ms 10.10.16.1 (10.10.16.1)
+2   645.16 ms 10.10.11.186 (10.10.11.186)
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jul 27 03:23:20 2025 -- 1 IP address (1 host up) scanned in 3919.99 seconds
