@@ -47,7 +47,7 @@ Resources for more labs <br>
 - Networked - retired (3/10)
 - Support - retired (5/10) 
 - Servmon - retired (3/10) 
-- Mailing - retired (**WIP**)
+- Mailing - retired (3/10)
 - Driver  - retired 
 - Crafty  - retired 
 - Granny  - retired <br>
@@ -55,9 +55,9 @@ Resources for more labs <br>
 - Cozyhosting - retired (4/10)  - Adventure Mode <br>
 - Busqueda    - retired (4/10)  - Adventure Mode <br>
 - Broadlight  - retired (2/10)  - Adventure Mode <br>
-- Delivery  - retired (3/10)   - Adventure Mode <br>
+- Delivery  - retired (3/10)    - Adventure Mode <br>
 - MetaTwo   - retired (3/10) - Adventure Mode <br>
-- Trick     - retired - Adventure Mode <br>
+- Trick     - retired (**WIP**) - Adventure Mode <br>
 - Shoppy    - retired - Adventure Mode <br>
 - Sense     - retired - Adventure Mode <br>
 - OpenAdmin - retired - Adventure Mode <br>
