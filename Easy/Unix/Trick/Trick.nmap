@@ -1,0 +1,75 @@
+# Nmap 7.95 scan initiated Wed Jul 30 20:46:30 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn --min-rate 1000 -oA Trick 10.10.11.166
+Increasing send delay for 10.10.11.166 from 0 to 5 due to 28 out of 69 dropped probes since last increase.
+Increasing send delay for 10.10.11.166 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Nmap scan report for 10.10.11.166 (10.10.11.166)
+Host is up, received user-set (0.38s latency).
+Scanned at 2025-07-30 20:46:31 PDT for 276s
+Not shown: 65494 filtered tcp ports (no-response)
+PORT      STATE  SERVICE          REASON       VERSION
+21/tcp    closed ftp              conn-refused
+22/tcp    open   tcpwrapped       syn-ack
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+23/tcp    closed telnet           conn-refused
+25/tcp    open   tcpwrapped       syn-ack
+|_smtp-commands: Couldn't establish connection on port 25
+53/tcp    open   tcpwrapped       syn-ack
+80/tcp    open   tcpwrapped       syn-ack
+110/tcp   closed pop3             conn-refused
+111/tcp   closed rpcbind          conn-refused
+113/tcp   closed ident            conn-refused
+135/tcp   closed msrpc            conn-refused
+139/tcp   closed netbios-ssn      conn-refused
+143/tcp   closed imap             conn-refused
+199/tcp   closed smux             conn-refused
+256/tcp   closed fw1-secureremote conn-refused
+443/tcp   closed https            conn-refused
+445/tcp   closed microsoft-ds     conn-refused
+554/tcp   closed rtsp             conn-refused
+587/tcp   closed submission       conn-refused
+993/tcp   closed imaps            conn-refused
+995/tcp   closed pop3s            conn-refused
+1025/tcp  closed NFS-or-IIS       conn-refused
+1720/tcp  closed h323q931         conn-refused
+1723/tcp  closed pptp             conn-refused
+3306/tcp  closed mysql            conn-refused
+3389/tcp  closed ms-wbt-server    conn-refused
+3972/tcp  closed iconp            conn-refused
+5900/tcp  closed vnc              conn-refused
+8080/tcp  closed http-proxy       conn-refused
+8888/tcp  closed sun-answerbook   conn-refused
+9223/tcp  closed unknown          conn-refused
+9411/tcp  closed unknown          conn-refused
+18061/tcp closed unknown          conn-refused
+22342/tcp closed unknown          conn-refused
+28716/tcp closed unknown          conn-refused
+32875/tcp closed unknown          conn-refused
+33711/tcp closed unknown          conn-refused
+34279/tcp closed unknown          conn-refused
+34663/tcp closed unknown          conn-refused
+50939/tcp closed unknown          conn-refused
+53558/tcp closed unknown          conn-refused
+61634/tcp closed unknown          conn-refused
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+TCP/IP fingerprint:
+SCAN(V=7.95%E=4%D=7/30%OT=80%CT=21%CU=%PV=Y%G=N%TM=688AE82B%P=x86_64-pc-linux-gnu)
+SEQ()
+ECN(R=N)
+T1(R=N)
+T2(R=N)
+T3(R=N)
+T4(R=N)
+T5(R=N)
+T6(R=N)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT    ADDRESS
+1   ... 30
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul 30 20:51:07 2025 -- 1 IP address (1 host up) scanned in 276.86 seconds
