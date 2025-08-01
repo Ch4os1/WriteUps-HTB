@@ -11,7 +11,7 @@ Resources for more labs <br>
 
 ---
 
-### 🟢 Easy (Pwned 37/45)  
+### 🟢 Easy (Pwned 39/45)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -57,8 +57,8 @@ Resources for more labs <br>
 - Broadlight  - retired (2/10)  - Adventure Mode <br>
 - Delivery  - retired (3/10)    - Adventure Mode <br>
 - MetaTwo   - retired (3/10) - Adventure Mode <br>
-- Trick     - retired (**WIP**) - Adventure Mode <br>
-- Shoppy    - retired - Adventure Mode <br>
+- Trick     - retired (5/10) - Adventure Mode <br>
+- Shoppy    - retired (**WIP**) - Adventure Mode <br>
 - Sense     - retired - Adventure Mode <br>
 - OpenAdmin - retired - Adventure Mode <br>
 
