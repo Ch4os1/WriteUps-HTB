@@ -50,7 +50,7 @@ Resources for more labs <br>
 - Mailing - retired (3/10)
 - Driver  - retired (3/10) 
 - Crafty  - retired (3/10)
-- Granny  - retired <br>
+- Granny  - retired (**WIP**) <br>
 --- Adventure Mode practice for Exam Setting --- <br>
 - Cozyhosting - retired (4/10)  - Adventure Mode <br>
 - Busqueda    - retired (4/10)  - Adventure Mode <br>
