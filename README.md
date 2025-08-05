@@ -11,7 +11,7 @@ Resources for more labs <br>
 
 ---
 
-### 🟢 Easy (Pwned 43/45)  
+### 🟢 Easy (Pwned 44/45)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
