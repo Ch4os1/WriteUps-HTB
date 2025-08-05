@@ -11,7 +11,7 @@ Resources for more labs <br>
 
 ---
 
-### 🟢 Easy (Pwned 42/45)  
+### 🟢 Easy (Pwned 43/45)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -49,7 +49,7 @@ Resources for more labs <br>
 - Servmon - retired (3/10) 
 - Mailing - retired (3/10)
 - Driver  - retired (3/10) 
-- Crafty  - retired (**WIP**)
+- Crafty  - retired (3/10)
 - Granny  - retired <br>
 --- Adventure Mode practice for Exam Setting --- <br>
 - Cozyhosting - retired (4/10)  - Adventure Mode <br>
@@ -122,7 +122,7 @@ Resources for more labs <br>
 
 ---
 
-### 🔵 AD (Pwned 0/13)
+### 🔵 AD (Pwned 0/12)
 
 <details>
 <summary>AD labs (Click to expand)</summary>
