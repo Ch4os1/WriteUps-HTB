@@ -70,7 +70,7 @@ Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
 <details>
 <summary>Medium labs (Click to expand)</summary>
 
-- UpDown (**WIP**) 
+- UpDown (5/10) 
 - Monitored
 - Chatterbox <br>
 - Secnotes 
