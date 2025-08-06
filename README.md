@@ -65,7 +65,7 @@ Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
 
 ---
 
-### 🟡 Medium (Pwned 0/15)
+### 🟡 Medium (Pwned 1/15)
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
