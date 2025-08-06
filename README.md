@@ -1,8 +1,7 @@
 # WriteUps-HTB
 WriteUps for HTB Labs, collection of machines that I will use to hone my skills.   
 Difficulty ratings are subjective (x/10)<br>
-Some writeups will contain POCs but highly recommend to get from source.<br>
-
+Some writeups will contain POCs but highly recommend to get from source<br>
 ## Modes
 HTB offers **Guided Mode**, I would advise to start off with **Guided Mode** and then switch to **Adventure Mode** when feeling confident on Easy Boxes.
 
@@ -159,9 +158,6 @@ Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
 ## Lab Resources <br>
 [OSCP like labs by NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#)<br>
 [Unofficial CPTS Prep by IppSec](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5)
-
-## About 
-
 
 ## Contact
 If you have any questions or want to learn together, feel free to [connect on LinkedIn](https://www.linkedin.com/in/yourprofile).
