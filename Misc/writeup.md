@@ -5,7 +5,13 @@
 - Difficulty:
 - Type:
 
-#### Tasks
+#### Enumeration
+
+#### Initial Foothold 
+
+#### Lateral Movement (If any)
+
+#### Privilege Escalation
 
 #### Resources
 
