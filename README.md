@@ -9,9 +9,14 @@ Resources for more labs <br>
 [OSCP like labs by NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#)<br>
 [Unofficial CPTS Prep by IppSec](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5)
 
+## Modes
+HTB offers **Guided Mode**, I would advise to start off with Guided Mode and then switch to **Adventure Mode** when feeling confident on Easy Boxes.
+
+Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
+
 ---
 
-### 🟢 Easy (Pwned 44/45)  
+### 🟢 Easy (Pwned 45/45)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -60,7 +65,7 @@ Resources for more labs <br>
 - Trick     - retired (5/10) - Adventure Mode <br>
 - Shoppy    - retired (3/10) - Adventure Mode <br>
 - Sense     - retired (2/10)  - Adventure Mode <br>
-- OpenAdmin - retired (**WIP**) - Adventure Mode <br>
+- OpenAdmin - retired (2/10) - Adventure Mode <br>
 
 
 </details>
@@ -72,7 +77,7 @@ Resources for more labs <br>
 <details>
 <summary>Medium labs (Click to expand)</summary>
 
-- UpDown
+- UpDown (**WIP**) 
 - Monitored
 - Chatterbox <br>
 - Secnotes 
