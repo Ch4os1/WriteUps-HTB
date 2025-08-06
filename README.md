@@ -9,7 +9,7 @@ Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
 
 ---
 
-### 🟢 Easy (Pwned 45/45)  
+### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
