@@ -71,7 +71,7 @@ Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
 <summary>Medium labs (Click to expand)</summary>
 
 - UpDown (5/10) 
-- Monitored
+- Monitored **WIP**
 - Chatterbox <br>
 - Secnotes 
 - StreamIO
