@@ -126,8 +126,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occational hints when s
 </details>
 
 ---
-### 🔵 AD (Pwned 0/23)
-- Mixed difficulty
+### 🔵 AD (Pwned 0/23) - Mixed Difficulty
 <details>
 <summary>AD labs (Click to expand)</summary>
 
