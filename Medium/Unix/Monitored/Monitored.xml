@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Mon Aug 18 08:08:04 2025 as: /usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -Pn -sC -oA Monitored 10.10.11.248 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -Pn -sC -oA Monitored 10.10.11.248" start="1755529684" startstr="Mon Aug 18 08:08:04 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1755529684"/>
+<taskend task="NSE" time="1755529684"/>
+<taskbegin task="NSE" time="1755529684"/>
+<taskend task="NSE" time="1755529684"/>
+<taskbegin task="NSE" time="1755529684"/>
+<taskend task="NSE" time="1755529684"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1755529684"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1755529684"/>
+<taskbegin task="Connect Scan" time="1755529684"/>
+<taskprogress task="Connect Scan" time="1755529715" percent="6.53" remaining="444" etc="1755530159"/>
+<taskprogress task="Connect Scan" time="1755529745" percent="7.79" remaining="722" etc="1755530467"/>
+<taskprogress task="Connect Scan" time="1755529775" percent="8.60" remaining="967" etc="1755530742"/>
