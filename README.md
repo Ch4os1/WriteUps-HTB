@@ -20,8 +20,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occational hints when s
 
 ---
 
-
-
+## Boxes 
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
