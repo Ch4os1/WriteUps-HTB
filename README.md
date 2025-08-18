@@ -89,6 +89,27 @@ Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
 </details>
 
 ---
+### 🔵 AD (Pwned 0/12)
+
+<details>
+<summary>AD labs (Click to expand)</summary>
+
+- Active
+- Forest - Medium
+- Sauna
+- Monteverde - Medium
+- Timelapse
+- Return
+- Cascade - Medium
+- Flight - Hard
+- Blackfield - Hard
+- Cicada
+- Escape - Medium
+- TheFrizz - Medium
+
+</details>
+
+---
 
 ### 🔴 Hard (Pwned 0/6)
 
@@ -120,29 +141,7 @@ Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
 
 ---
 
-### 🔵 AD (Pwned 0/12)
-
-<details>
-<summary>AD labs (Click to expand)</summary>
-
-- Active
-- Forest - Medium
-- Sauna
-- Monteverde - Medium
-- Timelapse
-- Return
-- Cascade - Medium
-- Flight - Hard
-- Blackfield - Hard
-- Cicada
-- Escape - Medium
-- TheFrizz - Medium
-
-</details>
-
----
-
-### 🔗 Pro Labs (Pwned 0/2)
+### 🔗 Pro Labs (Pwned 0/3)
 
 <details>
 <summary> Pro Labs (Click to expand)</summary>
