@@ -1,22 +1,19 @@
 # WriteUps-HTB
 WriteUps for HTB Labs, collection of machines that I will use to hone my skills.   
 Difficulty ratings are subjective (x/10)<br>
-Some writeups will contain POCs but highly recommend to get from source<br>
+Some WriteUps will contain POCs but highly recommend to get from source.<br>
 ## Modes
 HTB offers **Guided Mode**, I would advise to start off with **Guided Mode** and then switch to **Adventure Mode** when feeling confident on Easy Boxes.
 
-Post Easy Difficulty will be on **Adventure Mode**, with occational hints when stuck.
+Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when stuck.
 
 ## Stats
-<details>
-<summary><b>📊 Progress Stats</b></summary>
-<br>
-
-**Easy Boxes**       ▰▰▰▰▰▰▰▰▰▰ (45/45)  
-**Medium Boxes** ▰▱▱▱▱▱▱▱▱▱ (1/40)  
-**AD Boxes**         ▱▱▱▱▱▱▱▱▱▱ (0/23)  
-**In Progress**      🔄 `Monitored`  
-</details>
+| Type        | Completed | Progress        |
+| ----------- | --------- | --------------- |
+| Easy        | ✅ 42      | ██████████ 100% |
+| Medium      | 🟡 23     | ▌4%             |
+| AD          | 🔴 5      | 0%              |
+| In Progress | 📌 1      | —               |
 
 ---
 
