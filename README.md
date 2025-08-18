@@ -5,9 +5,22 @@ Some writeups will contain POCs but highly recommend to get from source<br>
 ## Modes
 HTB offers **Guided Mode**, I would advise to start off with **Guided Mode** and then switch to **Adventure Mode** when feeling confident on Easy Boxes.
 
-Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
+Post Easy Difficulty will be on **Adventure Mode**, with occational hints when stuck.
+
+## Stats
+<details>
+<summary><b>📊 Progress Stats</b></summary>
+<br>
+
+**Easy Boxes**       ▰▰▰▰▰▰▰▰▰▰ (45/45)  
+**Medium Boxes** ▰▱▱▱▱▱▱▱▱▱ (1/40)  
+**AD Boxes**         ▱▱▱▱▱▱▱▱▱▱ (0/23)  
+**In Progress**      🔄 `Monitored`  
+</details>
 
 ---
+
+
 
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
@@ -65,32 +78,57 @@ Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
 
 ---
 
-### 🟡 Medium (Pwned 1/15)
+### 🟡 Medium (Pwned 1/40)
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
 
 - UpDown (5/10) 
-- Monitored **WIP**
+- Monitored **(WIP)**
+- Book
+- Schooled
+- Redcross
+- Ready
+- Writer 
+- Gobox
+- Bolt
+- Flustered
+- Epsilon
+- Awkard
+- Health
+- Sandworm
+- Iclean
+- Book
+- Magic
+- Luke
+- Craft
+- Dynstr
+- Cache
+- Aero
+- Ransom
+- Backend
+- AI
+- Faculty
+- BackendTwo
+- Trickster
+- Backfire
 - Chatterbox <br>
 - Secnotes 
 - StreamIO
 - Intelligence
-- Jeeves
 - Manager
-- Aero
-- Administrator
 - Certified
 - Manager
 - Outdated
 - Agile
+- Jeeves
 - Hospital
 
 </details>
 
 ---
-### 🔵 AD (Pwned 0/12)
-
+### 🔵 AD (Pwned 0/23)
+- Mixed difficulty
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -104,6 +142,16 @@ Post Easy Difficulty will be on Adventure Mode, with occational hints if stuck.
 - Flight - Hard
 - Blackfield - Hard
 - Cicada
+- Vulncicada
+- Administrator
+- Certified
+- Jab
+- StreamIO
+- Scrambled
+- Intelligence
+- Work
+- Fuse
+- Cascade
 - Escape - Medium
 - TheFrizz - Medium
 
