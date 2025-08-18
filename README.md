@@ -11,8 +11,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 42      | ██████████ 100% |
-| Medium      | 🟡 23     | ▌4%             |
-| AD          | 🔴 5      | 0%              |
+| Medium      | 🟡 1      | ▌4%             |
+| AD          | 🔴 0      | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
