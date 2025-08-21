@@ -1,2 +1,0 @@
-# Nmap 7.95 scan initiated Mon Aug 18 08:16:07 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -sC -oA Monitored 10.10.11.248
-# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)

@@ -1,1 +1,112 @@
-# Nmap 7.95 scan initiated Mon Aug 18 08:16:07 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -sC -oA Monitored 10.10.11.248
+# Nmap 7.95 scan initiated Tue Aug 19 00:57:22 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- --min-rate 1500 -Pn -sC -oN Monitored.nmap 10.10.11.248
+Increasing send delay for 10.10.11.248 from 0 to 5 due to 19 out of 46 dropped probes since last increase.
+Increasing send delay for 10.10.11.248 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Nmap scan report for bogon (10.10.11.248)
+Host is up, received user-set (0.28s latency).
+Scanned at 2025-08-19 00:57:31 PDT for 129s
+Not shown: 65508 filtered tcp ports (no-response)
+PORT     STATE  SERVICE          REASON       VERSION
+21/tcp   closed ftp              conn-refused
+22/tcp   open   tcpwrapped       syn-ack
+| ssh-hostkey: 
+|   3072 61:e2:e7:b4:1b:5d:46:dc:3b:2f:91:38:e6:6d:c5:ff (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/xFgJTbVC36GNHaE0GG4n/bWZGaD2aE7lsFUvXVdbINrl0qzBPVCMuOE1HNf0LHi09obr2Upt9VURzpYdrQp/7SX2NDet9pb+UQnB1IgjRSxoIxjsOX756a7nzi71tdcR3I0sALQ4ay5I5GO4TvaVq+o8D01v94B0Qm47LVk7J3mN4wFR17lYcCnm0kwxNBsKsAgZVETxGtPgTP6hbauEk/SKGA5GASdWHvbVhRHgmBz2l7oPrTot5e+4m8A7/5qej2y5PZ9Hq/2yOldrNpS77ID689h2fcOLt4fZMUbxuDzQIqGsFLPhmJn5SUCG9aNrWcjZwSL2LtLUCRt6PbW39UAfGf47XWiSs/qTWwW/yw73S8n5oU5rBqH/peFIpQDh2iSmIhbDq36FPv5a2Qi8HyY6ApTAMFhwQE6MnxpysKLt/xEGSDUBXh+4PwnR0sXkxgnL8QtLXKC2YBY04jGG0DXGXxh3xEZ3vmPV961dcsNd6Up8mmSC43g5gj2ML/E=
+|   256 29:73:c5:a5:8d:aa:3f:60:a9:4a:a3:e5:9f:67:5c:93 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBbeArqg4dgxZEFQzd3zpod1RYGUH6Jfz6tcQjHsVTvRNnUzqx5nc7gK2kUUo1HxbEAH+cPziFjNJc6q7vvpzt4=
+|   256 6d:7a:f9:eb:8e:45:c2:02:6a:d5:8d:4d:b3:a3:37:6f (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB5o+WJqnyLpmJtLyPL+tEUTFbjMZkx3jUUFqejioAj7
+23/tcp   closed telnet           conn-refused
+25/tcp   closed smtp             conn-refused
+53/tcp   closed domain           conn-refused
+80/tcp   open   tcpwrapped       syn-ack
+|_http-title: Did not follow redirect to https://nagios.monitored.htb/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.56 (Debian)
+110/tcp  closed pop3             conn-refused
+111/tcp  closed rpcbind          conn-refused
+113/tcp  closed ident            conn-refused
+135/tcp  closed msrpc            conn-refused
+139/tcp  closed netbios-ssn      conn-refused
+143/tcp  closed imap             conn-refused
+199/tcp  closed smux             conn-refused
+256/tcp  closed fw1-secureremote conn-refused
+443/tcp  open   tcpwrapped       syn-ack
+|_http-server-header: Apache/2.4.56 (Debian)
+|_http-title: 400 Bad Request
+|_ssl-date: TLS randomness does not represent time
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| ssl-cert: Subject: commonName=nagios.monitored.htb/organizationName=Monitored/stateOrProvinceName=Dorset/countryName=UK/emailAddress=support@monitored.htb/localityName=Bournemouth
+| Issuer: commonName=nagios.monitored.htb/organizationName=Monitored/stateOrProvinceName=Dorset/countryName=UK/emailAddress=support@monitored.htb/localityName=Bournemouth
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-11-11T21:46:55
+| Not valid after:  2297-08-25T21:46:55
+| MD5:   b36a:5560:7a5f:047d:9838:6450:4d67:cfe0
+| SHA-1: 6109:3844:8c36:b08b:0ae8:a132:971c:8e89:cfac:2b5b
+| -----BEGIN CERTIFICATE-----
+| MIID/zCCAuegAwIBAgIUVhOvMcK6dv/Kvzplbf6IxOePX3EwDQYJKoZIhvcNAQEL
+| BQAwgY0xCzAJBgNVBAYTAlVLMQ8wDQYDVQQIDAZEb3JzZXQxFDASBgNVBAcMC0Jv
+| dXJuZW1vdXRoMRIwEAYDVQQKDAlNb25pdG9yZWQxHTAbBgNVBAMMFG5hZ2lvcy5t
+| b25pdG9yZWQuaHRiMSQwIgYJKoZIhvcNAQkBFhVzdXBwb3J0QG1vbml0b3JlZC5o
+| dGIwIBcNMjMxMTExMjE0NjU1WhgPMjI5NzA4MjUyMTQ2NTVaMIGNMQswCQYDVQQG
+| EwJVSzEPMA0GA1UECAwGRG9yc2V0MRQwEgYDVQQHDAtCb3VybmVtb3V0aDESMBAG
+| A1UECgwJTW9uaXRvcmVkMR0wGwYDVQQDDBRuYWdpb3MubW9uaXRvcmVkLmh0YjEk
+| MCIGCSqGSIb3DQEJARYVc3VwcG9ydEBtb25pdG9yZWQuaHRiMIIBIjANBgkqhkiG
+| 9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qRRCKn9wFGquYFdqh7cp4WSTPnKdAwkycqk
+| a3WTY0yOubucGmA3jAVdPuSJ0Vp0HOhkbAdo08JVzpvPX7Lh8mIEDRSX39FDYClP
+| vQIAldCuWGkZ3QWukRg9a7dK++KL79Iz+XbIAR/XLT9ANoMi8/1GP2BKHvd7uJq7
+| LV0xrjtMD6emwDTKFOk5fXaqOeODgnFJyyXQYZrxQQeSATl7cLc1AbX3/6XBsBH7
+| e3xWVRMaRxBTwbJ/mZ3BicIGpxGGZnrckdQ8Zv+LRiwvRl1jpEnEeFjazwYWrcH+
+| 6BaOvmh4lFPBi3f/f/z5VboRKP0JB0r6I3NM6Zsh8V/Inh4fxQIDAQABo1MwUTAd
+| BgNVHQ4EFgQU6VSiElsGw+kqXUryTaN4Wp+a4VswHwYDVR0jBBgwFoAU6VSiElsG
+| w+kqXUryTaN4Wp+a4VswDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOC
+| AQEAdPGDylezaB8d/u2ufsA6hinUXF61RkqcKGFjCO+j3VrrYWdM2wHF83WMQjLF
+| 03tSek952fObiU2W3vKfA/lvFRfBbgNhYEL0dMVVM95cI46fNTbignCj2yhScjIz
+| W9oeghcR44tkU4sRd4Ot9L/KXef35pUkeFCmQ2Xm74/5aIfrUzMnzvazyi661Q97
+| mRGL52qMScpl8BCBZkdmx1SfcVgn6qHHZpy+EJ2yfJtQixOgMz3I+hZYkPFjMsgf
+| k9w6Z6wmlalRLv3tuPqv8X3o+fWFSDASlf2uMFh1MIje5S/jp3k+nFhemzcsd/al
+| 4c8NpU/6egay1sl2ZrQuO8feYA==
+|_-----END CERTIFICATE-----
+| tls-alpn: 
+|_  http/1.1
+445/tcp  closed microsoft-ds     conn-refused
+554/tcp  closed rtsp             conn-refused
+587/tcp  closed submission       conn-refused
+993/tcp  closed imaps            conn-refused
+1025/tcp closed NFS-or-IIS       conn-refused
+1720/tcp closed h323q931         conn-refused
+1723/tcp closed pptp             conn-refused
+3306/tcp closed mysql            conn-refused
+3389/tcp closed ms-wbt-server    conn-refused
+5900/tcp closed vnc              conn-refused
+8080/tcp closed http-proxy       conn-refused
+8888/tcp closed sun-answerbook   conn-refused
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+TCP/IP fingerprint:
+SCAN(V=7.95%E=4%D=8/19%OT=443%CT=21%CU=%PV=Y%DS=2%DC=T%G=N%TM=68A42EEC%P=x86_64-pc-linux-gnu)
+SEQ()
+ECN(R=N)
+T1(R=N)
+T2(R=N)
+T3(R=N)
+T4(R=N)
+T5(R=N)
+T6(R=N)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 2 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   451.62 ms bogon (10.10.16.1)
+2   451.68 ms bogon (10.10.11.248)
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug 19 00:59:40 2025 -- 1 IP address (1 host up) scanned in 137.72 seconds
