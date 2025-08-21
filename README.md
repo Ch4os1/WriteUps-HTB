@@ -10,9 +10,9 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 ## Stats
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
-| Easy        | ✅ 42      | ██████████ 100% |
-| Medium      | 🟡 1      | ▌4%             |
-| AD          | 🔴 0      | 0%              |
+| Easy        | ✅ 45/45   | ██████████ 100% |
+| Medium      | 🟡 2/40   | ▌5%             |
+| AD          | 🔴 0/23   | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
@@ -80,8 +80,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 <summary>Medium labs (Click to expand)</summary>
 
 - UpDown (5/10) 
-- Monitored **(WIP)**
-- Book
+- Monitored (5/10)
+- Book **(WIP)**
 - Schooled
 - Redcross
 - Ready
