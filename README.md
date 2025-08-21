@@ -74,7 +74,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 1/40)
+### 🟡 Medium (Pwned 2/40)
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
