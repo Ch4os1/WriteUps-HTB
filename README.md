@@ -10,8 +10,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 ## Stats
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
-| Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 2/40   | ▌5%             |
+| Easy        | ✅ 45/45  | ██████████ 100% |
+| Medium      | 🟡 3/40   | ▌7.5%           |
 | AD          | 🔴 0/23   | 0%              |
 | In Progress | 📌 1      | —               |
 
