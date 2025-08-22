@@ -1,0 +1,115 @@
+# Nmap 7.95 scan initiated Thu Aug 21 04:08:48 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- --min-rate 1500 -Pn -sC -oN Monitored.nmap 10.10.10.176
+Increasing send delay for 10.10.10.176 from 0 to 5 due to 44 out of 109 dropped probes since last increase.
+Increasing send delay for 10.10.10.176 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+WARNING: RST from 10.10.10.176 port 80 -- is this port really open?
+Nmap scan report for bogon (10.10.10.176)
+Host is up, received user-set (0.31s latency).
+Scanned at 2025-08-21 04:08:49 PDT for 117s
+Not shown: 65470 filtered tcp ports (no-response)
+PORT      STATE  SERVICE          REASON       VERSION
+21/tcp    closed ftp              conn-refused
+22/tcp    open   tcpwrapped       syn-ack
+| ssh-hostkey: 
+|   2048 f7:fc:57:99:f6:82:e0:03:d6:03:bc:09:43:01:55:b7 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMrLSBfMJGYbweKg7qPaY0uw9OBPR3dlM6GiVPDVca05vEsQKJ47YXEIZoMCIg/QvJdP6RsmeQfcFbszP/stxoVfWPLBS6csfdl4rz8MjNuRAcUQjcYhPEejogNjRZKf695ggwUybHATBXNLBpCMNrrrCqtKVvgzljdEK9rnAlOVztI8bEaLbQV87lmQJvt38bHdt+UsO+HIJwrwrUkRzXeja1k/DJ4BfWgmTNUJyUWo8XiTQrpBe7JkeQ4DwJ7HZMtpnhHDv/BIwi6Tk994tDpbTGvmbnLivvT+j22KruHE6ZvEhbts+2907haztuZdgiNG5dFPH7jKapIrZWtxTB
+|   256 a3:e5:d1:74:c4:8a:e8:c8:52:c7:17:83:4a:54:31:bd (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNKAm6pa94qHHk0DuSIarpsJaCk2vUfZkgWkrXPeIorMjT/DyTCfsM2ViRnU9YSnrVj/c3OQ1vyW8eMxiRDoOB8=
+|   256 e3:62:68:72:e2:c0:ae:46:67:3d:cb:46:bf:69:b9:6a (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICk6vCR5eZZvVb6fwpX7k054lgERxpbaEC8jyGKxJ4Xm
+25/tcp    closed smtp             conn-refused
+53/tcp    closed domain           conn-refused
+80/tcp    open   tcpwrapped       syn-ack
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: LIBRARY - Read | Learn | Have Fun
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+110/tcp   closed pop3             conn-refused
+111/tcp   closed rpcbind          conn-refused
+113/tcp   closed ident            conn-refused
+131/tcp   closed cisco-tna        conn-refused
+135/tcp   closed msrpc            conn-refused
+139/tcp   closed netbios-ssn      conn-refused
+143/tcp   closed imap             conn-refused
+199/tcp   closed smux             conn-refused
+256/tcp   closed fw1-secureremote conn-refused
+443/tcp   closed https            conn-refused
+445/tcp   closed microsoft-ds     conn-refused
+554/tcp   closed rtsp             conn-refused
+587/tcp   closed submission       conn-refused
+709/tcp   closed entrustmanager   conn-refused
+993/tcp   closed imaps            conn-refused
+995/tcp   closed pop3s            conn-refused
+1025/tcp  closed NFS-or-IIS       conn-refused
+1720/tcp  closed h323q931         conn-refused
+1723/tcp  closed pptp             conn-refused
+2077/tcp  closed tsrmagt          conn-refused
+3306/tcp  closed mysql            conn-refused
+3389/tcp  closed ms-wbt-server    conn-refused
+5900/tcp  closed vnc              conn-refused
+6196/tcp  closed unknown          conn-refused
+8080/tcp  closed http-proxy       conn-refused
+8520/tcp  closed unknown          conn-refused
+8888/tcp  closed sun-answerbook   conn-refused
+10006/tcp closed netapp-sync      conn-refused
+11390/tcp closed unknown          conn-refused
+11553/tcp closed unknown          conn-refused
+11793/tcp closed unknown          conn-refused
+17315/tcp closed unknown          conn-refused
+17324/tcp closed unknown          conn-refused
+18190/tcp closed unknown          conn-refused
+18524/tcp closed unknown          conn-refused
+18530/tcp closed unknown          conn-refused
+18843/tcp closed unknown          conn-refused
+19207/tcp closed unknown          conn-refused
+19631/tcp closed unknown          conn-refused
+22218/tcp closed unknown          conn-refused
+22254/tcp closed unknown          conn-refused
+27414/tcp closed unknown          conn-refused
+31022/tcp closed unknown          conn-refused
+31364/tcp closed unknown          conn-refused
+32389/tcp closed unknown          conn-refused
+33241/tcp closed unknown          conn-refused
+35598/tcp closed unknown          conn-refused
+36081/tcp closed unknown          conn-refused
+36984/tcp closed unknown          conn-refused
+38983/tcp closed unknown          conn-refused
+39255/tcp closed unknown          conn-refused
+41167/tcp closed unknown          conn-refused
+44233/tcp closed unknown          conn-refused
+48549/tcp closed unknown          conn-refused
+49686/tcp closed unknown          conn-refused
+54450/tcp closed unknown          conn-refused
+55732/tcp closed unknown          conn-refused
+58581/tcp closed unknown          conn-refused
+60954/tcp closed unknown          conn-refused
+62541/tcp closed unknown          conn-refused
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+TCP/IP fingerprint:
+SCAN(V=7.95%E=4%D=8/21%OT=80%CT=21%CU=%PV=Y%DS=2%DC=T%G=N%TM=68A6FEB6%P=x86_64-pc-linux-gnu)
+SEQ()
+ECN(R=N)
+T1(R=N)
+T2(R=N)
+T3(R=N)
+T4(R=N)
+T5(R=N)
+T6(R=N)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 2 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   375.50 ms bogon (10.10.16.1)
+2   375.47 ms bogon (10.10.10.176)
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 21 04:10:46 2025 -- 1 IP address (1 host up) scanned in 117.92 seconds
