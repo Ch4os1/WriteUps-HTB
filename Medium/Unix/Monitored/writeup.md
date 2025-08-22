@@ -263,7 +263,7 @@ $  curl -k --silent "http://nagios.monitored.htb/nagiosxi/api/v1/system/user&api
 {"success":"User account test was added successfully!","user_id":7}
 ```
 - login into the application using the newly created user
-![[admin_login.png]]
+![[Medium/Unix/Monitored/admin_login.png]]
 - getting RCE will require us to create a new command and execute it done in the application
 - creating the payload:
 	- Configure -> Core Config Manager -> Commands -> Create a new command

