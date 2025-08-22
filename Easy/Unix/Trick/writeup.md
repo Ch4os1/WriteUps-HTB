@@ -91,7 +91,7 @@ trick.htb.              604800  IN      SOA     trick.htb. root.trick.htb. 5 604
 ```
 - enumerate subdomain `preprod-payroll.trick.htb`
 	- upon visiting `preprod-payroll.trick.htb`, we are presented with a login page
-![[login.png]]
+![[Easy/Unix/Trick/login.png]]
 	-  inspect page source, the page has title `<title>Admin | Employee's Payroll Management System</title>`
 	- search for `Payroll Management System`, found a SQLi vulnerability for `Simple Payroll System` : https://www.exploit-db.com/exploits/50403
 	- performed the attack and we are able to bypass the login which confirms the SQLi vulnerability

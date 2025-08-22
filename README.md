@@ -74,15 +74,15 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 2/40)
+### 🟡 Medium (Pwned 3/40)
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
 
 - UpDown (5/10) 
 - Monitored (5/10)
-- Book **(WIP)**
-- Schooled
+- Book (6/10)
+- Schooled **(WIP)**
 - Redcross
 - Ready
 - Writer 
