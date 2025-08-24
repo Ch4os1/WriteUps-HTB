@@ -1,0 +1,31 @@
+# Nmap 7.95 scan initiated Sat Aug 23 19:57:29 2025 as: /usr/lib/nmap/nmap --privileged -T4 -A -p- -Pn --min-rate=1000 -oN Schooled.nmap -Pn 10.10.10.234
+Warning: 10.10.10.234 giving up on port because retransmission cap hit (6).
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for moodle.schooled.htb (10.10.10.234)
+Host is up (1.4s latency).
+Not shown: 46394 filtered tcp ports (no-response), 19138 closed tcp ports (reset)
+PORT      STATE SERVICE    VERSION
+22/tcp    open  tcpwrapped
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+80/tcp    open  tcpwrapped
+|_http-server-header: Apache/2.4.46 (FreeBSD) PHP/7.4.15
+33060/tcp open  tcpwrapped
+Device type: general purpose|storage-misc|game console
+Running (JUST GUESSING): FreeBSD 12.X|13.X|11.X (95%), iXsystems TrueNAS 12.X|13.X (93%), Sony embedded (91%), NetApp Data ONTAP 9.X (88%)
+OS CPE: cpe:/o:freebsd:freebsd:12 cpe:/o:freebsd:freebsd:13 cpe:/o:ixsystems:truenas:12 cpe:/o:ixsystems:truenas:13 cpe:/o:freebsd:freebsd:11 cpe:/o:freebsd:freebsd:11.0 cpe:/o:netapp:data_ontap:9
+Aggressive OS guesses: FreeBSD 12.0-RELEASE - 13.0-RELEASE (95%), FreeBSD 12.2-RELEASE - 12.3-RELEASE (95%), FreeBSD 13.0-STABLE (95%), TrueNAS 12.0 - 13.0 (FreeBSD 12.2-RELEASE - 13.1-RELEASE) (93%), FreeBSD 11.2-RELEASE - 11.3 RELEASE (93%), FreeBSD 12.0-RELEASE - 13.1-RELEASE (92%), FreeBSD 12.2-RELEASE - 13.0-RELEASE (92%), FreeBSD 11.0-RELEASE - 12.0-CURRENT (92%), FreeBSD 11.1-RELEASE or 11.2-STABLE (92%), FreeBSD 11.1-STABLE (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 3306/tcp)
+HOP RTT    ADDRESS
+1   ... 30
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Aug 23 20:06:16 2025 -- 1 IP address (1 host up) scanned in 527.16 seconds
