@@ -10,9 +10,9 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 ## Stats
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
-| Easy        | ✅ 45/45  | ██████████ 100% |
-| Medium      | 🟡 3/40   | ▌7.5%           |
-| AD          | 🔴 0/23   | 0%              |
+| Easy        | ✅ 45/45   | ██████████ 100% |
+| Medium      | 🟡 4/55   | ▌7.3%           |
+| AD          | 🔴 0/30   | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
@@ -74,7 +74,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 3/40)
+### 🟡 Medium (Pwned 4/55) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -82,19 +82,17 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - UpDown (5/10) 
 - Monitored (5/10)
 - Book (6/10)
-- Schooled **(WIP)**
-- Redcross
+- Schooled (5/10)
+- Redcross **(WIP)**
 - Ready
 - Writer 
 - Gobox
 - Bolt
 - Flustered
 - Epsilon
-- Awkard
+- Awkward
 - Health
-- Sandworm
 - Iclean
-- Book
 - Magic
 - Luke
 - Craft
@@ -110,20 +108,37 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Backfire
 - Chatterbox <br>
 - Secnotes 
-- StreamIO
-- Intelligence
-- Manager
-- Certified
 - Manager
 - Outdated
 - Agile
 - Jeeves
 - Hospital
+- Timing
+- Wall
+- Devoops
+- Tenten
+- Devzat
+- Socket
+- Share
+- Clicker
+- Cat
+- Cypher
+- Build
+- Bastard
+- Cronos
+- Haircut
+- Europa
+- Catch
+- Mentor
+- Poison
+- Bastion
+- Silo
+- EvilCUPS
 
 </details>
 
 ---
-### 🔵 AD (Pwned 0/23) - Mixed Difficulty
+### 🔵 AD (Pwned 0/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -133,7 +148,6 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Monteverde - Medium
 - Timelapse
 - Return
-- Cascade - Medium
 - Flight - Hard
 - Blackfield - Hard
 - Cicada
@@ -149,6 +163,15 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Cascade
 - Escape - Medium
 - TheFrizz - Medium
+- Sweep
+- SloarLab
+- Authority
+- Shibbeloth
+- Resolute
+- Arkham
+- Querier
+- Lightweight
+- Carrier
 
 </details>
 
@@ -184,7 +207,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🔗 Pro Labs (Pwned 0/3)
+### 🔗 Pro Labs (Pwned 0/3) 📌
 
 <details>
 <summary> Pro Labs (Click to expand)</summary>
