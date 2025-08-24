@@ -13,6 +13,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Easy        | ✅ 45/45   | ██████████ 100% |
 | Medium      | 🟡 4/55   | ▌7.3%           |
 | AD          | 🔴 0/30   | 0%              |
+| Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
