@@ -1,0 +1,92 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-08-27 08:58 CDT
+NSE: Loaded 126 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 08:58
+Completed NSE at 08:58, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 08:58
+Completed NSE at 08:58, 0.00s elapsed
+Initiating Ping Scan at 08:58
+Scanning 10.10.10.113 [4 ports]
+Completed Ping Scan at 08:58, 0.05s elapsed (1 total hosts)
+Initiating SYN Stealth Scan at 08:58
+Scanning intra.redcross.htb (10.10.10.113) [65535 ports]
+Discovered open port 443/tcp on 10.10.10.113
+Discovered open port 22/tcp on 10.10.10.113
+Discovered open port 80/tcp on 10.10.10.113
+Stats: 0:00:02 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 0.39% done
+SYN Stealth Scan Timing: About 24.78% done; ETC: 09:01 (0:01:37 remaining)
+SYN Stealth Scan Timing: About 61.74% done; ETC: 09:00 (0:00:38 remaining)
+Completed SYN Stealth Scan at 09:00, 90.12s elapsed (65535 total ports)
+NSE: Script scanning 10.10.10.113.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 09:00
+Completed NSE at 09:00, 5.14s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 09:00
+Completed NSE at 09:00, 0.00s elapsed
+Nmap scan report for intra.redcross.htb (10.10.10.113)
+Host is up, received echo-reply ttl 63 (0.0016s latency).
+Scanned at 2025-08-27 08:58:56 CDT for 95s
+Not shown: 65532 filtered tcp ports (no-response)
+PORT    STATE SERVICE REASON
+22/tcp  open  ssh     syn-ack ttl 63
+| ssh-hostkey: 
+|   2048 67:d3:85:f8:ee:b8:06:23:59:d7:75:8e:a2:37:d0:a6 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvHxBEHZStDr7Frfk25i6xP+UPJUeVxLxxjZ9M52P3RH3o9II26fOQkuVq0V9y+jAMzpOEPVOHm0KrD9T3R8rPUebJM8qPQfMjs4d7vefyHhCv0wJ1UlRcMv7wi3+8hJ3ATWXkeTnRHtloNrvN9IkII1zRApDM5qAKVZf7kLH8vppgAkK6XX0RfvEbiiIF4/4t9Swk0pqKazlBoxNmuBQ0ZBC09vlkbx4hJGR/7xQ18PJP/RoUNQgLFMeaGVq1c+/44w8G6G125w671x0NO9dvysiF1XAtRWvYuc6B0Y9RXdZ+Fl4UyPcBfnfjDS0uT6MF5LP4HYZwAq8UVkN6zaXD
+|   256 89:b4:65:27:1f:93:72:1a:bc:e3:22:70:90:db:35:96 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBD0fZY6OjH5EARn0aeiHLZb2aOe8knzx1q3pZSdXd9jHvpmRfuLhu7Pw+BLaQW0WJJ5ZNfIdSgx8epBblM6PBgk=
+|   256 66:bd:a1:1c:32:74:32:e2:e6:64:e8:a5:25:1b:4d:67 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMWzieju6+BudzSxF+Zl5/b1kQZ+vJVlxmSfVeirE0K
+80/tcp  open  http    syn-ack ttl 63
+|_http-title: Did not follow redirect to https://intra.redcross.htb/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+443/tcp open  https   syn-ack ttl 63
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|       secure flag not set and HTTPS in use
+|_      httponly flag not set
+| ssl-cert: Subject: commonName=intra.redcross.htb/organizationName=Red Cross International/stateOrProvinceName=NY/countryName=US/localityName=New York/emailAddress=penelope@redcross.htb/organizationalUnitName=IT
+| Issuer: commonName=intra.redcross.htb/organizationName=Red Cross International/stateOrProvinceName=NY/countryName=US/localityName=New York/emailAddress=penelope@redcross.htb/organizationalUnitName=IT
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-06-03T19:46:58
+| Not valid after:  2021-02-27T19:46:58
+| MD5:   f95b:6897:247d:ca2f:3da7:6756:1046:16f1
+| SHA-1: e86e:e827:6ddd:b483:7f86:c59b:2995:002c:77cc:fcea
+| -----BEGIN CERTIFICATE-----
+| MIIEFjCCAv6gAwIBAgIJAOvkz8L8YpWbMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYD
+| VQQGEwJVUzELMAkGA1UECAwCTlkxETAPBgNVBAcMCE5ldyBZb3JrMSAwHgYDVQQK
+| DBdSZWQgQ3Jvc3MgSW50ZXJuYXRpb25hbDELMAkGA1UECwwCSVQxGzAZBgNVBAMM
+| EmludHJhLnJlZGNyb3NzLmh0YjEkMCIGCSqGSIb3DQEJARYVcGVuZWxvcGVAcmVk
+| Y3Jvc3MuaHRiMB4XDTE4MDYwMzE5NDY1OFoXDTIxMDIyNzE5NDY1OFowgZ8xCzAJ
+| BgNVBAYTAlVTMQswCQYDVQQIDAJOWTERMA8GA1UEBwwITmV3IFlvcmsxIDAeBgNV
+| BAoMF1JlZCBDcm9zcyBJbnRlcm5hdGlvbmFsMQswCQYDVQQLDAJJVDEbMBkGA1UE
+| AwwSaW50cmEucmVkY3Jvc3MuaHRiMSQwIgYJKoZIhvcNAQkBFhVwZW5lbG9wZUBy
+| ZWRjcm9zcy5odGIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD2OP+5
+| cB676azABMDt9hhAs1ZxiRbtEK5zH3LFfdqAcjmQ/3qKIF5Z4IKGorFnacCaNyzm
+| PKD1RvNX89vDseUNSLIri+yHXhBV6xYvFhLAVyBtr0qftnGVj2H+i2cXoJ2HnG0S
+| Ir5GvShE9Vuz++/3bZm++UugOp3P4jqsQhbOnGsuVEk02SG1t/sj8TpbiHdvp6IL
+| Pk7R5/wSPceMiAUqTiJlnh6Ta/M1jlc/8cSEOuvc6svcqzNc4fgdzc7CZs5BdXkl
+| 2/yS5N3L1/BGtT7ybuyqAAG6WIoXm7lzelznyfhbA64msCKDxZjc7vA4Pbf2H7Pg
+| BZc+ykRALZlBWl6fAgMBAAGjUzBRMB0GA1UdDgQWBBTTL+T9ZVOmffuspVFB7Kjr
+| GiKZJjAfBgNVHSMEGDAWgBTTL+T9ZVOmffuspVFB7KjrGiKZJjAPBgNVHRMBAf8E
+| BTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBCXgR48Nj5D0C+aVEh4QMQHQ8h8CUs
+| zKwaEfZLBDhAfxPNv33OQ9HY8j/hfW4rmmIRUtXg3yUdUjVHUzU69UTTTZ19klgu
+| YkAZ3IbGd1hvDc6efP25BwsIVByVM+/9suItUP0L7dp1PIzhObV6lHiXlU2nWu+1
+| fnQY2MRwhmc/O0cEQ3tZ5UHy8Ix8jEH+jJceLY671uWB0CELFKcXWI2p4G7MYRyj
+| 9/FNo7Kd84A7/ifogbSwJBobzgtQn9+4clbe+D1KJ7+OmvJHWJK47zHO1CZISXg6
+| hKbexhCs7Ab0ipy5wlmzB9PkK7X12ze72Jalhc7hyTDTAY71WB1ZAYw2
+|_-----END CERTIFICATE-----
+| tls-alpn: 
+|_  http/1.1
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_Requested resource was /?page=login
+|_ssl-date: TLS randomness does not represent time
