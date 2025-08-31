@@ -213,9 +213,9 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 <details>
 <summary> Pro Labs (Click to expand)</summary>
 
-- Dante
-- Offshore
-- Zephyr
+- Dante (CPTS)
+- Offshore (OSCP)
+- Zephyr (CPTS)
 
 </details>
 
