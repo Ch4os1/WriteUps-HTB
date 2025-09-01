@@ -11,7 +11,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 7/55   | █ 14.5%         |
+| Medium      | 🟡 7/57   | █ 12.3%         |
 | AD          | 🔴 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
@@ -75,7 +75,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 8/55) 📌
+### 🟡 Medium (Pwned 8/57) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -89,7 +89,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Writer (8/10)
 - Gobox (6/10)
 - Bolt **(WIP)**
-- Flustered
+- Builder
 - Epsilon
 - Awkward
 - Health
@@ -135,6 +135,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Bastion
 - Silo
 - EvilCUPS
+-  Retired
+- Unrested
 
 </details>
 
@@ -178,7 +180,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🔴 Hard (Pwned 0/6)
+### 🔴 Hard (Pwned 0/11)
 
 <details>
 <summary>Hard labs (Click to expand)</summary>
@@ -189,12 +191,16 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Caption
 - Falafel
 - Kotarak
-
+- Flight 
+- Freelance
+- Cereal
+- Napper
+- Analysis
 </details>
 
 ---
 
-### 🤯Insane (Pwned 0/4)
+### 🤯Insane (Pwned 0/6)
 
 <details>
 <summary>Insane labs (Click to expand)</summary>
@@ -203,6 +209,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Reddish
 - APT
 - Bookwarm
+- Ghost
+- Rebound 
 
 </details>
 
