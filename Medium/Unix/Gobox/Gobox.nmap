@@ -1,0 +1,24 @@
+$ nmap -p- -A -sC --min-rate 1000 -T4 10.129.95.236
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-08-30 21:40 CDT
+Nmap scan report for 10.129.95.236
+Host is up (0.0022s latency).
+Not shown: 65525 closed tcp ports (reset)
+PORT      STATE    SERVICE     VERSION
+22/tcp    open     ssh         OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 d8:f5:ef:d2:d3:f9:8d:ad:c6:cf:24:85:94:26:ef:7a (RSA)
+|   256 46:3d:6b:cb:a8:19:eb:6a:d0:68:86:94:86:73:e1:72 (ECDSA)
+|_  256 70:32:d7:e3:77:c1:4a:cf:47:2a:de:e5:08:7a:f8:7a (ED25519)
+80/tcp    open     http        nginx
+|_http-title: Hacking eSports | {{.Title}}
+4415/tcp  filtered brcd-vr-req
+4566/tcp  open     http        nginx
+|_http-title: 403 Forbidden
+8080/tcp  open     http        nginx
+|_http-title: Hacking eSports | Home page
+9000/tcp  filtered cslistener
+9001/tcp  filtered tor-orport
+9002/tcp  filtered dynamid
+26324/tcp filtered unknown
+43114/tcp filtered unknown
+
