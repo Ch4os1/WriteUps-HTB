@@ -1,0 +1,92 @@
+$ nmap 10.129.114.163 -p- --min-rate 1000 -T4 -v -sC -A
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-09-01 00:20 CDT
+Happy 28th Birthday to Nmap, may it live to be 128!
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 00:20
+Completed NSE at 00:20, 0.00s elapsed
+Initiating NSE at 00:20
+Completed NSE at 00:20, 0.00s elapsed
+Initiating NSE at 00:20
+Completed NSE at 00:20, 0.00s elapsed
+Initiating Ping Scan at 00:20
+Scanning 10.129.114.163 [4 ports]
+Completed Ping Scan at 00:20, 0.02s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 00:20
+Completed Parallel DNS resolution of 1 host. at 00:20, 0.00s elapsed
+Initiating SYN Stealth Scan at 00:20
+Scanning 10.129.114.163 [65535 ports]
+Discovered open port 22/tcp on 10.129.114.163
+Discovered open port 443/tcp on 10.129.114.163
+Discovered open port 80/tcp on 10.129.114.163
+Completed SYN Stealth Scan at 00:20, 4.51s elapsed (65535 total ports)
+Initiating Service scan at 00:20
+Scanning 3 services on 10.129.114.163
+Completed Service scan at 00:21, 12.40s elapsed (3 services on 1 host)
+Initiating OS detection (try #1) against 10.129.114.163
+Retrying OS detection (try #2) against 10.129.114.163
+Retrying OS detection (try #3) against 10.129.114.163
+Retrying OS detection (try #4) against 10.129.114.163
+Retrying OS detection (try #5) against 10.129.114.163
+Initiating Traceroute at 00:21
+Completed Traceroute at 00:21, 0.01s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 00:21
+Completed Parallel DNS resolution of 2 hosts. at 00:21, 0.00s elapsed
+NSE: Script scanning 10.129.114.163.
+Initiating NSE at 00:21
+Completed NSE at 00:21, 0.68s elapsed
+Initiating NSE at 00:21
+Completed NSE at 00:21, 1.21s elapsed
+Initiating NSE at 00:21
+Completed NSE at 00:21, 0.00s elapsed
+Nmap scan report for 10.129.114.163
+Host is up (0.0043s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 4d:20:8a:b2:c2:8c:f5:3e:be:d2:e8:18:16:28:6e:8e (RSA)
+|   256 7b:0e:c7:5f:5a:4c:7a:11:7f:dd:58:5a:17:2f:cd:ea (ECDSA)
+|_  256 a7:22:4e:45:19:8e:7d:3c:bc:df:6e:1d:6c:4f:41:56 (ED25519)
+80/tcp  open  http     nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: OPTIONS HEAD GET
+|_http-favicon: Unknown favicon MD5: 76362BB7970721417C5F484705E5045D
+|_http-title:     Starter Website -  About 
+443/tcp open  ssl/http nginx 1.18.0 (Ubuntu)
+| http-title: Passbolt | Open source password manager for teams
+|_Requested resource was /auth/login?redirect=%2F
+| ssl-cert: Subject: commonName=passbolt.bolt.htb/organizationName=Internet Widgits Pty Ltd/stateOrProvinceName=Some-State/countryName=AU
+| Issuer: commonName=passbolt.bolt.htb/organizationName=Internet Widgits Pty Ltd/stateOrProvinceName=Some-State/countryName=AU
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-02-24T19:11:23
+| Not valid after:  2022-02-24T19:11:23
+| MD5:   3ac3:4f7c:ee22:88de:7967:fe85:8c42:afc6
+|_SHA-1: c606:ca92:404f:2f04:6231:68be:c4c4:644f:e9ed:f132
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-favicon: Unknown favicon MD5: 82C6406C68D91356C9A729ED456EECF4
+|_ssl-date: TLS randomness does not represent time
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=9/1%OT=22%CT=1%CU=44149%PV=Y%DS=2%DC=T%G=Y%TM=68B52
+OS:D4C%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=106%TI=Z%CI=Z%II=I%TS=A)O
+OS:PS(O1=M552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552ST11NW7%O5=M552S
+OS:T11NW7%O6=M552ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)E
+OS:CN(R=Y%DF=Y%T=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
+OS:=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z
+OS:%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=
+OS:N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%
+OS:CD=S)
+
+Uptime guess: 34.436 days (since Mon Jul 28 13:52:59 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
