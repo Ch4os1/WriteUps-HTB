@@ -11,14 +11,14 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 7/57   | █ 12.3%         |
+| Medium      | 🟡 9/57   | █ 15.8%         |
 | AD          | 🔴 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Boxes (53/132)
+## Boxes (54/132)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -75,7 +75,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 8/57) 📌
+### 🟡 Medium (Pwned 9/57) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -88,8 +88,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Ready (6/10)
 - Writer (8/10)
 - Gobox (6/10)
-- Bolt **(WIP)**
-- Builder
+- Bolt (8/10)
+- Builder **(WIP)**
 - Epsilon
 - Awkward
 - Health
