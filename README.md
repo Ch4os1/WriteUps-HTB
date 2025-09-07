@@ -103,13 +103,13 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Outdated
 - Agile
 - Jeeves
-- Hospital
+- Hospital 📌
+- Aero
 - Magic
 - Luke
 - Craft
 - Dynstr
 - Cache
-- Aero
 - Ransom
 - Backend
 - AI
@@ -145,27 +145,27 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 <details>
 <summary>AD labs (Click to expand)</summary>
 
-- Active
-- Forest - Medium
-- Sauna
-- Monteverde - Medium
-- Timelapse
-- Return
-- Flight - Hard
-- Blackfield - Hard
-- Cicada
-- Vulncicada
-- Administrator
-- Certified
+- Active - Easy📌
+- Forest - Medium 📌
+- Sauna - Easy 📌
+- Monteverde - Medium  📌
+- Timelapse  - Easy 📌
+- Return - Easy  📌
+- Flight - Hard  📌
+- Blackfield - Hard 📌
+- Cicada  - Easy📌
+- Vulncicada - Medium (VulnHub)
+- Administrator - Medium📌
+- Certified  📌
 - Jab
-- StreamIO
-- Scrambled
-- Intelligence
+- StreamIO - Medium 📌
+- Scrambled 
+- Intelligence - Medium📌
 - Work
 - Fuse
 - Cascade
-- Escape - Medium
-- TheFrizz - Medium
+- Escape - Medium  📌
+- TheFrizz - Medium  📌
 - Sweep
 - SloarLab
 - Authority
