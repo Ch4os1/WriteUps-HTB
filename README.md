@@ -92,8 +92,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Builder (3/10) 
 - Epsilon (5/10)
 - Awkward (8.5)
-- Health **(WIP)**
-- Iclean
+- Iclean **(WIP)**
 - Magic
 - Luke
 - Craft
@@ -137,6 +136,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - EvilCUPS
 -  Retired
 - Unrested
+- Health 
 
 </details>
 
