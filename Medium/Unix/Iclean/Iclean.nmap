@@ -1,0 +1,74 @@
+$ nmap -p- -T4 --min-rate 1000 -sC -A -vv 10.129.198.132
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-09-06 22:51 CDT
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 22:51
+Completed NSE at 22:51, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 22:51
+Completed NSE at 22:51, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 22:51
+Completed NSE at 22:51, 0.00s elapsed
+Initiating Ping Scan at 22:51
+Scanning 10.129.198.132 [4 ports]
+Completed Ping Scan at 22:51, 0.03s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 22:51
+Completed Parallel DNS resolution of 1 host. at 22:51, 0.00s elapsed
+Initiating SYN Stealth Scan at 22:51
+Scanning 10.129.198.132 [65535 ports]
+Discovered open port 80/tcp on 10.129.198.132
+Discovered open port 22/tcp on 10.129.198.132
+Completed SYN Stealth Scan at 22:52, 7.55s elapsed (65535 total ports)
+Initiating Service scan at 22:52
+Scanning 2 services on 10.129.198.132
+Completed Service scan at 22:52, 6.02s elapsed (2 services on 1 host)
+Initiating OS detection (try #1) against 10.129.198.132
+Retrying OS detection (try #2) against 10.129.198.132
+Retrying OS detection (try #3) against 10.129.198.132
+Retrying OS detection (try #4) against 10.129.198.132
+Retrying OS detection (try #5) against 10.129.198.132
+Initiating Traceroute at 22:52
+Completed Traceroute at 22:52, 0.01s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 22:52
+Completed Parallel DNS resolution of 2 hosts. at 22:52, 0.00s elapsed
+NSE: Script scanning 10.129.198.132.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 22:52
+Completed NSE at 22:52, 0.24s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 22:52
+Completed NSE at 22:52, 0.01s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 22:52
+Completed NSE at 22:52, 0.00s elapsed
+Nmap scan report for 10.129.198.132
+Host is up, received echo-reply ttl 63 (0.0017s latency).
+Scanned at 2025-09-06 22:51:55 CDT for 25s
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.6 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 2c:f9:07:77:e3:f1:3a:36:db:f2:3b:94:e3:b7:cf:b2 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG6uGZlOYFnD/75LXrnuHZ8mODxTWsOQia+qoPaxInXoUxVV4+56Dyk1WaY2apshU+pICxXMqtFR7jb3NRNZGI4=
+|   256 4a:91:9f:f2:74:c0:41:81:52:4d:f1:ff:2d:01:78:6b (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJBnDPOYK91Zbdj8B2Q1MzqTtsc6azBJ+9CMI2E//Yyu
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.52 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: POST OPTIONS HEAD GET
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=9/6%OT=22%CT=1%CU=39890%PV=Y%DS=2%DC=T%G=Y%TM=68BD0
+OS:174%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=A)O
+OS:PS(O1=M552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552ST11NW7%O5=M552S
+OS:T11NW7%O6=M552ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)E
+OS:CN(R=Y%DF=Y%T=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
+OS:=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z
+OS:%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=
+OS:N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%
+OS:CD=S)
+
