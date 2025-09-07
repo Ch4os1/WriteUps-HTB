@@ -11,7 +11,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 11/57   | █ 19.3%         |
+| Medium      | 🟡 12/57  | ██ 21%          |
 | AD          | 🔴 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
@@ -75,7 +75,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 10/57) 📌
+### 🟡 Medium (Pwned 12/57) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -91,8 +91,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Bolt (8/10)
 - Builder (3/10) 
 - Epsilon (5/10)
-- Awkward
-- Health
+- Awkward (8.5)
+- Health **(WIP)**
 - Iclean
 - Magic
 - Luke

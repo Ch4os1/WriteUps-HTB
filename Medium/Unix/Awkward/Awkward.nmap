@@ -1,0 +1,15 @@
+$ nmap -sC -p- -T4 --min-rate 1000 10.129.228.81
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-09-04 01:31 CDT
+Nmap scan report for 10.129.228.81
+Host is up (0.0028s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh-hostkey: 
+|   256 72:54:af:ba:f6:e2:83:59:41:b7:cd:61:1c:2f:41:8b (ECDSA)
+|_  256 59:36:5b:ba:3c:78:21:e3:26:b3:7d:23:60:5a:ec:38 (ED25519)
+80/tcp open  http
+|_http-title: Site doesn't have a title (text/html).
+
+Nmap done: 1 IP address (1 host up) scanned in 5.61 seconds
+
