@@ -11,7 +11,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 12/57  | ██ 21%          |
+| Medium      | 🟡 14/57  | ██ 24.6%          |
 | AD          | 🔴 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
@@ -75,7 +75,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 12/57) 📌
+### 🟡 Medium (Pwned 14/57) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -92,18 +92,9 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Builder (3/10) 
 - Epsilon (5/10)
 - Awkward (8.5)
-- Iclean **(WIP)**
-- Magic
-- Luke
-- Craft
-- Dynstr
-- Cache
-- Aero
-- Ransom
-- Backend
-- AI
-- Faculty
-- BackendTwo
+- Iclean (4/10)
+- Faculty (5/10)
+- BackendTwo **(WIP)**
 - Trickster
 - Backfire
 - Chatterbox <br>
@@ -113,6 +104,15 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Agile
 - Jeeves
 - Hospital
+- Magic
+- Luke
+- Craft
+- Dynstr
+- Cache
+- Aero
+- Ransom
+- Backend
+- AI
 - Timing
 - Wall
 - Devoops
