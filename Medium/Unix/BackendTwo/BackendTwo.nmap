@@ -1,0 +1,100 @@
+$ nmap 10.129.227.139 -p- -T 4 --min-rate 1000 -sC -A
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-09-07 12:59 CDT
+Nmap scan report for 10.129.227.139
+Host is up (0.0022s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 ea:84:21:a3:22:4a:7d:f9:b5:25:51:79:83:a4:f5:f2 (RSA)
+|   256 b8:39:9e:f4:88:be:aa:01:73:2d:10:fb:44:7f:84:61 (ECDSA)
+|_  256 22:21:e9:f4:85:90:87:45:16:1f:73:36:41:ee:3b:32 (ED25519)
+80/tcp open  http    uvicorn
+|_http-server-header: uvicorn
+|_http-title: Site doesn't have a title (application/json).
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, GenericLines, RTSPRequest, SSLSessionReq, TLSSessionReq, TerminalServerCookie: 
+|     HTTP/1.1 400 Bad Request
+|     content-type: text/plain; charset=utf-8
+|     Connection: close
+|     Invalid HTTP request received.
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     date: Sun, 07 Sep 2025 17:59:17 GMT
+|     server: uvicorn
+|     content-length: 22
+|     content-type: application/json
+|     Connection: close
+|     {"detail":"Not Found"}
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     date: Sun, 07 Sep 2025 17:59:06 GMT
+|     server: uvicorn
+|     content-length: 22
+|     content-type: application/json
+|     Connection: close
+|     {"msg":"UHC Api v2.0"}
+|   HTTPOptions: 
+|     HTTP/1.1 405 Method Not Allowed
+|     date: Sun, 07 Sep 2025 17:59:12 GMT
+|     server: uvicorn
+|     content-length: 31
+|     content-type: application/json
+|     Connection: close
+|_    {"detail":"Method Not Allowed"}
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.94SVN%I=7%D=9/7%Time=68BDC7F1%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,A6,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Sun,\x2007\x20Sep\x2020
+SF:25\x2017:59:06\x20GMT\r\nserver:\x20uvicorn\r\ncontent-length:\x2022\r\
+SF:ncontent-type:\x20application/json\r\nConnection:\x20close\r\n\r\n{\"ms
+SF:g\":\"UHC\x20Api\x20v2\.0\"}")%r(HTTPOptions,BF,"HTTP/1\.1\x20405\x20Me
+SF:thod\x20Not\x20Allowed\r\ndate:\x20Sun,\x2007\x20Sep\x202025\x2017:59:1
+SF:2\x20GMT\r\nserver:\x20uvicorn\r\ncontent-length:\x2031\r\ncontent-type
+SF::\x20application/json\r\nConnection:\x20close\r\n\r\n{\"detail\":\"Meth
+SF:od\x20Not\x20Allowed\"}")%r(RTSPRequest,76,"HTTP/1\.1\x20400\x20Bad\x20
+SF:Request\r\ncontent-type:\x20text/plain;\x20charset=utf-8\r\nConnection:
+SF:\x20close\r\n\r\nInvalid\x20HTTP\x20request\x20received\.")%r(FourOhFou
+SF:rRequest,AD,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Sun,\x2007\x2
+SF:0Sep\x202025\x2017:59:17\x20GMT\r\nserver:\x20uvicorn\r\ncontent-length
+SF::\x2022\r\ncontent-type:\x20application/json\r\nConnection:\x20close\r\
+SF:n\r\n{\"detail\":\"Not\x20Found\"}")%r(GenericLines,76,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\ncontent-type:\x20text/plain;\x20charset=utf-8\r\
+SF:nConnection:\x20close\r\n\r\nInvalid\x20HTTP\x20request\x20received\.")
+SF:%r(DNSVersionBindReqTCP,76,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nconte
+SF:nt-type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\
+SF:nInvalid\x20HTTP\x20request\x20received\.")%r(DNSStatusRequestTCP,76,"H
+SF:TTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-type:\x20text/plain;\x20ch
+SF:arset=utf-8\r\nConnection:\x20close\r\n\r\nInvalid\x20HTTP\x20request\x
+SF:20received\.")%r(SSLSessionReq,76,"HTTP/1\.1\x20400\x20Bad\x20Request\r
+SF:\ncontent-type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close
+SF:\r\n\r\nInvalid\x20HTTP\x20request\x20received\.")%r(TerminalServerCook
+SF:ie,76,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-type:\x20text/plai
+SF:n;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\nInvalid\x20HTTP\x20r
+SF:equest\x20received\.")%r(TLSSessionReq,76,"HTTP/1\.1\x20400\x20Bad\x20R
+SF:equest\r\ncontent-type:\x20text/plain;\x20charset=utf-8\r\nConnection:\
+SF:x20close\r\n\r\nInvalid\x20HTTP\x20request\x20received\.");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=9/7%OT=22%CT=1%CU=41688%PV=Y%DS=2%DC=T%G=Y%TM=68BDC
+OS:832%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=A)O
+OS:PS(O1=M552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552ST11NW7%O5=M552S
+OS:T11NW7%O6=M552ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)E
+OS:CN(R=Y%DF=Y%T=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
+OS:=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z
+OS:%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=
+OS:N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%
+OS:CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 554/tcp)
+HOP RTT     ADDRESS
+1   2.32 ms 10.10.14.1
+2   2.56 ms 10.129.227.139
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 78.15 seconds
+
+
