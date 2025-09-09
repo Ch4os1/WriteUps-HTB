@@ -11,14 +11,14 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 14/57  | ██ 24.6%          |
+| Medium      | 🟡 15/57  | ██ 26.3%          |
 | AD          | 🔴 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Total Boxes (59/132)
+## Total Boxes (60/132)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -75,7 +75,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 14/57) 📌
+### 🟡 Medium (Pwned 15/57) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -94,7 +94,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Awkward (8.5)
 - Iclean (4/10)
 - Faculty (5/10)
-- BackendTwo **(WIP)**
+- BackendTwo (7.5)
+- Aero **(WIP)**
 - Trickster
 - Backfire
 - Chatterbox <br>
@@ -103,9 +104,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Outdated
 - Agile
 - Jeeves
-- Hospital 📌
-- Aero
-- Magic
+- Hospital 
+- Magic 📌
 - Luke
 - Craft
 - Dynstr
