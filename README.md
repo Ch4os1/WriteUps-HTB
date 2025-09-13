@@ -11,14 +11,14 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 15/57  | ██ 26.3%          |
+| Medium      | 🟡 16/57  | ██ 28.1%        |
 | AD          | 🔴 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Total Boxes (60/132)
+## Total Boxes (61/132)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -75,7 +75,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 15/57) 📌
+### 🟡 Medium (Pwned 16/57) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -94,9 +94,9 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Awkward (8.5)
 - Iclean (4/10)
 - Faculty (5/10)
-- BackendTwo (7.5)
-- Aero **(WIP)**
-- Trickster
+- BackendTwo (7.5/10)
+- Aero (3.5/10)
+- Trickster **(WIP)**
 - Backfire
 - Chatterbox <br>
 - Secnotes 
@@ -157,7 +157,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Vulncicada - Medium (VulnHub)
 - Administrator - Medium📌
 - Certified  📌
-- Jab
+- Jab 
 - StreamIO - Medium 📌
 - Scrambled 
 - Intelligence - Medium📌
@@ -167,7 +167,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Escape - Medium  📌
 - TheFrizz - Medium  📌
 - Sweep
-- SloarLab
+- SolarLab  (20)
 - Authority
 - Shibbeloth
 - Resolute
