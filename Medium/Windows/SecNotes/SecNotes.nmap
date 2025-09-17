@@ -1,0 +1,53 @@
+$ nmap 10.129.50.60 -T4 --min-rate 1000 -p- -sC -A
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-09-17 11:25 CDT
+Nmap scan report for 10.129.50.60
+Host is up (0.0022s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT     STATE SERVICE      VERSION
+80/tcp   open  http         Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+| http-title: Secure Notes - Login
+|_Requested resource was login.php
+| http-methods: 
+|_  Potentially risky methods: TRACE
+445/tcp  open  microsoft-ds Windows 10 Enterprise 17134 microsoft-ds (workgroup: HTB)
+8808/tcp open  http         Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows
+| http-methods: 
+|_  Potentially risky methods: TRACE
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP (85%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp3
+Aggressive OS guesses: Microsoft Windows XP SP3 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Host: SECNOTES; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb-os-discovery: 
+|   OS: Windows 10 Enterprise 17134 (Windows 10 Enterprise 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_10::-
+|   Computer name: SECNOTES
+|   NetBIOS computer name: SECNOTES\x00
+|   Workgroup: HTB\x00
+|_  System time: 2025-09-17T09:27:18-07:00
+| smb2-time: 
+|   date: 2025-09-17T16:27:19
+|_  start_date: N/A
+|_clock-skew: mean: 2h19m59s, deviation: 4h02m30s, median: 0s
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+TRACEROUTE (using port 445/tcp)
+HOP RTT     ADDRESS
+1   2.27 ms 10.10.14.1
+2   2.38 ms 10.129.50.60
+
