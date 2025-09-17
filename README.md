@@ -11,14 +11,14 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 17/57  | ██ 29.8%        |
+| Medium      | 🟡 19/57  | ██ 33.3%        |
 | AD          | 🔵 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Total Boxes (62/132)
+## Total Boxes (64/132)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -75,7 +75,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 17/57) 📌
+### 🟡 Medium (Pwned 18/57) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -97,8 +97,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - BackendTwo (7.5/10)
 - Aero (3.5/10)
 - Trickster (8/10)
-- Backfire **(WIP)**
-- Chatterbox <br>
+- Backfire (8.5/10)
+- Chatterbox (3/10)
 - Secnotes 
 - Manager
 - Outdated
