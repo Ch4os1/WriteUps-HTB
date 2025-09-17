@@ -1,0 +1,60 @@
+$ nmap 10.129.122.173 -p- -T4 --min-rate 1000 -sC -A
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-09-17 07:33 CDT
+Nmap scan report for 10.129.122.173
+Host is up (0.0024s latency).
+Not shown: 65525 closed tcp ports (reset)
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+9256/tcp  open  tcpwrapped
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  msrpc        Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=9/17%OT=135%CT=1%CU=30633%PV=Y%DS=2%DC=T%G=Y%TM=68C
+OS:AAB07%P=x86_64-pc-linux-gnu)SEQ(SP=FF%GCD=1%ISR=110%TI=I%CI=I%II=I%SS=S%
+OS:TS=6)SEQ(SP=FF%GCD=1%ISR=110%TI=I%CI=I%II=I%SS=S%TS=7)SEQ(SP=FF%GCD=2%IS
+OS:R=110%TI=I%CI=RD)OPS(O1=M552NW8ST11%O2=M552NW8ST11%O3=M552NW8NNT11%O4=M5
+OS:52NW8ST11%O5=M552NW8ST11%O6=M552ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000
+OS:%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M552NW8NNS%CC=N%Q=)T1(R=Y%DF
+OS:=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%
+OS:Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A
+OS:%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y
+OS:%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR
+OS:%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RU
+OS:D=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+Service Info: Host: CHATTERBOX; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 6h20m01s, deviation: 2h18m36s, median: 4h59m59s
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: Chatterbox
+|   NetBIOS computer name: CHATTERBOX\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2025-09-17T13:35:09-04:00
+| smb2-security-mode: 
+|   2:1:0: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2025-09-17T17:35:08
+|_  start_date: 2025-09-17T17:28:03
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT     ADDRESS
+1   1.88 ms 10.10.14.1
+2   1.94 ms 10.129.122.173
+

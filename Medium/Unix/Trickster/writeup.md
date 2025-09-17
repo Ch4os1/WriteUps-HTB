@@ -291,7 +291,7 @@ Last login: Sat Sep 13 23:10:55 2025 from 10.10.14.2
 - ssh into target with user `adam`
 - run `sudo -l`
 - found that `adam` is able to run `prusaslicer` as root without password
-![[sudo -l.png]]
+![[Medium/Unix/Trickster/sudo -l.png]]
 - search for `/opt/PrusaSlicer/prusaslicer priv esc` found POC (https://github.com/suce0155/prusaslicer_exploit)
 - load the script and `3mf` file to the target and modify the attacker `ip & port`
 - run the command with `sudo` and we get root reverse-shell 

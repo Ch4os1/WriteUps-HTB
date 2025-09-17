@@ -99,7 +99,7 @@ account-signup.pdf      [Status: 200, Size: 26001, Words: 348, Lines: 260, Durat
 ![[Medium/Unix/RedCross/admin_dashboard.png]]
 - go through all the input field on the site, the "Whitelist IP Address:" is vulnerable to command injection 
 - it does filter user input however not with post request with `deny` action
-![[XSS.png]]
+![[Medium/Unix/RedCross/XSS.png]]
 - which we can inject a RCE 
 ![[payload_burp.png]]
 ```bash

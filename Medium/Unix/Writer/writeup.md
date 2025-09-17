@@ -207,7 +207,7 @@ def home_page(request):
 - to trigger the `RCE` we will need to use the `SSRF` vulnerability we found earlier
 - we need to visit home directory of the application on the `internal port 8080` to trigger the `RCE`
 - the application will call `view.py` when it attempts to visit the `/` home directory but we will need to add `/?test.jpg` because the application is filtering the image type 
-![[SSRF.png]]
+![[Medium/Unix/Writer/SSRF.png]]
 - after sending the request we get a shell from our listener
 ```bash
 $ nc -lvnp 4444
