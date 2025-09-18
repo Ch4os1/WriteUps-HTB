@@ -11,14 +11,14 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 21/57  | ███  36.8%      |
+| Medium      | 🟡 21/60  | ███  35.0%      |
 | AD          | 🔵 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Total Boxes (65/132)
+## Total Boxes (66/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -75,7 +75,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 20/57) 📌
+### 🟡 Medium (Pwned 21/60) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -105,11 +105,11 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Agile
 - Jeeves
 - Hospital 
-- Magic 📌
+- Magic 
 - Luke
 - Craft
 - Dynstr
-- Cache
+- Cache 📌
 - Ransom
 - Backend
 - AI
@@ -137,6 +137,9 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 -  Retired
 - Unrested
 - Health 
+- Canape
+- October
+- Giddy
 
 </details>
 
@@ -180,7 +183,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🔴 Hard (Pwned 0/11)
+### 🔴 Hard (Pwned 0/15)
 
 <details>
 <summary>Hard labs (Click to expand)</summary>
@@ -196,11 +199,16 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Cereal
 - Napper
 - Analysis
+- Spooktrol
+- Jarmis
+- Object
+- Oouch
+
 </details>
 
 ---
 
-### 🤯Insane (Pwned 0/6)
+### 🤯Insane (Pwned 0/10)
 
 <details>
 <summary>Insane labs (Click to expand)</summary>
@@ -211,6 +219,10 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Bookwarm
 - Ghost
 - Rebound 
+- Scanned
+- Response 
+- Absolute
+- Kryptos
 
 </details>
 
