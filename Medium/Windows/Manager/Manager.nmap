@@ -1,0 +1,98 @@
+$ nmap 10.129.103.197 -p- -T4 --min-rate 1000 -sC -A
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-09-17 18:21 CDT
+Nmap scan report for 10.129.103.197
+Host is up (0.0020s latency).
+Not shown: 65513 filtered tcp ports (no-response)
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Simple DNS Plus
+80/tcp    open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Manager
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2025-09-18 06:22:50Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: manager.htb0., Site: Default-First-Site-Name)
+|_ssl-date: 2025-09-18T06:24:23+00:00; +7h00m00s from scanner time.
+| ssl-cert: Subject: 
+| Subject Alternative Name: DNS:dc01.manager.htb
+| Not valid before: 2024-08-30T17:08:51
+|_Not valid after:  2122-07-27T10:31:04
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: manager.htb0., Site: Default-First-Site-Name)
+|_ssl-date: 2025-09-18T06:24:23+00:00; +7h00m00s from scanner time.
+| ssl-cert: Subject: 
+| Subject Alternative Name: DNS:dc01.manager.htb
+| Not valid before: 2024-08-30T17:08:51
+|_Not valid after:  2122-07-27T10:31:04
+1433/tcp  open  ms-sql-s      Microsoft SQL Server 2019 15.00.2000.00; RTM
+|_ssl-date: 2025-09-18T06:24:23+00:00; +7h00m00s from scanner time.
+| ms-sql-ntlm-info: 
+|   10.129.103.197:1433: 
+|     Target_Name: MANAGER
+|     NetBIOS_Domain_Name: MANAGER
+|     NetBIOS_Computer_Name: DC01
+|     DNS_Domain_Name: manager.htb
+|     DNS_Computer_Name: dc01.manager.htb
+|     DNS_Tree_Name: manager.htb
+|_    Product_Version: 10.0.17763
+| ms-sql-info: 
+|   10.129.103.197:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2019 RTM
+|       number: 15.00.2000.00
+|       Product: Microsoft SQL Server 2019
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2025-09-18T06:16:51
+|_Not valid after:  2055-09-18T06:16:51
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: manager.htb0., Site: Default-First-Site-Name)
+| ssl-cert: Subject: 
+| Subject Alternative Name: DNS:dc01.manager.htb
+| Not valid before: 2024-08-30T17:08:51
+|_Not valid after:  2122-07-27T10:31:04
+|_ssl-date: 2025-09-18T06:24:23+00:00; +7h00m00s from scanner time.
+3269/tcp  open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: manager.htb0., Site: Default-First-Site-Name)
+|_ssl-date: 2025-09-18T06:24:23+00:00; +7h00m00s from scanner time.
+| ssl-cert: Subject: 
+| Subject Alternative Name: DNS:dc01.manager.htb
+| Not valid before: 2024-08-30T17:08:51
+|_Not valid after:  2122-07-27T10:31:04
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+9389/tcp  open  mc-nmf        .NET Message Framing
+49667/tcp open  msrpc         Microsoft Windows RPC
+49693/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49694/tcp open  msrpc         Microsoft Windows RPC
+49695/tcp open  msrpc         Microsoft Windows RPC
+49728/tcp open  msrpc         Microsoft Windows RPC
+49775/tcp open  msrpc         Microsoft Windows RPC
+49796/tcp open  msrpc         Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019 (89%)
+Aggressive OS guesses: Microsoft Windows Server 2019 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2025-09-18T06:23:43
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+|_clock-skew: mean: 6h59m59s, deviation: 0s, median: 6h59m59s
+
+TRACEROUTE (using port 53/tcp)
+HOP RTT     ADDRESS
+1   1.72 ms 10.10.14.1
+2   2.07 ms 10.129.103.197
+

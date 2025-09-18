@@ -2,7 +2,7 @@
 ### Lab Details 
 
 - Difficulty: Medium
-- Type: 
+- Type:  Web Enumeration, SMB, MSSQL, WinRM, Abuse Certification Authority Misconfiguration, Priv Esc, Windows
 
 #### Enumeration
 - run `nmap`
@@ -72,7 +72,7 @@ PORT      STATE SERVICE       VERSION
 |_http-title: Not Found
 ```
 - visit port 80 we are presented with a basic website 
-![[Pasted image 20250918110401.png]]
+![[port 80 web app.png]]
 - nothing interesting on the web app
 - enumerate for `vhost` , directories and files nothing interesting found
 - `SMB` service is running on the target
@@ -136,11 +136,11 @@ $ impacket-mssqlclient 'manager.htb/Operator:operator@10.129.103.197' -windows-a
 - nothing in the databases 
 - `impacket-mssqliclient` allows us to functions like read files in the file system using `xp_diretree`
 - using `xp_diretree` to enumerate the file system on target we find a `.zip` folder located in the `wwwroot` directory which is hosting the application running on port 80
-![[Pasted image 20250918081816.png]]
+![[backup zip.png]]
 - get the file using `$ wget http://10.129.103.197/website-backup-27-07-23-old.zip`
-![[Pasted image 20250918081927.png]]
+![[unzip.png]]
 - going through the zipped file, we find a file named `.old-conf.xml`
-![[Pasted image 20250918082121.png]]
+![[raven cred.png]]
 - in there we find credential of user `raven`
 ```xml
     <user>raven@manager.htb</user>
