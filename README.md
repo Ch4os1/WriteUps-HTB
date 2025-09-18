@@ -11,7 +11,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 20/57  | ██ 35.0%        |
+| Medium      | 🟡 21/57  | ███  36.8%      |
 | AD          | 🔵 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
@@ -100,8 +100,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Backfire (8.5/10)
 - Chatterbox (3/10)
 - Secnotes (4/10)
-- Manager **(WIP)**
-- Outdated
+- Manager (4/10)
+- Outdated **(WIP)**
 - Agile
 - Jeeves
 - Hospital 
