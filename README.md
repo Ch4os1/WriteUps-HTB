@@ -11,14 +11,14 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 21/60  | ███  35.0%      |
+| Medium      | 🟡 22/60  | ███  36.7%      |
 | AD          | 🔵 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Total Boxes (66/165)
+## Total Boxes (67/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -75,7 +75,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 21/60) 📌
+### 🟡 Medium (Pwned 22/60) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -101,8 +101,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Chatterbox (3/10)
 - Secnotes (4/10)
 - Manager (4/10)
-- Outdated **(WIP)**
-- Agile
+- Outdated (8.5)
+- Agile **(WIP)**
 - Jeeves
 - Hospital 
 - Magic 
@@ -148,36 +148,36 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 <details>
 <summary>AD labs (Click to expand)</summary>
 
-- Active - Easy📌
-- Forest - Medium 📌
-- Sauna - Easy 📌
-- Monteverde - Medium  📌
-- Timelapse  - Easy 📌
-- Return - Easy  📌
-- Flight - Hard  📌
-- Blackfield - Hard 📌
-- Cicada  - Easy📌
+- Active - Easy
+- Sauna - Easy   
+- Timelapse  - Easy 
+- Return - Easy 
+- Cicada  - Easy
+- Forest - Medium 
+- Monteverde - Medium
+- Administrator - Medium
+- Certified- Medium  
+- StreamIO - Medium 
+- Scrambled - Medium
+- Intelligence - Medium
+- Escape - Medium  
+- TheFrizz - Medium  
+- Worker - Medium
+- Fuse - Medium
+- Cascade - Medium
+- Jab - Medium
+- Sweep - Medium
+- Authority - Medium
+- SolarLab  - Medium 
 - Vulncicada - Medium (VulnHub)
-- Administrator - Medium📌
-- Certified  📌
-- Jab 
-- StreamIO - Medium 📌
-- Scrambled 
-- Intelligence - Medium📌
-- Work
-- Fuse
-- Cascade
-- Escape - Medium  📌
-- TheFrizz - Medium  📌
-- Sweep
-- SolarLab  (20)
-- Authority
-- Shibbeloth
-- Resolute
-- Arkham
-- Querier
-- Lightweight
-- Carrier
+- Shibbeloth - Medium
+- Resolute - Medium
+- Arkham - Medium
+- Querier - Medium
+- Lightweight - Medium
+- Carrier - Medium
+- Flight - Hard  
+- Blackfield - Hard 
 
 </details>
 
