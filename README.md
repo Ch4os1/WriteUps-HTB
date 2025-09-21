@@ -11,14 +11,14 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 22/60  | ███  36.7%      |
+| Medium      | 🟡 23/60  | ███  38.3%      |
 | AD          | 🔵 0/30   | 0%              |
 | Pro Lab     | 🔗 0/3    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Total Boxes (67/165)
+## Total Boxes (68/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -102,8 +102,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Secnotes (4/10)
 - Manager (4/10)
 - Outdated (8.5)
-- Agile **(WIP)**
-- Jeeves
+- Agile (7.5)
+- Jeeves 
 - Hospital 
 - Magic 
 - Luke
