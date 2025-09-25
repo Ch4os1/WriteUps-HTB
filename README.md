@@ -11,14 +11,14 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type        | Completed | Progress        |
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 23/60  | ███  38.3%      |
+| Medium      | 🟡 26/60  | ████  43.3%     |
 | AD          | 🔵 0/30   | 0%              |
-| Pro Lab     | 🔗 0/3    | 0%              |
+| Pro Lab     | 🔗 0/1    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Total Boxes (68/165)
+## Total Boxes (71/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -75,7 +75,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-### 🟡 Medium (Pwned 22/60) 📌
+### 🟡 Medium (Pwned 26/60) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -101,11 +101,12 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Chatterbox (3/10)
 - Secnotes (4/10)
 - Manager (4/10)
-- Outdated (8.5)
-- Agile (7.5)
-- Jeeves 
-- Hospital 
-- Magic 
+- Outdated (8.5/10)
+- Agile (7.5/10)
+- Jeeves (2.5/10)
+- Hospital (8/10)
+- Magic (3/10)
+--- More Practice If Needed --- <br>
 - Luke
 - Craft
 - Dynstr
@@ -233,9 +234,10 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 <details>
 <summary> Pro Labs (Click to expand)</summary>
 
-- Dante (CPTS)
-- Offshore (OSCP)
 - Zephyr (CPTS)
+- Dante (CPTS/OSCP)
+- Offshore (OSCP)
+
 
 </details>
 
