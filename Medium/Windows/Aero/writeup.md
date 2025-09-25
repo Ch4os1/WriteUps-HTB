@@ -9,7 +9,7 @@
 - run nmap 
 - only get one open port on port 80 running `http`
 - visiting the application we see that its allows a file to be uploaded as a theme
-![[file upload.png]]
+![[Medium/Windows/Aero/file upload.png]]
 - click on `Browse` and click on supported types, we see that the application allows `.theme` or `.themepack` to be uploaded 
 
 #### Initial Foothold

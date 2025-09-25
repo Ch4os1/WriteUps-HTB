@@ -1,0 +1,44 @@
+$ nmap -p- -T4 --min-rate 1000 -sC -A 10.129.228.112
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-09-21 12:55 CDT
+Nmap scan report for 10.129.228.112
+Host is up (0.0022s latency).
+Not shown: 65531 filtered tcp ports (no-response)
+PORT      STATE SERVICE      VERSION
+80/tcp    open  http         Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Ask Jeeves
+| http-methods: 
+|_  Potentially risky methods: TRACE
+135/tcp   open  msrpc        Microsoft Windows RPC
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+50000/tcp open  http         Jetty 9.4.z-SNAPSHOT
+|_http-title: Error 404 Not Found
+|_http-server-header: Jetty(9.4.z-SNAPSHOT)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|phone|specialized
+Running (JUST GUESSING): Microsoft Windows 2008|Phone|7 (89%)
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_7
+Aggressive OS guesses: Microsoft Windows Server 2008 R2 (89%), Microsoft Windows 8.1 Update 1 (86%), Microsoft Windows Phone 7.5 or 8.0 (86%), Microsoft Windows Embedded Standard 7 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Host: JEEVES; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_clock-skew: mean: 4h59m59s, deviation: 0s, median: 4h59m59s
+| smb2-time: 
+|   date: 2025-09-21T22:56:50
+|_  start_date: 2025-09-21T22:53:25
+
+TRACEROUTE (using port 445/tcp)
+HOP RTT     ADDRESS
+1   2.04 ms 10.10.14.1
+2   2.37 ms 10.129.228.112
+
