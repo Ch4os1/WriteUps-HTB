@@ -25,7 +25,7 @@ admin634ewutrx1jgitlooaj  autoload.php  error500.html  index.php  init.php  Inst
 ![[admin panel.png]]
 #### Initial Foothold 
 - executing the POC we get access to target as `www-data`
-![[initial foothold.png]]
+![[Medium/Unix/Trickster/initial foothold.png]]
 #### Lateral Movement (If any)
 - search online `prestashop database connection file`, returned `app/config/parameters.php`
 - check for `parameters.php` we get user database user credential 
@@ -255,7 +255,7 @@ Last login: Sat Sep 13 23:10:55 2025 from 10.10.14.2
 - attempted to exploit the `SSTI` vulnerability manually, able to get a shell as root user on the docker container
 ![[Medium/Unix/Trickster/ssti.png]]
 - checking the backup folder and found user `adam`'s credential
-![[backup zip.png]]
+![[Medium/Unix/Trickster/backup zip.png]]
 - Note: the text file within the backup is compressed with `brotli`, decompress with `brotli --decompress your_file.txt.br` to get the text file
 ```txt
   This website requires JavaScript.

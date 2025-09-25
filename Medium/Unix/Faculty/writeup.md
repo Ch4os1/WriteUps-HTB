@@ -63,7 +63,7 @@ Connection: keep-alive
 ```html
 <annotation file="db_connect.php" content="db_connect.php"  icon="Graph" title="Attached File: db_connect.php" pos-x="195" />
 ```
-![[LFI.png]]
+![[Medium/Unix/Faculty/LFI.png]]
 ```php
 <?php 
 
