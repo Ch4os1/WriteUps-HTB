@@ -105,12 +105,12 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Agile (7.5/10)
 - Jeeves (2.5/10)
 - Hospital (8/10)
-- Magic (3/10)
+- Magic (3/10) <br>
 --- More Practice If Needed --- <br>
 - Luke
 - Craft
 - Dynstr
-- Cache 📌
+- Cache 
 - Ransom
 - Backend
 - AI
@@ -149,7 +149,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 <details>
 <summary>AD labs (Click to expand)</summary>
 
-- Active - Easy
+- Active - Easy - **(WIP)**
 - Sauna - Easy   
 - Timelapse  - Easy 
 - Return - Easy 
