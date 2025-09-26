@@ -1,0 +1,53 @@
+$ nmap 10.129.95.180 -p- -T4 --min-rate 1000 -sC -A
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-09-26 10:55 CDT
+Nmap scan report for 10.129.95.180
+Host is up (0.0022s latency).
+Not shown: 65515 filtered tcp ports (no-response)
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Simple DNS Plus
+80/tcp    open  http          Microsoft IIS httpd 10.0
+|_http-title: Egotistical Bank :: Home
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2025-09-26 22:57:05Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: EGOTISTICAL-BANK.LOCAL0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: EGOTISTICAL-BANK.LOCAL0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+9389/tcp  open  mc-nmf        .NET Message Framing
+49667/tcp open  msrpc         Microsoft Windows RPC
+49673/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49674/tcp open  msrpc         Microsoft Windows RPC
+49676/tcp open  msrpc         Microsoft Windows RPC
+49685/tcp open  msrpc         Microsoft Windows RPC
+49692/tcp open  msrpc         Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019 (89%)
+Aggressive OS guesses: Microsoft Windows Server 2019 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Host: SAUNA; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2025-09-26T22:57:58
+|_  start_date: N/A
+|_clock-skew: 7h00m00s
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   2.29 ms 10.10.14.1
+2   2.43 ms 10.129.95.180
