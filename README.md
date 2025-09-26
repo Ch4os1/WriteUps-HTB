@@ -12,13 +12,13 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
 | Medium      | 🟡 26/60  | ████  43.3%     |
-| AD          | 🔵 1/30   | 3.3%            |
+| AD          | 🔵 2/30   | 6.6%            |
 | Pro Lab     | 🔗 0/1    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Total Boxes (72/165)
+## Total Boxes (73/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -145,7 +145,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 </details>
 
 ---
-### 🔵 AD (Pwned 1/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 2/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
