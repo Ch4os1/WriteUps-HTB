@@ -12,13 +12,13 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
 | Medium      | 🟡 26/60  | ████  43.3%     |
-| AD          | 🔵 2/30   | 6.6%            |
+| AD          | 🔵 5/30   | 16.7%           |
 | Pro Lab     | 🔗 0/1    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Total Boxes (73/165)
+## Total Boxes (76/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -107,7 +107,11 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Hospital (8/10)
 - Magic (3/10) <br>
 --- More Practice If Needed --- <br>
-- Luke
+- Bastard - Windows
+- Silo - Windows
+- Giddy - Windows
+- Solar lab - Windows
+- Visual - Windows
 - Craft
 - Dynstr
 - Cache 
@@ -115,7 +119,6 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Backend
 - AI
 - Timing
-- Wall
 - Devoops
 - Tenten
 - Devzat
@@ -125,7 +128,6 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Cat
 - Cypher
 - Build
-- Bastard
 - Cronos
 - Haircut
 - Europa
@@ -133,28 +135,25 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Mentor
 - Poison
 - Bastion
-- Silo
-- EvilCUPS
--  Retired
+- Retired
 - Unrested
 - Health 
 - Canape
 - October
-- Giddy
 
 </details>
 
 ---
-### 🔵 AD (Pwned 2/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 5/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
 - Active - Easy - (2/10)
 - Sauna - Easy - (3/10)
 - Timelapse - Easy - (3/10)
-- Return - Easy 
-- Cicada  - Easy
-- Forest - Medium 
+- Return - Easy - (1/10) 
+- Cicada  - Easy - (2/10)
+- Forest - Easy - **(WIP)**
 - Monteverde - Medium
 - Administrator - Medium
 - Certified- Medium  
