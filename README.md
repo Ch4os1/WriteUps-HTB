@@ -150,8 +150,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 <summary>AD labs (Click to expand)</summary>
 
 - Active - Easy - (2/10)
-- Sauna - Easy - **(WIP)**
-- Timelapse  - Easy 
+- Sauna - Easy - (3/10)
+- Timelapse - Easy - (3/10)
 - Return - Easy 
 - Cicada  - Easy
 - Forest - Medium 
