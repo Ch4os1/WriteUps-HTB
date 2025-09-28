@@ -12,13 +12,13 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | ----------- | --------- | --------------- |
 | Easy        | ✅ 45/45   | ██████████ 100% |
 | Medium      | 🟡 26/60  | ████  43.3%     |
-| AD          | 🔵 5/30   | 16.7%           |
+| AD          | 🔵 6/30   | 20.0%           |
 | Pro Lab     | 🔗 0/1    | 0%              |
 | In Progress | 📌 1      | —               |
 
 ---
 
-## Total Boxes (76/165)
+## Total Boxes (77/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -144,7 +144,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 </details>
 
 ---
-### 🔵 AD (Pwned 5/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 6/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -153,8 +153,10 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Timelapse - Easy - (3/10)
 - Return - Easy - (1/10) 
 - Cicada  - Easy - (2/10)
-- Forest - Easy - **(WIP)**
+- Forest - Easy - (3/10)
+- Fluffy - Easy- **(WIP)**
 - Monteverde - Medium
+- Cascade - Medium
 - Administrator - Medium
 - Certified- Medium  
 - StreamIO - Medium 
@@ -164,9 +166,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - TheFrizz - Medium  
 - Worker - Medium
 - Fuse - Medium
-- Cascade - Medium
 - Jab - Medium
-- Sweep - Medium
+- Sweep - Medium 📌
 - Authority - Medium
 - SolarLab  - Medium 
 - Vulncicada - Medium (VulnHub)
@@ -176,8 +177,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Querier - Medium
 - Lightweight - Medium
 - Carrier - Medium
-- Flight - Hard  
-- Blackfield - Hard 
+- Flight - Hard  📌
+- Blackfield - Hard 📌
 
 </details>
 
@@ -189,12 +190,10 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 <summary>Hard labs (Click to expand)</summary>
 
 - Intentions
-- Blackfield
-- Vintage
+- Vintage 📌
 - Caption
 - Falafel
 - Kotarak
-- Flight 
 - Freelance
 - Cereal
 - Napper
@@ -213,8 +212,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 <details>
 <summary>Insane labs (Click to expand)</summary>
  
-- Sekhmet
-- Reddish
+- Sekhmet 📌
+- Reddish 📌
 - APT
 - Bookwarm
 - Ghost
@@ -233,7 +232,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 <details>
 <summary> Pro Labs (Click to expand)</summary>
 
-- Zephyr (CPTS)
+- Zephyr (CPTS) 
 - Dante (CPTS/OSCP)
 - Offshore (OSCP)
 
