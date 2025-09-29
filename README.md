@@ -1,4 +1,4 @@
-# WriteUps-HTB
+# WriteUps-HTB (For CPTS)
 WriteUps for HTB Labs, collection of machines that I will use to hone my skills.   
 Difficulty ratings are subjective (x/10)<br>
 Some WriteUps will contain POCs but highly recommend to get from source.<br>
@@ -8,13 +8,13 @@ HTB offers **Guided Mode**, I would advise to start off with **Guided Mode** and
 Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when stuck.
 
 ## Stats
-| Type        | Completed | Progress        |
-| ----------- | --------- | --------------- |
-| Easy        | ✅ 45/45   | ██████████ 100% |
-| Medium      | 🟡 26/60  | ████  43.3%     |
-| AD          | 🔵 6/30   | 20.0%           |
-| Pro Lab     | 🔗 0/1    | 0%              |
-| In Progress | 📌 1      | —               |
+| Type        | Completed       | Progress        |
+| ----------- | --------------- | --------------- |
+| Easy        | ✅ 45/45         | ██████████ 100% |
+| Medium      | 🟡 26/60        | ████  43.3%     |
+| AD          | 🔵 8/30         | ██ 26.7%        |
+| Pro Lab     | 🔗 0/1 (Zephyr) | 0%              |
+| In Progress | 📌 1            | —               |
 
 ---
 
@@ -69,8 +69,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Shoppy    - retired (3/10) - Adventure Mode <br>
 - Sense     - retired (2/10)  - Adventure Mode <br>
 - OpenAdmin - retired (2/10) - Adventure Mode <br>
-
-
+--- More Practice If Needed --- <br>
+- Titantic 📌
 </details>
 
 ---
@@ -107,9 +107,9 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Hospital (8/10)
 - Magic (3/10) <br>
 --- More Practice If Needed --- <br>
-- Bastard - Windows
-- Silo - Windows
-- Giddy - Windows
+- Bastard - Windows 📌
+- Silo - Windows 📌
+- Giddy - Windows 📌
 - Solar lab - Windows
 - Visual - Windows
 - Craft
@@ -144,7 +144,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 </details>
 
 ---
-### 🔵 AD (Pwned 6/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 8/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -154,9 +154,9 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Return - Easy - (1/10) 
 - Cicada  - Easy - (2/10)
 - Forest - Easy - (3/10)
-- Fluffy - Easy- **(WIP)**
-- Monteverde - Medium
-- Cascade - Medium
+- Fluffy - Easy- (3.5/10)
+- Monteverde - Medium - (3.5/10)
+- Cascade - Medium - **(WIP)**
 - Administrator - Medium
 - Certified- Medium  
 - StreamIO - Medium 
@@ -167,14 +167,15 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Worker - Medium
 - Fuse - Medium
 - Jab - Medium
+- Resolute - Medium
 - Sweep - Medium 📌
 - Authority - Medium
-- SolarLab  - Medium 
 - Vulncicada - Medium (VulnHub)
 - Shibbeloth - Medium
 - Resolute - Medium
 - Arkham - Medium
 - Querier - Medium
+- Authority
 - Lightweight - Medium
 - Carrier - Medium
 - Flight - Hard  📌
@@ -200,7 +201,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Analysis
 - Spooktrol
 - Jarmis
-- Object
+- Object 📌
 - Oouch
 
 </details>
