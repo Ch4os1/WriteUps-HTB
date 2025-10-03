@@ -72,6 +72,9 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Titantic 📌
 </details>
 
+Completed: 45
+Total: 46
+
 ---
 
 ### 🟡 Medium (Pwned 26/60) 📌
@@ -139,8 +142,10 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Health 
 - Canape
 - October
-
 </details>
+
+Completed: 26
+Total: 60
 
 ---
 ### 🔵 AD (Pwned 11/30) - Mixed Difficulty 📌
@@ -165,22 +170,23 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - TheFrizz - Medium  
 - Worker - Medium
 - Fuse - Medium
-- Jab - Medium
-- Resolute - Medium
-- Sweep - Medium 📌
-- Authority - Medium
+- Sweep - Medium 
+- Authority - Medium 📌
 - Vulncicada - Medium (VulnHub)
 - Shibbeloth - Medium
 - Resolute - Medium
 - Arkham - Medium
 - Querier - Medium
-- Authority
 - Lightweight - Medium
 - Carrier - Medium
+- Sniper - Medium
 - Flight - Hard  📌
 - Blackfield - Hard 📌
 
 </details>
+
+Completed: 11/20
+Total: 30
 
 ---
 
@@ -214,7 +220,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
  
 - Sekhmet 📌
 - Reddish 📌
-- APT
+- APT 
 - Bookwarm
 - Ghost
 - Rebound 
