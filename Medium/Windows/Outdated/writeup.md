@@ -95,7 +95,7 @@ copy 20221108140327_BloodHound.zip z:
 - unzip the output file and load it into data ingest
 - run the `short path to systems trusted for unconstrained delegation`
 - and we see that the group user `btables` belongs to has `AddKeyCredentialLink` access over user `sflowers`
-![[bloodhound.png]]
+![[Medium/Windows/Outdated/bloodhound.png]]
 - follow this [blog](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab) to perform lateral movement to user `sflowers`
 ```bash
 PS C:\Users\btables> Invoke-Whisker -command "add /target:sflowers"

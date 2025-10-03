@@ -170,6 +170,7 @@ Info: Establishing connection to remote endpoint
 #### Privilege Escalation
 - we can check for Certification Authority misconfiguration using `certipy`
 ```bash
+certipy-ad find -u raven -p 'R4v3nBe5tD3veloP3r!123' -dc-ip 10.10.11.236 -stdout -vulnerable 
 Certipy v4.8.2 - by Oliver Lyak (ly4k)
 
 [*] Finding certificate templates

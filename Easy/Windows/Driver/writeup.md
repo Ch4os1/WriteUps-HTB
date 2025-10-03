@@ -34,7 +34,7 @@ No exact OS matches for host (test conditions non-ideal).
 	- requires credentials to login
 	- attempted `admin:admin` - successful
 	- greeted with `MFP Firmware Update Center` as home page
-![[home page.png]]
+![[Easy/Windows/Driver/home page.png]]
 	- `Firmware Update` page allows file upload
 ![[Fileware Updates.png]]
 - The text above states that the upload will be stored at a file share and the testing team will review the upload manually, which means that a user will manually click on the file uploaded. 
