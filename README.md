@@ -12,9 +12,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | ----------- | --------------- | --------------- |
 | Easy        | ✅ 45/45         | ██████████ 100% |
 | Medium      | 🟡 26/60        | ████  43.3%     |
-| AD          | 🔵 8/30         | ██ 26.7%        |
+| AD          | 🔵 11/30         | ██ 36.7%        |
 | Pro Lab     | 🔗 0/1 (Zephyr) | 0%              |
-| In Progress | 📌 1            | —               |
 
 ---
 
@@ -144,7 +143,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 </details>
 
 ---
-### 🔵 AD (Pwned 8/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 11/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -156,10 +155,10 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Forest - Easy - (3/10)
 - Fluffy - Easy- (3.5/10)
 - Monteverde - Medium - (3.5/10)
-- Cascade - Medium - **(WIP)**
-- Administrator - Medium
-- Certified- Medium  
-- StreamIO - Medium 
+- Cascade - Medium - (5/10)
+- Administrator - Medium (4.5/10)
+- Certified- Medium - (5/10)
+- StreamIO - Medium - **(WIP)**
 - Scrambled - Medium
 - Intelligence - Medium
 - Escape - Medium  
