@@ -12,7 +12,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | ----------- | --------------- | --------------- |
 | Easy        | ✅ 45/45         | ██████████ 100% |
 | Medium      | 🟡 26/60        | ████  43.3%     |
-| AD          | 🔵 11/30         | ██ 36.7%        |
+| AD          | 🔵 12/30         | ██ 40.0%        |
 | Pro Lab     | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
@@ -148,7 +148,7 @@ Completed: 26
 Total: 60
 
 ---
-### 🔵 AD (Pwned 11/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 12/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -163,8 +163,8 @@ Total: 60
 - Cascade - Medium - (5/10)
 - Administrator - Medium (4.5/10)
 - Certified- Medium - (5/10)
-- StreamIO - Medium - **(WIP)**
-- Scrambled - Medium
+- Querier - Medium - (3/10) 
+- Scrambled - Medium - **(WIP)**
 - Intelligence - Medium
 - Escape - Medium  
 - TheFrizz - Medium  
