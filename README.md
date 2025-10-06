@@ -185,7 +185,7 @@ Total: 60
 
 </details>
 
-Completed: 11/20<br>
+Completed: 13/20 <br>
 Total: 30
 
 ---
