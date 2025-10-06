@@ -8,12 +8,12 @@ HTB offers **Guided Mode**, I would advise to start off with **Guided Mode** and
 Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when stuck.
 
 ## Stats
-| Type        | Completed       | Progress        |
-| ----------- | --------------- | --------------- |
-| Easy        | ✅ 45/45         | ██████████ 100% |
-| Medium      | 🟡 26/60        | ████  43.3%     |
-| AD          | 🔵 12/30         | ██ 40.0%        |
-| Pro Lab     | 🔗 0/1 (Zephyr) | 0%              |
+| Type    | Completed       | Progress        |
+| ------- | --------------- | --------------- |
+| Easy    | ✅ 45/45         | ██████████ 100% |
+| Medium  | 🟡 26/60        | ████  43.3%     |
+| AD      | 🔵 13/30        | ████ 43.3%      |
+| Pro Lab | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
 
