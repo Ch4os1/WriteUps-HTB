@@ -17,7 +17,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 
 ---
 
-## Total Boxes (77/165)
+## Total Boxes (84/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -72,7 +72,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Titantic 📌
 </details>
 
-Completed: 45
+Completed: 45 <br>
 Total: 46
 
 ---
@@ -144,11 +144,11 @@ Total: 46
 - October
 </details>
 
-Completed: 26
+Completed: 26 <br>
 Total: 60
 
 ---
-### 🔵 AD (Pwned 12/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 13/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -164,8 +164,8 @@ Total: 60
 - Administrator - Medium (4.5/10)
 - Certified- Medium - (5/10)
 - Querier - Medium - (3/10) 
-- Scrambled - Medium - **(WIP)**
-- Intelligence - Medium
+- Scrambled - Medium - (7.5/10)
+- Intelligence - Medium - **(WIP)**
 - Escape - Medium  
 - TheFrizz - Medium  
 - Worker - Medium
@@ -185,7 +185,7 @@ Total: 60
 
 </details>
 
-Completed: 11/20
+Completed: 11/20<br>
 Total: 30
 
 ---
