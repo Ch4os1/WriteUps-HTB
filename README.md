@@ -2,6 +2,7 @@
 WriteUps for HTB Labs, collection of machines that I will use to hone my skills.   
 Difficulty ratings are subjective (x/10)<br>
 Some WriteUps will contain POCs but highly recommend to get from source.<br>
+Stats are not in real time. 
 ## Modes
 HTB offers **Guided Mode**, I would advise to start off with **Guided Mode** and then switch to **Adventure Mode** when feeling confident on Easy Boxes.
 
@@ -11,13 +12,13 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type    | Completed       | Progress        |
 | ------- | --------------- | --------------- |
 | Easy    | ✅ 45/45         | ██████████ 100% |
-| Medium  | 🟡 26/60        | ████  43.3%     |
-| AD      | 🔵 15/30        | █████ 50.0%     |
+| Medium  | 🟡 26/66        | ████  39.4%     |
+| AD      | 🔵 16/30        | █████ 53.3%     |
 | Pro Lab | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
 
-## Total Boxes (85/165)
+## Total Boxes (87/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -69,7 +70,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 - Sense     - retired (2/10)  - Adventure Mode <br>
 - OpenAdmin - retired (2/10) - Adventure Mode <br>
 --- More Practice If Needed --- <br>
-- Titantic 📌
+- Titantic 
+- EscapeTwo 
 </details>
 
 Completed: 45 <br>
@@ -77,7 +79,7 @@ Total: 46
 
 ---
 
-### 🟡 Medium (Pwned 26/60) 📌
+### 🟡 Medium (Pwned 26/65) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -109,12 +111,14 @@ Total: 46
 - Hospital (8/10)
 - Magic (3/10) <br>
 --- More Practice If Needed --- <br>
-- Bastard - Windows 📌
-- Silo - Windows 📌
-- Giddy - Windows 📌
+- Media - Windows (1)📌
+- POV - Windows (1) 📌
+- Craft - Web (1) 📌
+- StreamIO - Web/AD (1) 📌
+- Unrested - Web
+- Strutted - Web
 - Solar lab - Windows
 - Visual - Windows
-- Craft
 - Dynstr
 - Cache 
 - Ransom
@@ -145,10 +149,10 @@ Total: 46
 </details>
 
 Completed: 26 <br>
-Total: 60
+Total: 66
 
 ---
-### 🔵 AD (Pwned 15/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 16/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -167,12 +171,12 @@ Total: 60
 - Scrambled - Medium - (7.5/10)
 - Intelligence - Medium - (4/10)
 - Escape - Medium  - (2/10)
-- TheFrizz - Medium - **(WIP)**
-- Worker - Medium
-- Fuse - Medium
+- TheFrizz - Medium - (5/10)
+- Authority - Medium - **(WIP)**
+- Vulncicada - Medium (VulnHub) (1)📌
+- Worker - Medium 
+- Fuse - Medium 
 - Sweep - Medium 
-- Authority - Medium 📌
-- Vulncicada - Medium (VulnHub)
 - Shibbeloth - Medium
 - Resolute - Medium
 - Arkham - Medium
@@ -182,6 +186,9 @@ Total: 60
 - Sniper - Medium
 - Flight - Hard  📌
 - Blackfield - Hard 📌
+- Freelancer - Hard (1) 📌
+- Redelegate - Hard (1)📌
+- Ghost - Insane (1) 📌
 
 </details>
 
@@ -190,24 +197,22 @@ Total: 30
 
 ---
 
-### 🔴 Hard (Pwned 0/15)
+### 🔴 Hard (Pwned 0/14)
 
 <details>
 <summary>Hard labs (Click to expand)</summary>
 
 - Intentions
-- Vintage 📌
+- Vintage (2)📌
 - Caption
 - Falafel
 - Kotarak
-- Freelance
 - Cereal
 - Napper
 - Analysis
-- Spooktrol
+- Snoopy (1) 📌
 - Jarmis
-- Object 📌
-- Oouch
+- Object (2) 📌
 
 </details>
 
@@ -222,7 +227,6 @@ Total: 30
 - Reddish 📌
 - APT 
 - Bookwarm
-- Ghost
 - Rebound 
 - Scanned
 - Response 
