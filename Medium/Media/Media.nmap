@@ -1,0 +1,36 @@
+$ nmap 10.129.234.67 -p- -T4 --min-rate 1000 -sC -A
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-10-08 10:11 CDT
+Nmap scan report for 10.129.234.67
+Host is up (0.0052s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH for_Windows_9.5 (protocol 2.0)
+80/tcp   open  http          Apache httpd 2.4.56 ((Win64) OpenSSL/1.1.1t PHP/8.1.17)
+|_http-server-header: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.1.17
+|_http-title: ProMotion Studio
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| ssl-cert: Subject: commonName=MEDIA
+| Not valid before: 2025-10-07T15:09:24
+|_Not valid after:  2026-04-08T15:09:24
+|_ssl-date: 2025-10-08T15:13:40+00:00; +1s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: MEDIA
+|   NetBIOS_Domain_Name: MEDIA
+|   NetBIOS_Computer_Name: MEDIA
+|   DNS_Domain_Name: MEDIA
+|   DNS_Computer_Name: MEDIA
+|   Product_Version: 10.0.20348
+|_  System_Time: 2025-10-08T15:13:35+00:00
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2022 (89%)
+Aggressive OS guesses: Microsoft Windows Server 2022 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT     ADDRESS
+1   2.27 ms 10.10.14.1
+2   2.84 ms 10.129.234.67
+
