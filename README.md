@@ -12,7 +12,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type    | Completed       | Progress        |
 | ------- | --------------- | --------------- |
 | Easy    | ✅ 45/45         | ██████████ 100% |
-| Medium  | 🟡 26/66        | ████  39.4%     |
+| Medium  | 🟡 26/60        | ████  45.0%     |
 | AD      | 🔵 16/30        | █████ 53.3%     |
 | Pro Lab | 🔗 0/1 (Zephyr) | 0%              |
 
@@ -79,7 +79,7 @@ Total: 46
 
 ---
 
-### 🟡 Medium (Pwned 26/65) 📌
+### 🟡 Medium (Pwned 27/60) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -111,7 +111,7 @@ Total: 46
 - Hospital (8/10)
 - Magic (3/10) <br>
 --- More Practice If Needed --- <br>
-- Media - Windows (1)📌
+- Media - (VulnLab) - (4.5/10)
 - POV - Windows (1) 📌
 - Craft - Web (1) 📌
 - StreamIO - Web/AD (1) 📌
@@ -142,14 +142,13 @@ Total: 46
 - Poison
 - Bastion
 - Retired
-- Unrested
 - Health 
 - Canape
 - October
 </details>
 
-Completed: 26 <br>
-Total: 66
+Completed: 27 <br>
+Total: 60
 
 ---
 ### 🔵 AD (Pwned 16/30) - Mixed Difficulty 📌
@@ -173,7 +172,7 @@ Total: 66
 - Escape - Medium  - (2/10)
 - TheFrizz - Medium - (5/10)
 - Authority - Medium - **(WIP)**
-- Vulncicada - Medium (VulnHub) (1)📌
+- Vulncicada - Medium (VulnLab) (1)📌
 - Worker - Medium 
 - Fuse - Medium 
 - Sweep - Medium 
