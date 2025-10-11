@@ -13,12 +13,12 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | ------- | --------------- | --------------- |
 | Easy    | ✅ 45/45         | ██████████ 100% |
 | Medium  | 🟡 26/60        | ████  45.0%     |
-| AD      | 🔵 16/30        | █████ 53.3%     |
+| AD      | 🔵 17/30        | █████ 56.7%     |
 | Pro Lab | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
 
-## Total Boxes (87/165)
+## Total Boxes (89/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -147,11 +147,11 @@ Total: 46
 - October
 </details>
 
-Completed: 27 <br>
+Completed: 27/30<br>
 Total: 60
 
 ---
-### 🔵 AD (Pwned 16/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 17/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -171,7 +171,7 @@ Total: 60
 - Intelligence - Medium - (4/10)
 - Escape - Medium  - (2/10)
 - TheFrizz - Medium - (5/10)
-- Authority - Medium - **(WIP)**
+- Authority - Medium - (6.5/10)
 - Vulncicada - Medium (VulnLab) (1)📌
 - Worker - Medium 
 - Fuse - Medium 
@@ -191,7 +191,7 @@ Total: 60
 
 </details>
 
-Completed: 15/20 <br>
+Completed: 17/23 
 Total: 30
 
 ---
