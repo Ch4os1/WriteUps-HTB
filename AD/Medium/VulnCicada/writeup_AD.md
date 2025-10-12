@@ -296,3 +296,4 @@ nt authority\system
 #### Resources
 
 #### Lesson Learned
+- [More on ESC8](https://www.hackingarticles.in/adcs-esc8-ntlm-relay-to-ad-cs-http-endpoints/)
