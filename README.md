@@ -191,7 +191,7 @@ Total: 60
 
 </details>
 
-Completed: 17/23 
+Completed: 17/23<br>
 Total: 30
 
 ---
