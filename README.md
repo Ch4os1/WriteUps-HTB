@@ -13,12 +13,12 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | ------- | --------------- | --------------- |
 | Easy    | ✅ 45/45         | ██████████ 100% |
 | Medium  | 🟡 27/60        | ████  45.0%     |
-| AD      | 🔵 18/30        | ██████ 60.0%    |
+| AD      | 🔵 17/30        | █████ 56.7%     |
 | Pro Lab | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
 
-## Total Boxes (89/165)
+## Total Boxes (90/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
