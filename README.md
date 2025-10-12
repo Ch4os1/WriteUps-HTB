@@ -12,8 +12,8 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type    | Completed       | Progress        |
 | ------- | --------------- | --------------- |
 | Easy    | ✅ 45/45         | ██████████ 100% |
-| Medium  | 🟡 26/60        | ████  45.0%     |
-| AD      | 🔵 17/30        | █████ 56.7%     |
+| Medium  | 🟡 27/60        | ████  45.0%     |
+| AD      | 🔵 18/30        | ██████ 60.0%    |
 | Pro Lab | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
@@ -172,7 +172,7 @@ Total: 60
 - Escape - Medium  - (2/10)
 - TheFrizz - Medium - (5/10)
 - Authority - Medium - (6.5/10)
-- Vulncicada - Medium (VulnLab) (1)📌
+- Vulncicada - Medium (VulnLab) - (7/10)
 - Worker - Medium 
 - Fuse - Medium 
 - Sweep - Medium 
@@ -185,7 +185,7 @@ Total: 60
 - Sniper - Medium
 - Flight - Hard  📌
 - Blackfield - Hard 📌
-- Freelancer - Hard (1) 📌
+- Freelancer - Hard - **(WIP)**📌
 - Redelegate - Hard (1)📌
 - Ghost - Insane (1) 📌
 
