@@ -183,8 +183,8 @@ Total: 60
 - Lightweight - Medium
 - Carrier - Medium
 - Sniper - Medium
-- Flight - Hard  📌
-- Blackfield - Hard 📌
+- Flight - Hard  
+- Blackfield - Hard 
 - Freelancer - Hard - **(WIP)**📌
 - Redelegate - Hard (1)📌
 - Ghost - Insane (1) 📌
