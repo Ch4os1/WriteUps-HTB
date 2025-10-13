@@ -13,12 +13,12 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | ------- | --------------- | --------------- |
 | Easy    | ✅ 45/45         | ██████████ 100% |
 | Medium  | 🟡 27/60        | ████  45.0%     |
-| AD      | 🔵 17/30        | █████ 56.7%     |
+| AD      | 🔵 19/30        | ██████ 63.3%    |
 | Pro Lab | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
 
-## Total Boxes (90/165)
+## Total Boxes (91/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -151,7 +151,7 @@ Completed: 27/30<br>
 Total: 60
 
 ---
-### 🔵 AD (Pwned 17/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 19/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -185,13 +185,13 @@ Total: 60
 - Sniper - Medium
 - Flight - Hard  
 - Blackfield - Hard 
-- Freelancer - Hard - **(WIP)**📌
-- Redelegate - Hard (1)📌
+- Freelancer - Hard - (9/10)📌
+- Redelegate - Hard - **(WIP)**📌
 - Ghost - Insane (1) 📌
 
 </details>
 
-Completed: 17/23<br>
+Completed: 19/23<br>
 Total: 30
 
 ---
