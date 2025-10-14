@@ -13,7 +13,7 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | ------- | --------------- | --------------- |
 | Easy    | ✅ 45/45         | ██████████ 100% |
 | Medium  | 🟡 27/60        | ████  45.0%     |
-| AD      | 🔵 19/30        | ██████ 63.3%    |
+| AD      | 🔵 20/30        | ██████ 66.7%    |
 | Pro Lab | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
@@ -112,7 +112,7 @@ Total: 46
 - Magic (3/10) <br>
 --- More Practice If Needed --- <br>
 - Media - (VulnLab) - (4.5/10)
-- POV - Windows (1) 📌
+- POV - Windows (1) - **(WIP)**📌
 - Craft - Web (1) 📌
 - StreamIO - Web/AD (1) 📌
 - Unrested - Web
@@ -151,7 +151,7 @@ Completed: 27/30<br>
 Total: 60
 
 ---
-### 🔵 AD (Pwned 19/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 20/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -186,12 +186,12 @@ Total: 60
 - Flight - Hard  
 - Blackfield - Hard 
 - Freelancer - Hard - (9/10)📌
-- Redelegate - Hard - **(WIP)**📌
+- Redelegate - Hard (VulnLab) - (6/10)📌
 - Ghost - Insane (1) 📌
 
 </details>
 
-Completed: 19/23<br>
+Completed: 20/21<br>
 Total: 30
 
 ---
