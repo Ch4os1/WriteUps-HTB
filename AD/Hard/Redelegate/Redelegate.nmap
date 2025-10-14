@@ -1,0 +1,138 @@
+$ nmap 10.129.234.50 -p- -T4 --min-rate 1000 -sC -A
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-10-13 07:19 CDT
+Warning: 10.129.234.50 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.129.234.50
+Host is up (0.0019s latency).
+Not shown: 65170 closed tcp ports (reset), 336 filtered tcp ports (no-response)
+PORT      STATE SERVICE       VERSION
+21/tcp    open  ftp           Microsoft ftpd
+| ftp-syst: 
+|_  SYST: Windows_NT
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| 10-20-24  01:11AM                  434 CyberAudit.txt
+| 10-20-24  05:14AM                 2622 Shared.kdbx
+|_10-20-24  01:26AM                  580 TrainingAgenda.txt
+53/tcp    open  domain        Simple DNS Plus
+80/tcp    open  http          Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: IIS Windows Server
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2025-10-13 12:20:19Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: redelegate.vl0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+1433/tcp  open  ms-sql-s      Microsoft SQL Server 2019 15.00.2000.00; RTM
+| ms-sql-ntlm-info: 
+|   10.129.234.50:1433: 
+|     Target_Name: REDELEGATE
+|     NetBIOS_Domain_Name: REDELEGATE
+|     NetBIOS_Computer_Name: DC
+|     DNS_Domain_Name: redelegate.vl
+|     DNS_Computer_Name: dc.redelegate.vl
+|     DNS_Tree_Name: redelegate.vl
+|_    Product_Version: 10.0.20348
+|_ssl-date: 2025-10-13T12:21:26+00:00; +1s from scanner time.
+| ms-sql-info: 
+|   10.129.234.50:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2019 RTM
+|       number: 15.00.2000.00
+|       Product: Microsoft SQL Server 2019
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2025-10-13T12:17:46
+|_Not valid after:  2055-10-13T12:17:46
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: redelegate.vl0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: REDELEGATE
+|   NetBIOS_Domain_Name: REDELEGATE
+|   NetBIOS_Computer_Name: DC
+|   DNS_Domain_Name: redelegate.vl
+|   DNS_Computer_Name: dc.redelegate.vl
+|   DNS_Tree_Name: redelegate.vl
+|   Product_Version: 10.0.20348
+|_  System_Time: 2025-10-13T12:21:17+00:00
+| ssl-cert: Subject: commonName=dc.redelegate.vl
+| Not valid before: 2025-10-12T12:15:10
+|_Not valid after:  2026-04-13T12:15:10
+|_ssl-date: 2025-10-13T12:21:26+00:00; +1s from scanner time.
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+9389/tcp  open  mc-nmf        .NET Message Framing
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49932/tcp open  ms-sql-s      Microsoft SQL Server 2019 15.00.2000.00; RTM
+| ms-sql-ntlm-info: 
+|   10.129.234.50:49932: 
+|     Target_Name: REDELEGATE
+|     NetBIOS_Domain_Name: REDELEGATE
+|     NetBIOS_Computer_Name: DC
+|     DNS_Domain_Name: redelegate.vl
+|     DNS_Computer_Name: dc.redelegate.vl
+|     DNS_Tree_Name: redelegate.vl
+|_    Product_Version: 10.0.20348
+| ms-sql-info: 
+|   10.129.234.50:49932: 
+|     Version: 
+|       name: Microsoft SQL Server 2019 RTM
+|       number: 15.00.2000.00
+|       Product: Microsoft SQL Server 2019
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 49932
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2025-10-13T12:17:46
+|_Not valid after:  2055-10-13T12:17:46
+|_ssl-date: 2025-10-13T12:21:26+00:00; +1s from scanner time.
+56699/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+56700/tcp open  msrpc         Microsoft Windows RPC
+56706/tcp open  msrpc         Microsoft Windows RPC
+56716/tcp open  msrpc         Microsoft Windows RPC
+56718/tcp open  msrpc         Microsoft Windows RPC
+59090/tcp open  msrpc         Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=10/13%OT=21%CT=1%CU=41369%PV=Y%DS=2%DC=T%G=Y%TM=68E
+OS:CEEC5%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10A%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=FD%GCD=1%ISR=10C%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=M552NW8ST1
+OS:1%O2=M552NW8ST11%O3=M552NW8NNT11%O4=M552NW8ST11%O5=M552NW8ST11%O6=M552ST
+OS:11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFDC)ECN(R=Y%DF=Y%T=80
+OS:%W=FFFF%O=M552NW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R
+OS:=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=
+OS:AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=
+OS:80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0
+OS:%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=1
+OS:64%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+Service Info: Host: DC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2025-10-13T12:21:21
+|_  start_date: N/A
+
+TRACEROUTE (using port 143/tcp)
+HOP RTT     ADDRESS
+1   2.17 ms 10.10.14.1
+2   2.48 ms 10.129.234.50
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 118.20 seconds
+
