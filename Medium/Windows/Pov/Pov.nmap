@@ -1,0 +1,24 @@
+$ nmap -p- -T4 --min-rate 1000 -sC -A 10.129.230.183
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-10-14 01:54 CDT
+Nmap scan report for 10.129.230.183
+Host is up (0.0024s latency).
+Not shown: 65534 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 10.0
+|_http-title: pov.htb
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019 (88%)
+Aggressive OS guesses: Microsoft Windows Server 2019 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   2.14 ms 10.10.14.1
+2   2.58 ms 10.129.230.183
+
