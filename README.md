@@ -8,17 +8,20 @@ HTB offers **Guided Mode**, I would advise to start off with **Guided Mode** and
 
 Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when stuck.
 
-## Stats
-| Type    | Completed       | Progress        |
-| ------- | --------------- | --------------- |
-| Easy    | ✅ 45/45         | ██████████ 100% |
-| Medium  | 🟡 29/60        | ████  45.0%     |
-| AD      | 🔵 20/30        | ██████ 66.7%    |
-| Pro Lab | 🔗 0/1 (Zephyr) | 0%              |
+## Stats For CPTS
+
+| Type         | Completed       | Progress        |
+| ------------ | --------------- | --------------- |
+| Easy         | ✅ 45/45         | ██████████ 100% |
+| Medium       | 🟡 30/60        | █████  50.0%    |
+| AD           | 🔵 20/23        | ██████ 66.7%    |
+| Hard (Linux) | 🔴 0/2          | 0.0 %           |
+| Insane       | 🤯 0/3          | 0.0 %           |
+| Pro Lab      | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
 
-## Total Boxes (94/165)
+## Total Boxes (95/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -79,7 +82,7 @@ Total: 46
 
 ---
 
-### 🟡 Medium (Pwned 29/60) 📌
+### 🟡 Medium (Pwned 30/60) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -114,7 +117,7 @@ Total: 46
 - Media - (VulnLab) - (4.5/10)
 - POV - Windows (1) - (3.5/10)
 - Craft - Web (1) - (3.5/10)
-- StreamIO - Web/AD (1) 📌
+- StreamIO - Web/AD (7/10)📌
 - Unrested - Web
 - Strutted - Web
 - Solar lab - Windows
@@ -147,7 +150,7 @@ Total: 46
 - October
 </details>
 
-Completed: 28/30<br>
+Completed: 30/30<br>
 Total: 60
 
 ---
@@ -185,14 +188,14 @@ Total: 60
 - Carrier - Medium
 - Sniper - Medium
 - Flight - Hard  
-- Blackfield - Hard 
+- Blackfield - Hard 📌
 - Freelancer - Hard - (9/10)
 - Redelegate - Hard (VulnLab) - (6/10)
 - Ghost - Insane (1) 📌
 
 </details>
 
-Completed: 20/21<br>
+Completed: 20/23<br>
 Total: 30
 
 ---
@@ -203,7 +206,7 @@ Total: 30
 <summary>Hard labs (Click to expand)</summary>
 
 - Intentions
-- Vintage (2)📌
+- Vintage - **(WIP)**📌
 - Caption
 - Falafel
 - Kotarak
