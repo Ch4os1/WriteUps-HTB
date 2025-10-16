@@ -12,13 +12,13 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 | Type    | Completed       | Progress        |
 | ------- | --------------- | --------------- |
 | Easy    | ✅ 45/45         | ██████████ 100% |
-| Medium  | 🟡 27/60        | ████  45.0%     |
+| Medium  | 🟡 29/60        | ████  45.0%     |
 | AD      | 🔵 20/30        | ██████ 66.7%    |
 | Pro Lab | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
 
-## Total Boxes (91/165)
+## Total Boxes (94/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -79,7 +79,7 @@ Total: 46
 
 ---
 
-### 🟡 Medium (Pwned 27/60) 📌
+### 🟡 Medium (Pwned 29/60) 📌
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -112,8 +112,8 @@ Total: 46
 - Magic (3/10) <br>
 --- More Practice If Needed --- <br>
 - Media - (VulnLab) - (4.5/10)
-- POV - Windows (1) - **(WIP)**📌
-- Craft - Web (1) 📌
+- POV - Windows (1) - (3.5/10)
+- Craft - Web (1) - (3.5/10)
 - StreamIO - Web/AD (1) 📌
 - Unrested - Web
 - Strutted - Web
@@ -147,7 +147,7 @@ Total: 46
 - October
 </details>
 
-Completed: 27/30<br>
+Completed: 28/30<br>
 Total: 60
 
 ---
@@ -173,6 +173,7 @@ Total: 60
 - TheFrizz - Medium - (5/10)
 - Authority - Medium - (6.5/10)
 - Vulncicada - Medium (VulnLab) - (7/10)
+- TombWatcher - Medium 📌
 - Worker - Medium 
 - Fuse - Medium 
 - Sweep - Medium 
@@ -185,8 +186,8 @@ Total: 60
 - Sniper - Medium
 - Flight - Hard  
 - Blackfield - Hard 
-- Freelancer - Hard - (9/10)📌
-- Redelegate - Hard (VulnLab) - (6/10)📌
+- Freelancer - Hard - (9/10)
+- Redelegate - Hard (VulnLab) - (6/10)
 - Ghost - Insane (1) 📌
 
 </details>
@@ -211,7 +212,7 @@ Total: 30
 - Analysis
 - Snoopy (1) 📌
 - Jarmis
-- Object (2) 📌
+- Object 
 
 </details>
 
