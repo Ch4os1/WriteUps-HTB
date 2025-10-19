@@ -15,7 +15,7 @@ Stats are not in real time.
 | Easy         | ✅ 45/45         | ██████████ 100% |
 | Medium       | 🟡 30/60        | █████  50.0%    |
 | AD           | 🔵 22/24        | ██████ 91.7%    |
-| Hard (Linux) | 🔴 3/4          | 75.0 %          |
+| Hard (Linux) | 🔴 3/4          | ███████ 75.0 %  |
 | Insane       | 🤯 0/3          | 0.0 %           |
 | Pro Lab      | 🔗 0/1 (Zephyr) | 0%              |
 
