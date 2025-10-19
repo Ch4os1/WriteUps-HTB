@@ -2,26 +2,26 @@
 WriteUps for HTB Labs, collection of machines that I will use to hone my skills.   
 Difficulty ratings are subjective (x/10)<br>
 Some WriteUps will contain POCs but highly recommend to get from source.<br>
-Stats are not in real time. 
 ## Modes
 HTB offers **Guided Mode**, I would advise to start off with **Guided Mode** and then switch to **Adventure Mode** when feeling confident on Easy Boxes.
 
 Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when stuck.
 
 ## Stats For CPTS
+Stats are not in real time. 
 
 | Type         | Completed       | Progress        |
 | ------------ | --------------- | --------------- |
 | Easy         | ✅ 45/45         | ██████████ 100% |
 | Medium       | 🟡 30/60        | █████  50.0%    |
-| AD           | 🔵 20/23        | ██████ 66.7%    |
-| Hard (Linux) | 🔴 0/2          | 0.0 %           |
+| AD           | 🔵 22/24        | ██████ 91.7%    |
+| Hard (Linux) | 🔴 3/4          | 75.0 %          |
 | Insane       | 🤯 0/3          | 0.0 %           |
 | Pro Lab      | 🔗 0/1 (Zephyr) | 0%              |
 
 ---
 
-## Total Boxes (95/165)
+## Total Boxes (97/165)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -117,7 +117,7 @@ Total: 46
 - Media - (VulnLab) - (4.5/10)
 - POV - Windows (1) - (3.5/10)
 - Craft - Web (1) - (3.5/10)
-- StreamIO - Web/AD (7/10)📌
+- StreamIO - Web/AD (7/10)
 - Unrested - Web
 - Strutted - Web
 - Solar lab - Windows
@@ -154,7 +154,7 @@ Completed: 30/30<br>
 Total: 60
 
 ---
-### 🔵 AD (Pwned 20/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 22/30) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -176,7 +176,8 @@ Total: 60
 - TheFrizz - Medium - (5/10)
 - Authority - Medium - (6.5/10)
 - Vulncicada - Medium (VulnLab) - (7/10)
-- TombWatcher - Medium 📌
+- TombWatcher - Medium - (4/10)
+- Voleur - Medium 📌
 - Worker - Medium 
 - Fuse - Medium 
 - Sweep - Medium 
@@ -188,25 +189,25 @@ Total: 60
 - Carrier - Medium
 - Sniper - Medium
 - Flight - Hard  
-- Blackfield - Hard 📌
+- Blackfield - Hard
+- Vintage - Hard - (7/10)
 - Freelancer - Hard - (9/10)
 - Redelegate - Hard (VulnLab) - (6/10)
 - Ghost - Insane (1) 📌
 
 </details>
 
-Completed: 20/23<br>
+Completed: 22/24<br>
 Total: 30
 
 ---
 
-### 🔴 Hard (Pwned 0/14)
+### 🔴 Hard (Pwned 0/10)
 
 <details>
 <summary>Hard labs (Click to expand)</summary>
 
 - Intentions
-- Vintage - **(WIP)**📌
 - Caption
 - Falafel
 - Kotarak
@@ -254,7 +255,7 @@ Total: 30
 
 ---
 
-## Lab Resources <br>
+## Lab References 
 [OSCP like labs by NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#)<br>
 [Unofficial CPTS Prep by IppSec](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5)
 
