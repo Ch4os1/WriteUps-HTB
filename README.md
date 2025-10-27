@@ -80,7 +80,7 @@ Completed: 45 <br>
 
 ---
 
-### 🟡 Medium (Pwned 30/60) 📌
+### 🟡 Medium (Pwned 30/60) ✅
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
