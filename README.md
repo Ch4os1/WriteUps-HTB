@@ -7,21 +7,20 @@ HTB offers **Guided Mode**, I would advise to start off with **Guided Mode** and
 
 Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when stuck.
 
-## Stats For CPTS
+## Stats For CPTS Prep
 Stats are not in real time. 
 
-| Type         | Completed       | Progress        |
-| ------------ | --------------- | --------------- |
-| Easy         | ✅ 45/45         | ██████████ 100% |
-| Medium       | 🟡 30/60        | █████  50.0%    |
-| AD           | 🔵 22/24        | ██████ 91.7%    |
-| Hard (Linux) | 🔴 3/4          | ███████ 75.0 %  |
-| Insane       | 🤯 0/3          | 0.0 %           |
-| Pro Lab      | 🔗 0/1 (Zephyr) | 0%              |
+| Type         | Completed       | Progress         |
+| ------------ | --------------- | ---------------- |
+| Easy         | ✅ 45            | ██████████ 100%  |
+| Medium       | 🟡 30           | ██████████  100% |
+| AD           | 🔵 24/30        | ████████ 80.0 %  |
+| Hard (Linux) | 🔴 4/7          | ████ 57.1%       |
+| Pro Lab      | 🔗 0/1 (Zephyr) | 0%               |
 
 ---
 
-## Total Boxes (97/165)
+## Total Boxes (104 Pwned!)
 ### 🟢 Easy (Pwned 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
@@ -78,7 +77,6 @@ Stats are not in real time.
 </details>
 
 Completed: 45 <br>
-Total: 46
 
 ---
 
@@ -113,7 +111,6 @@ Total: 46
 - Jeeves (2.5/10)
 - Hospital (8/10)
 - Magic (3/10) <br>
---- More Practice If Needed --- <br>
 - Media - (VulnLab) - (4.5/10)
 - POV - Windows (1) - (3.5/10)
 - Craft - Web (1) - (3.5/10)
@@ -150,11 +147,11 @@ Total: 46
 - October
 </details>
 
-Completed: 30/30<br>
-Total: 60
+Completed: 30<br>
+
 
 ---
-### 🔵 AD (Pwned 22/30) - Mixed Difficulty 📌
+### 🔵 AD (Pwned 24/43) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -177,7 +174,7 @@ Total: 60
 - Authority - Medium - (6.5/10)
 - Vulncicada - Medium (VulnLab) - (7/10)
 - TombWatcher - Medium - (4/10)
-- Voleur - Medium 📌
+- Voleur - Medium - (5/10)
 - Worker - Medium 
 - Fuse - Medium 
 - Sweep - Medium 
@@ -188,41 +185,56 @@ Total: 60
 - Lightweight - Medium
 - Carrier - Medium
 - Sniper - Medium
-- Flight - Hard  
-- Blackfield - Hard
 - Vintage - Hard - (7/10)
 - Freelancer - Hard - (9/10)
 - Redelegate - Hard (VulnLab) - (6/10)
-- Ghost - Insane (1) 📌
+- Analysis - Hard
+- Mantis - Hard 
+- LustrousTwo 
+- Flight - Hard  📌 
+- Blackfield - Hard 
+- Search - Hard 
+- Object - Hard 
+- Shibuya - Hard 
+- Rebound - Insane📌
+- Ghost - Insane - (9.5/10)
+
 
 </details>
 
-Completed: 22/24<br>
-Total: 30
+Completed: 24<br>
 
 ---
 
-### 🔴 Hard (Pwned 0/10)
+### 🔴 Hard - Focusing on Web & SQL (Pwned 4/18)
 
 <details>
 <summary>Hard labs (Click to expand)</summary>
 
-- Intentions
-- Caption
-- Falafel
-- Kotarak
-- Cereal
-- Napper
-- Analysis
-- Snoopy (1) 📌
-- Jarmis
-- Object 
+- Snoopy - (8/10)
+- Guardian - Web - (9/10)
+- Kotarak - Web - (5/10)
+- Holiday - Web/SQL - (5/10)
+- Monitors - Web/SQL- **(WIP)**
+- Jarmis - Web📌
+- Oouch - Web 📌
+- OneTwoSeven - Web
+- CrimeStoppers - Web
+- Pollution - Web
+- Caption - Web
+- Intentions - SQL 
+- Falafel - SQL
+- Seventeen - SQL
+- Phoenix - SQL
+- Player 
+- Joker
+- Cereal - Windows
 
 </details>
 
 ---
 
-### 🤯Insane (Pwned 0/10)
+### 🤯Insane (Pwned 0/9)
 
 <details>
 <summary>Insane labs (Click to expand)</summary>
@@ -231,24 +243,24 @@ Total: 30
 - Reddish 📌
 - APT 
 - Bookwarm
-- Rebound 
 - Scanned
 - Response 
 - Absolute
 - Kryptos
+- Sink
+- Jail
+- Ariekei
 
 </details>
 
 ---
 
-### 🔗 Pro Labs (Pwned 0/3) 📌
+### 🔗 Pro Labs (Dante) 📌
 
 <details>
 <summary> Pro Labs (Click to expand)</summary>
 
-- Zephyr (CPTS) 
-- Dante (CPTS/OSCP)
-- Offshore (OSCP)
+- Dante (CPTS/OSCP) 📌
 
 
 </details>
