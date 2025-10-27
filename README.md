@@ -29,6 +29,7 @@ cd your-htb-writeups
 ```
 
 ## Folder Structure Overview
+
 <details>
 <summary>(Click to expand)</summary>
 
@@ -62,7 +63,7 @@ cd your-htb-writeups
     └── Writeup-Template.md
 ```
 
-</detail>
+</details>
 
 ## Stats For CPTS Prep
 Stats are not in real time. 
