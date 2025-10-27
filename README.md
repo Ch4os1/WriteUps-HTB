@@ -7,6 +7,27 @@ HTB offers **Guided Mode**, I would advise to start off with **Guided Mode** and
 
 Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when stuck.
 
+### How to View in Obsidian
+For the best reading and navigation experience, I recommend viewing these HTB write-ups in Obsidian. Here's how to set it up:
+
+#### Quick Setup
+
+##### 1. Install Obsidian
+- Download from: https://obsidian.md
+- Available for Windows, macOS, and Linux
+
+##### 2. Clone & Open this Repository
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-htb-writeups.git
+cd your-htb-writeups
+
+# Open in Obsidian
+# - Launch Obsidian
+# - Click "Open folder as vault"
+# - Select the cloned repository directory
+```
+
 ## Stats For CPTS Prep
 Stats are not in real time. 
 
