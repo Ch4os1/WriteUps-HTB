@@ -20,7 +20,7 @@ Stats are not in real time.
 
 ---
 
-## Total Boxes (104 Pwned!)
+## Total Boxes (104 Boxes Pwned!)
 ### 🟢 Easy (Total 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
