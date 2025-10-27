@@ -10,13 +10,13 @@ Post Easy Difficulty will be on **Adventure Mode**, with occasional hints when s
 ## Stats For CPTS Prep
 Stats are not in real time. 
 
-| Type         | Completed       | Progress         |
-| ------------ | --------------- | ---------------- |
-| Easy         | ✅ 45            | ██████████ 100%  |
-| Medium       | 🟡 30           | ██████████  100% |
-| AD           | 🔵 24/30        | ████████ 80.0 %  |
-| Hard (Linux) | 🔴 4/7          | ████ 57.1%       |
-| Pro Lab      | 🔗 0/1 (Zephyr) | 0%               |
+| Type         | Completed      | Progress         |
+| ------------ | -------------- | ---------------- |
+| Easy         | ✅ 45           | ██████████ 100%  |
+| Medium       | 🟡 30          | ██████████  100% |
+| AD           | 🔵 24/30       | ████████ 80.0 %  |
+| Hard (Linux) | 🔴 4/7         | ████ 57.1%       |
+| Pro Lab      | 🔗 0/1 (Dante) | 0%               |
 
 ---
 
