@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) - 104 Pwned!
+# WriteUps-HTB (For CPTS) - 104 Boxes Pwned!
 WriteUps for HTB Labs, collection of machines that I will use to hone my skills.   
 Difficulty ratings are subjective (x/10)<br>
 Some WriteUps will contain POCs but highly recommend to get from source.<br>
