@@ -28,6 +28,42 @@ cd your-htb-writeups
 # - Select the cloned repository directory
 ```
 
+## Folder Structure Overview
+<details>
+<summary>(Click to expand)</summary>
+
+```text
+📁 ~/WriteUps-HTB
+├── 📁  Easy/
+│   ├── 📁 Linux/
+│   │   ├── Machine-Name.md
+│   │   └── ...
+│   └── 📁 Windows/
+│       ├── Machine-Name.md
+│       └── ...
+├── 📁  Medium/
+│   ├── 📁 Linux/
+│   │   ├── Machine-Name.md
+│   │   └── ...
+│   └── 📁 Windows/
+│       ├── Machine-Name.md
+│       └── ...
+├── 📁  AD/
+│   ├── 📁 Easy/
+│   │   ├── Machine-Name.md
+│   │   └── ...
+│   ├── 📁 Medium/
+│   │   ├── Machine-Name.md
+│   │   └── ...
+│   └── 📁 Hard/
+│       ├── Machine-Name.md
+│       └── ...
+└── 📁 Templates/
+    └── Writeup-Template.md
+```
+
+</detail>
+
 ## Stats For CPTS Prep
 Stats are not in real time. 
 
