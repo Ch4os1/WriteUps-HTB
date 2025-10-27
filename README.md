@@ -12,8 +12,8 @@ Stats are not in real time.
 
 | Type         | Completed      | Progress         |
 | ------------ | -------------- | ---------------- |
-| Easy         | ✅ 45           | ██████████ 100%  |
-| Medium       | 🟡 30          | ██████████  100% |
+| Easy         | ✅ 45/45        | ██████████ 100%  |
+| Medium       | 🟡 30/30       | ██████████  100% |
 | AD           | 🔵 24/30       | ████████ 80.0 %  |
 | Hard (Linux) | 🔴 4/7         | ████ 57.1%       |
 | Pro Lab      | 🔗 0/1 (Dante) | 0%               |
@@ -21,7 +21,7 @@ Stats are not in real time.
 ---
 
 ## Total Boxes (104 Pwned!)
-### 🟢 Easy (Pwned 45/45)  ✅
+### 🟢 Easy (Total 45/45)  ✅
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -80,7 +80,7 @@ Completed: 45 <br>
 
 ---
 
-### 🟡 Medium (Pwned 30/60) ✅
+### 🟡 Medium (Total 30/60) ✅
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -151,7 +151,7 @@ Completed: 30<br>
 
 
 ---
-### 🔵 AD (Pwned 24/43) - Mixed Difficulty 📌
+### 🔵 AD (Total 24/43) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -206,7 +206,7 @@ Completed: 24<br>
 
 ---
 
-### 🔴 Hard - Focusing on Web & SQL (Pwned 4/18)
+### 🔴 Hard - Focusing on Web & SQL (Total 4/18)
 
 <details>
 <summary>Hard labs (Click to expand)</summary>
@@ -234,7 +234,7 @@ Completed: 24<br>
 
 ---
 
-### 🤯Insane (Pwned 0/9)
+### 🤯Insane (Total 0/9)
 
 <details>
 <summary>Insane labs (Click to expand)</summary>
