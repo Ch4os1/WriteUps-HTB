@@ -1,0 +1,38 @@
+target:
+  host: 10.129.86.27
+credentials:
+  auth_method: password
+  user: ryan.naylor
+  password: HollowOct31Nyt
+  domain: ''
+  ticket_file: ''
+  nthash: ''
+  random_user: hjdzbbgw
+listeners:
+  LDAP:
+    port: 389
+    accessible: false
+  LDAPS:
+    port: 636
+    accessible: false
+  SMB:
+    port: 445
+    accessible: false
+  SMB over NetBIOS:
+    port: 139
+    accessible: false
+domain: null
+nmblookup: null
+errors:
+  listeners:
+    enum_listeners:
+    - 'Could not connect to LDAP on 389/tcp: timed out'
+    - 'Could not connect to LDAPS on 636/tcp: timed out'
+    - 'Could not connect to SMB on 445/tcp: timed out'
+    - 'Could not connect to SMB over NetBIOS on 139/tcp: timed out'
+  nmblookup:
+    enum_netbios:
+    - 'Could not get NetBIOS names information via ''nmblookup'': timed out'
+  domain:
+    enum_netbios:
+    - 'Could not get NetBIOS names information via ''nmblookup'': timed out'

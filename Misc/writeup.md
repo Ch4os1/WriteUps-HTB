@@ -1,9 +1,9 @@
-## [Title]
+## [Name]
 
 ### Lab Details 
 
-- Difficulty:
-- Type:
+- Difficulty: 
+- Type: 
 
 #### Enumeration
 
@@ -12,7 +12,6 @@
 #### Lateral Movement (If any)
 
 #### Privilege Escalation
-
 #### Resources
 
 #### Lesson Learned

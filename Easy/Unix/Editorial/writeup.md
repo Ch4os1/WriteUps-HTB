@@ -26,7 +26,7 @@ Q3: What relative endpoint on the webserver can cause the server to generate an 
 - on the upload page theres a function that allows image to be fetched from remote server
 - we can test the function is vulnerable by opening a port and test for remote connection
 - enter the attacker ip address and hit preview, we will receive a get from target
-![[upload form.png]]
+![[Easy/Unix/Editorial/upload form.png]]
 ``` 
 $: nc -lvnp 9005     
 listening on [any] 9005 ...

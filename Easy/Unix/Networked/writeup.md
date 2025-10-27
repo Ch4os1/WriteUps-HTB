@@ -79,7 +79,7 @@ Q5: On Linux operating systems, users have the ability to schedule tasks to run 
 - we can then access the webshell at /uploads
 ![[photos.php.png]]
 
-![[webshell.png]]
+![[Easy/Unix/Networked/webshell.png]]
 - run reverse shell in the webshell 
 
 Q6: According to the backup of the crontab file for guly, the check_attack.php script is executed every how many minutes?

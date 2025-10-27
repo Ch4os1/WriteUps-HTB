@@ -129,7 +129,7 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-10-15 07:33:
 PHPSESSID:ot1glf3avvften3d2r50mk6dt3
 ```
 - visit `https://streamio.htb/admin/`
-![[admin dash.png]]
+![[AD/Medium/StreamIO/admin dash.png]]
 - clicking on different management options and the URL parameters changes
 - we can attempt to map out the parameters with `ffuf`
 ```bash

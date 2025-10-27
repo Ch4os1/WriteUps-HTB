@@ -2,7 +2,7 @@
 
 ### Lab Details 
 
-- Difficulty:
+- Difficulty: Medium
 - Type: Active Directory, Windows
 
 #### Enumeration
