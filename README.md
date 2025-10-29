@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) - 104 Boxes Pwned!
+# WriteUps-HTB (For CPTS) - 105 Boxes Pwned!
 WriteUps for HTB Labs, collection of machines that I will use to hone my skills.   
 Difficulty ratings are subjective (x/10)<br>
 Some WriteUps will contain POCs but highly recommend to get from source.<br>
@@ -68,13 +68,13 @@ cd your-htb-writeups
 ## Stats For CPTS Prep
 Stats are not in real time. 
 
-| Type         | Completed      | Progress         |
-| ------------ | -------------- | ---------------- |
-| Easy         | ✅ 45/45        | ██████████ 100%  |
-| Medium       | 🟡 30/30       | ██████████  100% |
-| AD           | 🔵 24/30       | ████████ 80.0 %  |
-| Hard (Linux) | 🔴 4/7         | ████ 57.1%       |
-| Pro Lab      | 🔗 0/1 (Dante) | 0%               |
+| Type         | Completed      | Progress Against Completed |
+| ------------ | -------------- | -------------------------- |
+| Easy         | ✅ 45/45        | ██████████ 100%            |
+| Medium       | 🟡 30/30       | ██████████  100%           |
+| AD           | 🔵 25/30       | ████████ 80.0 %            |
+| Hard (Linux) | 🔴 5/10        | ███████ 71.4%              |
+| Pro Lab      | 🔗 0/1 (Dante) | 0%                         |
 
 ---
 
@@ -134,7 +134,6 @@ Stats are not in real time.
 - EscapeTwo 
 </details>
 
-Completed: 45 <br>
 
 ---
 
@@ -205,11 +204,10 @@ Completed: 45 <br>
 - October
 </details>
 
-Completed: 30<br>
 
 
 ---
-### 🔵 AD (Total 24/43) - Mixed Difficulty 📌
+### 🔵 AD (Total 25/43) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -251,8 +249,8 @@ Completed: 30<br>
 - LustrousTwo 
 - Flight - Hard  📌 
 - Blackfield - Hard 
-- Search - Hard 
-- Object - Hard 
+- Search - Hard - **(WIP)**
+- Object - Hard - (6/10)
 - Shibuya - Hard 
 - Rebound - Insane📌
 - Ghost - Insane - (9.5/10)
@@ -260,11 +258,10 @@ Completed: 30<br>
 
 </details>
 
-Completed: 24<br>
 
 ---
 
-### 🔴 Hard - Focusing on Web & SQL (Total 4/18)
+### 🔴 Hard - Focusing on Web & SQL (Total 5/18)
 
 <details>
 <summary>Hard labs (Click to expand)</summary>
@@ -273,19 +270,20 @@ Completed: 24<br>
 - Guardian - Web - (9/10)
 - Kotarak - Web - (5/10)
 - Holiday - Web/SQL - (5/10)
-- Monitors - Web/SQL- **(WIP)**
-- Jarmis - Web📌
-- Oouch - Web 📌
-- OneTwoSeven - Web
+- Monitors - Web/SQL- (7/10)
+- Jarmis - Web
+- Oouch - Web 
+- Joker
+- Falafel - SQL
+ - Intentions - SQL 📌
+- OneTwoSeven - Web 
 - CrimeStoppers - Web
 - Pollution - Web
 - Caption - Web
 - Intentions - SQL 
-- Falafel - SQL
 - Seventeen - SQL
 - Phoenix - SQL
 - Player 
-- Joker
 - Cereal - Windows
 
 </details>
