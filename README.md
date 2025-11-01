@@ -55,10 +55,17 @@ cd WriteUps-HTB
 	├── 📁 Medium/
 	│   ├── 📁 Linux/
 	│   └── 📁 Windows/
+	├── 📁 Hard/
+	│   ├── 📁 Linux/
+	│   └── 📁 Windows/
+	├── 📁 Insane/
+	│   ├── 📁 Linux/
+	│   └── 📁 Windows/
 	├── 📁 AD/
 	│   ├── 📁 Easy/
 	│   ├── 📁 Medium/
-	│   └── 📁 Hard/
+	│   ├── 📁 Hard/
+	│   └── 📁 Insane/
 	└── 📁 Templates/
 	    └── Writeup-Template.md
     
@@ -85,20 +92,57 @@ cd WriteUps-HTB
 <summary>Click to expand</summary>
 
 **Classic Practice**  
-Knife (2/10), Sunday (3/10), Keeper (1/10), Bashed (1/10), Beep (1/10), Armageddon (4/10),  
-Blunder (3.5/10), Popcorn (1.5/10), Postman (4/10), Shocker (1/10),  
-Access (3/10), Swagshop (3/10), Arctic (2/10), Blue (1/10), Buff (3/10),  
-Devel (2/10), Jerry (1/10), Legacy (1/10), Netmon (1/10), Remote (2/10),  
-Broker (1.5/10), Soccer (3.5/10), Sau (1/10), Dog (2.5/10), Help (4/10),  
-Usage (3.5/10), LinkVortex (3/10), Pandora (4/10), Editorial (3.5/10),  
-Networked (3/10), Support (5/10), Servmon (3/10), Mailing (3/10), Driver (3/10),  
-Crafty (3/10), Granny (1/10)  
+- Knife (2/10)
+- Sunday (3/10)
+- Keeper (1/10)
+- Bashed (1/10)
+- Beep (1/10)
+- Armageddon (4/10)
+- Blunder (3.5/10)
+- Popcorn (1.5/10)
+- Postman (4/10),
+- Shocker (1/10),  
+- Access (3/10)
+- Swagshop (3/10)
+- Arctic (2/10)
+- Blue (1/10)
+- Buff (3/10),  
+- Devel (2/10)
+- Jerry (1/10)
+- Legacy (1/10)
+- Netmon (1/10)
+- Remote (2/10),  
+- Broker (1.5/10)
+- Soccer (3.5/10)
+- Sau (1/10)
+- Dog (2.5/10)
+- Help (4/10),  
+- Usage (3.5/10)
+- LinkVortex (3/10)
+- Pandora (4/10)
+- Editorial (3.5/10),  
+- Networked (3/10)
+- Support (5/10),
+- Servmon (3/10)
+- Mailing (3/10)
+- Driver (3/10)
+- Crafty (3/10)
+- Granny (1/10)  
 
 **Adventure Mode (Exam Simulation)**  
-CozyHosting (4/10), Busqueda (4/10), Broadlight (2/10), Delivery (3/10), MetaTwo (3/10), Trick (5/10), Shoppy (3/10), Sense (2/10), OpenAdmin (2/10)
+- CozyHosting (4/10)
+- Busqueda (4/10)
+- Broadlight (2/10)
+- Delivery (3/10)
+- MetaTwo (3/10)
+- Trick (5/10)
+- Shoppy (3/10)
+- Sense (2/10)
+- OpenAdmin (2/10)
 
 **Additional Practice**  
-Titanic, EscapeTwo
+- Titanic
+- EscapeTwo
 </details>
 
 ---
@@ -107,11 +151,36 @@ Titanic, EscapeTwo
 <details>
 <summary>Click to expand</summary>
 
-UpDown (5/10), Monitored (5/10), Book (6/10), Schooled (5/10), Redcross (7/10),  
-Ready (6/10), Writer (8/10), Gobox (6/10), Bolt (8/10), Builder (3/10),  
-Epsilon (5/10), Awkward (8.5/10), Iclean (4/10), Faculty (5/10), BackendTwo (7.5/10),  
-Aero (3.5/10), Trickster (8/10), Backfire (8.5/10), Chatterbox (3/10), SecNotes (4/10),  
-Manager (4/10), Outdated (8.5/10), Agile (7.5/10), Jeeves (2.5/10), Hospital (8/10), Magic (3/10),  Media (VulnLab - 4.5/10), POV (3.5/10), Craft (3.5/10), StreamIO (7/10)
+- UpDown (5/10)
+- Monitored (5/10)
+- Book (6/10)
+- Schooled (5/10)
+- Redcross (7/10)
+- Ready (6/10)
+- Writer (8/10)
+- Gobox (6/10)
+- Bolt (8/10)
+- Builder (3/10),  
+- Epsilon (5/10)
+- Awkward (8.5/10)
+- Iclean (4/10)
+- Faculty (5/10
+- BackendTwo (7.5/10),  
+- Aero (3.5/10)
+- Trickster (8/10)
+- Backfire (8.5/10)
+- Chatterbox (3/10)
+- SecNotes (4/10),  
+- Manager (4/10)
+- Outdated (8.5/10)
+- Agile (7.5/10)
+- Jeeves (2.5/10)
+- Hospital (8/10)
+- Magic (3/10),
+- Media (VulnLab - 4.5/10)
+- POV (3.5/10)
+- Craft (3.5/10)
+- StreamIO (7/10)
 </details>
 
 ---
