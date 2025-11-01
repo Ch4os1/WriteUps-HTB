@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) — 105 Boxes Pwned!
+# WriteUps-HTB (For CPTS) — 106 Boxes Pwned!
 
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.  
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
@@ -61,20 +61,19 @@ cd WriteUps-HTB
 │   └── 📁 Hard/
 └── 📁 Templates/
     └── Writeup-Template.md
-
 </details>
 
 ---
 
 ## 📊 CPTS Prep Progress (Static Snapshot)
 
-| Category      | Completed | Progress |
-|----------------|------------|-----------|
-| 🟢 Easy         | 45 / 45 | ██████████ 100% |
-| 🟡 Medium       | 30 / 30 | ██████████ 100% |
-| 🔵 AD           | 25 / 30 | ████████ 83% |
-| 🔴 Hard (Linux) | 5 / 10  | ███████ 71% |
-| 🔗 Pro Lab      | 0 / 1 (Dante) | 0% |
+| Category        | Completed     | Progress        |
+| --------------- | ------------- | --------------- |
+| 🟢 Easy         | 45 / 45       | ██████████ 100% |
+| 🟡 Medium       | 30 / 30       | ██████████ 100% |
+| 🔵 AD           | 26 / 30       | ████████ 83%    |
+| 🔴 Hard (Linux) | 5 / 10        | ███████ 71%     |
+| 🔗 Pro Lab      | 0 / 1 (Dante) | 0%              |
 
 ---
 
@@ -116,7 +115,7 @@ Manager (4/10), Outdated (8.5/10), Agile (7.5/10), Jeeves (2.5/10), Hospital (8/
 
 ---
 
-### 🔵 AD (Total 25/43) - Mixed Difficulty 📌
+### 🔵 AD (Total 26/43) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -161,9 +160,9 @@ Manager (4/10), Outdated (8.5/10), Agile (7.5/10), Jeeves (2.5/10), Hospital (8/
 - Analysis – (Hard)  
 - Mantis – (Hard)  
 - LustrousTwo – (Hard)  
-- Flight – (Hard) 📌  
+- Flight – (Hard) - **(WIP)**
 - Blackfield – (Hard)  
-- Search – (WIP)  
+- Search – (Hard)  - (5.5/10)
 - Object – (6/10)  
 - Shibuya – (Hard)  
 
@@ -179,8 +178,25 @@ Manager (4/10), Outdated (8.5/10), Agile (7.5/10), Jeeves (2.5/10), Hospital (8/
 <details>
 <summary>Click to expand</summary>
 
-Snoopy (8/10), Guardian (9/10), Kotarak (5/10), Holiday (5/10), Monitors (7/10),  
-Jarmis, Oouch, Joker, Falafel, Intentions, OneTwoSeven, CrimeStoppers, Pollution, Caption, Seventeen, Phoenix, Player, Cereal
+- Snoopy (8/10)
+- Guardian (9/10)
+- Kotarak (5/10)
+- Holiday (5/10)
+- Monitors (7/10)
+- Jarmis
+- Oouch
+- Joker
+- Falafel
+- Intentions
+- OneTwoSeven
+- CrimeStoppers
+- Pollution
+- Caption
+- Seventee
+- Phoenix
+- Player
+- Cereal
+
 </details>
 
 ---
