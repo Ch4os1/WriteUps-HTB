@@ -48,19 +48,19 @@ cd WriteUps-HTB
 <details>
 <summary>Click to expand</summary>
 
-📁 ~/WriteUps-HTB
-├── 📁 Easy/
-│   ├── 📁 Linux/
-│   └── 📁 Windows/
-├── 📁 Medium/
-│   ├── 📁 Linux/
-│   └── 📁 Windows/
-├── 📁 AD/
-│   ├── 📁 Easy/
-│   ├── 📁 Medium/
-│   └── 📁 Hard/
-└── 📁 Templates/
-    └── Writeup-Template.md
+	📁 ~/WriteUps-HTB
+	├── 📁 Easy/
+	│   ├── 📁 Linux/
+	│   └── 📁 Windows/
+	├── 📁 Medium/
+	│   ├── 📁 Linux/
+	│   └── 📁 Windows/
+	├── 📁 AD/
+	│   ├── 📁 Easy/
+	│   ├── 📁 Medium/
+	│   └── 📁 Hard/
+	└── 📁 Templates/
+	    └── Writeup-Template.md
     
 </details>
 
