@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) — 106 Boxes Pwned!
+# WriteUps-HTB (For CPTS) — 107 Boxes Pwned!
 
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.  
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
@@ -79,8 +79,8 @@ cd WriteUps-HTB
 | --------------- | ------------- | --------------- |
 | 🟢 Easy         | 45 / 45       | ██████████ 100% |
 | 🟡 Medium       | 30 / 30       | ██████████ 100% |
-| 🔵 AD           | 26 / 30       | ████████ 83%    |
-| 🔴 Hard (Linux) | 5 / 10        | ███████ 71%     |
+| 🔵 AD           | 27 / 30       | █████████  90%  |
+| 🔴 Hard (Linux) | 5 / 7         | ███████ 71%     |
 | 🔗 Pro Lab      | 0 / 1 (Dante) | 0%              |
 
 ---
@@ -185,7 +185,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔵 AD (Total 26/43) - Mixed Difficulty 📌
+### 🔵 AD (Total 27/43) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -230,11 +230,11 @@ cd WriteUps-HTB
 - Analysis – (Hard)  
 - Mantis – (Hard)  
 - LustrousTwo – (Hard)  
-- Flight – (Hard) - **(WIP)**
-- Blackfield – (Hard)  
-- Search – (Hard)  - (5.5/10)
-- Object – (6/10)  
 - Shibuya – (Hard)  
+- Flight – (Hard) - (6.5/10)
+- Blackfield – (Hard)  - **(WIP)**
+- Search – (Hard)  - (5.5/10)
+- Object – (Hard) - (6/10)  
 
 **Insane**  
 - Rebound – 📌  
