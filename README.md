@@ -232,7 +232,7 @@ cd WriteUps-HTB
 - LustrousTwo – (Hard)  
 - Shibuya – (Hard)  
 - Flight – (Hard) - (6.5/10)
-- Blackfield – (Hard)  - **(WIP)**
+- Blackfield – (Hard)  - (4/10)
 - Search – (Hard)  - (5.5/10)
 - Object – (Hard) - (6/10)  
 
