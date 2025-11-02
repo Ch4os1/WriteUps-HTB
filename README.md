@@ -79,8 +79,8 @@ cd WriteUps-HTB
 | --------------- | ------------- | --------------- |
 | 🟢 Easy         | 45 / 45       | ██████████ 100% |
 | 🟡 Medium       | 30 / 30       | ██████████ 100% |
-| 🔵 AD           | 27 / 30       | █████████  90%  |
-| 🔴 Hard (Linux) | 5 / 7         | ███████ 71%     |
+| 🔵 AD           | 28 / 30       | █████████  93%  |
+| 🔴 Hard (Linux) | 5 / 10        | ███████ 71%     |
 | 🔗 Pro Lab      | 0 / 1 (Dante) | 0%              |
 
 ---
@@ -185,7 +185,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔵 AD (Total 27/43) - Mixed Difficulty 📌
+### 🔵 AD (Total 28/43) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -253,7 +253,7 @@ cd WriteUps-HTB
 - Kotarak (5/10)
 - Holiday (5/10)
 - Monitors (7/10)
-- Jarmis
+- Jarmis - **(WIP)**
 - Oouch
 - Joker
 - Falafel
