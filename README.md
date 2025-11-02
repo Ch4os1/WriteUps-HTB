@@ -160,23 +160,23 @@ cd WriteUps-HTB
 - Writer (8/10)
 - Gobox (6/10)
 - Bolt (8/10)
-- Builder (3/10),  
+- Builder (3/10)
 - Epsilon (5/10)
 - Awkward (8.5/10)
 - Iclean (4/10)
 - Faculty (5/10
-- BackendTwo (7.5/10),  
+- BackendTwo (7.5/10)
 - Aero (3.5/10)
 - Trickster (8/10)
 - Backfire (8.5/10)
 - Chatterbox (3/10)
-- SecNotes (4/10),  
+- SecNotes (4/10)
 - Manager (4/10)
 - Outdated (8.5/10)
 - Agile (7.5/10)
 - Jeeves (2.5/10)
 - Hospital (8/10)
-- Magic (3/10),
+- Magic (3/10)
 - Media (VulnLab - 4.5/10)
 - POV (3.5/10)
 - Craft (3.5/10)
@@ -230,7 +230,7 @@ cd WriteUps-HTB
 - Analysis – (Hard)  
 - Mantis – (Hard)  
 - LustrousTwo – (Hard)  
-- Shibuya – (Hard)  
+- Shibuya – (Hard)  - **(WIP)**
 - Flight – (Hard) - (6.5/10)
 - Blackfield – (Hard)  - (4/10)
 - Search – (Hard)  - (5.5/10)
@@ -244,7 +244,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔴 Hard (Web/SQL Focus) — 5/18
+### 🔴 Hard (Web/SQL Focus) — 5/21
 <details>
 <summary>Click to expand</summary>
 
@@ -256,6 +256,8 @@ cd WriteUps-HTB
 - Jarmis - **(WIP)**
 - Oouch
 - Joker
+- Spooktrol 
+- Store 📌
 - Falafel
 - Intentions
 - OneTwoSeven
@@ -275,7 +277,17 @@ cd WriteUps-HTB
 <details>
 <summary>Click to expand</summary>
 
-Sekhmet, Reddish, APT, Bookwarm, Scanned, Response, Absolute, Kryptos, Sink, Jail, Ariekei
+Sekhmet
+Reddish
+APT
+Bookwarm
+Scanned
+Response
+Absolute
+Kryptos
+Sink
+Jail
+Ariekei
 </details>
 
 ---
