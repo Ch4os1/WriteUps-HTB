@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) — 107 Boxes Pwned!
+# WriteUps-HTB (For CPTS) — 109 Boxes Pwned!
 
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.  
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
@@ -79,7 +79,7 @@ cd WriteUps-HTB
 | --------------- | ------------- | --------------- |
 | 🟢 Easy         | 45 / 45       | ██████████ 100% |
 | 🟡 Medium       | 30 / 30       | ██████████ 100% |
-| 🔵 AD           | 28 / 30       | █████████  93%  |
+| 🔵 AD           | 29 / 30       | █████████  96%  |
 | 🔴 Hard (Linux) | 5 / 10        | ███████ 71%     |
 | 🔗 Pro Lab      | 0 / 1 (Dante) | 0%              |
 
@@ -185,7 +185,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔵 AD (Total 28/43) - Mixed Difficulty 📌
+### 🔵 AD (Total 29/43) - Mixed Difficulty 📌
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -212,32 +212,32 @@ cd WriteUps-HTB
 - VulnCicada (VulnLab) – (7/10)  
 - TombWatcher – (4/10)  
 - Voleur – (5/10)  
-- Worker – (Medium)  
-- Fuse – (Medium)  
-- Sweep – (Medium)  
-- Shibbeloth – (Medium)  
-- Resolute – (Medium)  
-- Arkham – (Medium)  
-- Querier – (Medium)  
-- Lightweight – (Medium)  
-- Carrier – (Medium)  
-- Sniper – (Medium)  
+- Worker 
+- Fuse 
+- Sweep 
+- Shibbeloth
+- Resolute
+- Arkham
+- Querier
+- Lightweight
+- Carrier
+- Sniper
 
 **Hard**  
 - Vintage – (7/10)  
 - Freelancer – (9/10)  
 - Redelegate (VulnLab) – (6/10)  
-- Analysis – (Hard)  
-- Mantis – (Hard)  
-- LustrousTwo – (Hard)  
-- Shibuya – (Hard)  - **(WIP)**
-- Flight – (Hard) - (6.5/10)
-- Blackfield – (Hard)  - (4/10)
-- Search – (Hard)  - (5.5/10)
-- Object – (Hard) - (6/10)  
+- Analysis
+- Mantis
+- LustrousTwo
+- Shibuya - (6/10)
+- Flight - (6.5/10)
+- Blackfield - (4/10)
+- Search - (5.5/10)
+- Object - (6/10)  
 
 **Insane**  
-- Rebound – 📌  
+- Rebound – **(WIP)**
 - Ghost – (9.5/10)  
 
 </details>
