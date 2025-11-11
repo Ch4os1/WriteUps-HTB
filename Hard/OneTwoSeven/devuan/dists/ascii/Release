@@ -1,0 +1,11 @@
+Origin: Devuan
+Label: Devuan
+Suite: stable
+Version: 2.0.0
+Codename: ascii
+Date: Fri, 27 May 2022 03:23:41 UTC
+Architectures: amd64 armel armhf arm64 mipsel i386
+Components: main 
+SHA256:
+ 6296a2f01bf3efe66853e83079da963ba3c70788dab3fbeb828dc35aa14eb563      255 main/binary-amd64/Packages
+ ec0e4c62349e89491a9b78dcec0f9e048a3eafc6ead1b3dad19a51e6d2662714      232 main/binary-amd64/Packages.gz

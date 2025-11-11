@@ -1,0 +1,10 @@
+Package: wget
+Version: 5.0
+Maintainer: HTB
+Architecture: all
+Description: Pwnie package
+Multi-Arch: foreign
+Filename: pwn/wget.deb
+Size: 844
+MD5sum: 4dd2eb086dcdcc80dab2f400fc9eb0d1
+SHA256: 549d7985acec4c0861c1ac693545d24de6a7710d40227c5f96405097cf414fa6
