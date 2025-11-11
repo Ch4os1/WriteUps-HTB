@@ -244,7 +244,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔴 Hard (Web/SQL Focus) — 10/21 ✅
+### 🔴 Hard (Total 10/21) - (Web/SQL Focused) ✅
 <details>
 <summary>Click to expand</summary>
 
@@ -257,7 +257,7 @@ cd WriteUps-HTB
 - Oouch - (9.5/10)
 - Joker - (5/10)
 - Falafel - (5/10)
-- OneTwoSeven - **(WIP)** 
+- OneTwoSeven - (6/10)
 - Store 
 - Spooktrol
 - Intentions
