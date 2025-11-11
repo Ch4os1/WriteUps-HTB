@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) — 109 Boxes Pwned!
+# WriteUps-HTB (For CPTS) — 115 Boxes Pwned!
 
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.  
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
@@ -79,8 +79,8 @@ cd WriteUps-HTB
 | --------------- | ------------- | --------------- |
 | 🟢 Easy         | 45 / 45       | ██████████ 100% |
 | 🟡 Medium       | 30 / 30       | ██████████ 100% |
-| 🔵 AD           | 29 / 30       | █████████  96%  |
-| 🔴 Hard (Linux) | 5 / 10        | ███████ 71%     |
+| 🔵 AD           | 30 / 30       | ██████████ 100% |
+| 🔴 Hard (Linux) | 10  / 10      | ██████████ 100% |
 | 🔗 Pro Lab      | 0 / 1 (Dante) | 0%              |
 
 ---
@@ -185,7 +185,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔵 AD (Total 29/43) - Mixed Difficulty 📌
+### 🔵 AD (Total 30/43) - Mixed Difficulty ✅
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -237,14 +237,14 @@ cd WriteUps-HTB
 - Object - (6/10)  
 
 **Insane**  
-- Rebound – **(WIP)**
+- Rebound – (6.5/10)
 - Ghost – (9.5/10)  
 
 </details>
 
 ---
 
-### 🔴 Hard (Web/SQL Focus) — 5/21
+### 🔴 Hard (Web/SQL Focus) — 10/21 ✅
 <details>
 <summary>Click to expand</summary>
 
@@ -253,14 +253,14 @@ cd WriteUps-HTB
 - Kotarak (5/10)
 - Holiday (5/10)
 - Monitors (7/10)
-- Jarmis - **(WIP)**
-- Oouch
-- Joker
-- Spooktrol 
-- Store 📌
-- Falafel
+- Jarmis - (6.5/10)
+- Oouch - (9.5/10)
+- Joker - (5/10)
+- Falafel - (5/10)
+- OneTwoSeven - **(WIP)** 
+- Store 
+- Spooktrol
 - Intentions
-- OneTwoSeven
 - CrimeStoppers
 - Pollution
 - Caption
@@ -292,11 +292,11 @@ Ariekei
 
 ---
 
-### 🔗 Pro Labs
+### 🔗 Pro Labs 🎯
 <details>
 <summary>Click to expand</summary>
 
-**Dante** (OSCP/CPTS Practice)
+**Dante** - **WIP** - (OSCP/CPTS Practice)
 </details>
 
 ---
