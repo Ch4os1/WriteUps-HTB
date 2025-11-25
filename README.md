@@ -296,7 +296,7 @@ Ariekei
 <details>
 <summary>Click to expand</summary>
 
-**Dante** - **WIP** - (OSCP/CPTS Practice)
+**Dante** - **Done** - (OSCP/CPTS Practice)
 </details>
 
 ---
