@@ -81,7 +81,7 @@ cd WriteUps-HTB
 | 🟡 Medium       | 30 / 30       | ██████████ 100% |
 | 🔵 AD           | 30 / 30       | ██████████ 100% |
 | 🔴 Hard (Linux) | 10  / 10      | ██████████ 100% |
-| 🔗 Pro Lab      | 0 / 1 (Dante) | 0%              |
+| 🔗 Pro Lab      | 1 / 1 (Dante) | ██████████ 100% |
 
 ---
 
@@ -292,7 +292,7 @@ Ariekei
 
 ---
 
-### 🔗 Pro Labs 🎯
+### 🔗 Pro Labs ✅
 <details>
 <summary>Click to expand</summary>
 
