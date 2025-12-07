@@ -277,26 +277,26 @@ cd WriteUps-HTB
 <details>
 <summary>Click to expand</summary>
 
-Sekhmet
-Reddish
-APT
-Bookwarm
-Scanned
-Response
-Absolute
-Kryptos
-Sink
-Jail
-Ariekei
+Sekhmet <br>
+Reddish <br>
+APT <br>
+Bookwarm <br>
+Scanned <br>
+Response <br>
+Absolute <br>
+Kryptos <br>
+Sink <br>
+Jail <br>
+Ariekei <br>
 </details>
 
 ---
 
-### 🔗 Pro Labs ✅
+### 🔗 Pro Labs (1/2)
 <details>
 <summary>Click to expand</summary>
 
-**Dante** - **Done** - (OSCP/CPTS Practice)
+**Dante** - **Done** - (OSCP/CPTS Practice) <br>
 ** Zephy** - **In Progress**
 </details>
 
