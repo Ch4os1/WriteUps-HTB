@@ -75,13 +75,13 @@ cd WriteUps-HTB
 
 ## 📊 CPTS Prep Progress (Static Snapshot)
 
-| Category        | Completed     | Progress        |
-| --------------- | ------------- | --------------- |
-| 🟢 Easy         | 45 / 45       | ██████████ 100% |
-| 🟡 Medium       | 30 / 30       | ██████████ 100% |
-| 🔵 AD           | 30 / 30       | ██████████ 100% |
-| 🔴 Hard (Linux) | 10  / 10      | ██████████ 100% |
-| 🔗 Pro Lab      | 1 / 1 (Dante) | ██████████ 100% |
+| Category        | Completed | Progress        |
+| --------------- | --------- | --------------- |
+| 🟢 Easy         | 45 / 45   | ██████████ 100% |
+| 🟡 Medium       | 30 / 30   | ██████████ 100% |
+| 🔵 AD           | 30 / 30   | ██████████ 100% |
+| 🔴 Hard (Linux) | 10  / 10  | ██████████ 100% |
+| 🔗 Pro Lab      | 1 / 2     | █████ 50%       |
 
 ---
 
@@ -297,6 +297,7 @@ Ariekei
 <summary>Click to expand</summary>
 
 **Dante** - **Done** - (OSCP/CPTS Practice)
+** Zephy** - **In Progress**
 </details>
 
 ---
