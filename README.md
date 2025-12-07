@@ -297,7 +297,7 @@ Ariekei <br>
 <summary>Click to expand</summary>
 
 **Dante** - **Done** - (OSCP/CPTS Practice) <br>
-** Zephy** - **In Progress**
+** Zephyr** - **In Progress**
 </details>
 
 ---
