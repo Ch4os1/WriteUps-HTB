@@ -1,9 +1,9 @@
 # WriteUps-HTB (For CPTS) — 115 Boxes Pwned!
 
-A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.  
+A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
 
-> ⚙️ Difficulty ratings are subjective (x/10).  
+> ⚙️ Difficulty ratings are subjective (x/10).
 > 💡 Some write-ups include PoCs, but I highly recommend retrieving them from official sources.
 
 ---
@@ -12,7 +12,7 @@ Each write-up documents my process, methodology, and lessons learned while honin
 
 HTB offers two primary modes:
 
-- **Guided Mode** – Best for beginners. Follow structured hints and learning paths.  
+- **Guided Mode** – Best for beginners. Follow structured hints and learning paths.
 - **Adventure Mode** – Recommended once comfortable with Easy boxes. Mimics real exam conditions with minimal hints.
 
 After Easy difficulty, I primarily switched to **Adventure Mode** for more authentic practice.
@@ -68,7 +68,7 @@ cd WriteUps-HTB
 	│   └── 📁 Insane/
 	└── 📁 Templates/
 	    └── Writeup-Template.md
-    
+
 </details>
 
 ---
@@ -91,7 +91,7 @@ cd WriteUps-HTB
 <details>
 <summary>Click to expand</summary>
 
-**Classic Practice**  
+**Classic Practice**
 - Knife (2/10)
 - Sunday (3/10)
 - Keeper (1/10)
@@ -101,35 +101,35 @@ cd WriteUps-HTB
 - Blunder (3.5/10)
 - Popcorn (1.5/10)
 - Postman (4/10),
-- Shocker (1/10),  
+- Shocker (1/10),
 - Access (3/10)
 - Swagshop (3/10)
 - Arctic (2/10)
 - Blue (1/10)
-- Buff (3/10),  
+- Buff (3/10),
 - Devel (2/10)
 - Jerry (1/10)
 - Legacy (1/10)
 - Netmon (1/10)
-- Remote (2/10),  
+- Remote (2/10),
 - Broker (1.5/10)
 - Soccer (3.5/10)
 - Sau (1/10)
 - Dog (2.5/10)
-- Help (4/10),  
+- Help (4/10),
 - Usage (3.5/10)
 - LinkVortex (3/10)
 - Pandora (4/10)
-- Editorial (3.5/10),  
+- Editorial (3.5/10),
 - Networked (3/10)
 - Support (5/10),
 - Servmon (3/10)
 - Mailing (3/10)
 - Driver (3/10)
 - Crafty (3/10)
-- Granny (1/10)  
+- Granny (1/10)
 
-**Adventure Mode (Exam Simulation)**  
+**Adventure Mode (Exam Simulation)**
 - CozyHosting (4/10)
 - Busqueda (4/10)
 - Broadlight (2/10)
@@ -140,7 +140,7 @@ cd WriteUps-HTB
 - Sense (2/10)
 - OpenAdmin (2/10)
 
-**Additional Practice**  
+**Additional Practice**
 - Titanic
 - EscapeTwo
 </details>
@@ -189,32 +189,32 @@ cd WriteUps-HTB
 <details>
 <summary>AD labs (Click to expand)</summary>
 
-**Easy**  
-- Active – (2/10)  
-- Sauna – (3/10)  
-- Timelapse – (3/10)  
-- Return – (1/10)  
-- Cicada – (2/10)  
-- Forest – (3/10)  
-- Fluffy – (3.5/10)  
+**Easy**
+- Active – (2/10)
+- Sauna – (3/10)
+- Timelapse – (3/10)
+- Return – (1/10)
+- Cicada – (2/10)
+- Forest – (3/10)
+- Fluffy – (3.5/10)
 
-**Medium**  
-- Monteverde – (3.5/10)  
-- Cascade – (5/10)  
-- Administrator – (4.5/10)  
-- Certified – (5/10)  
-- Querier – (3/10)  
-- Scrambled – (7.5/10)  
-- Intelligence – (4/10)  
-- Escape – (2/10)  
-- TheFrizz – (5/10)  
-- Authority – (6.5/10)  
-- VulnCicada (VulnLab) – (7/10)  
-- TombWatcher – (4/10)  
-- Voleur – (5/10)  
-- Worker 
-- Fuse 
-- Sweep 
+**Medium**
+- Monteverde – (3.5/10)
+- Cascade – (5/10)
+- Administrator – (4.5/10)
+- Certified – (5/10)
+- Querier – (3/10)
+- Scrambled – (7.5/10)
+- Intelligence – (4/10)
+- Escape – (2/10)
+- TheFrizz – (5/10)
+- Authority – (6.5/10)
+- VulnCicada (VulnLab) – (7/10)
+- TombWatcher – (4/10)
+- Voleur – (5/10)
+- Worker
+- Fuse
+- Sweep
 - Shibbeloth
 - Resolute
 - Arkham
@@ -223,10 +223,10 @@ cd WriteUps-HTB
 - Carrier
 - Sniper
 
-**Hard**  
-- Vintage – (7/10)  
-- Freelancer – (9/10)  
-- Redelegate (VulnLab) – (6/10)  
+**Hard**
+- Vintage – (7/10)
+- Freelancer – (9/10)
+- Redelegate (VulnLab) – (6/10)
 - Analysis
 - Mantis
 - LustrousTwo
@@ -234,11 +234,11 @@ cd WriteUps-HTB
 - Flight - (6.5/10)
 - Blackfield - (4/10)
 - Search - (5.5/10)
-- Object - (6/10)  
+- Object - (6/10)
 
-**Insane**  
+**Insane**
 - Rebound – (6.5/10)
-- Ghost – (9.5/10)  
+- Ghost – (9.5/10)
 
 </details>
 
@@ -258,7 +258,7 @@ cd WriteUps-HTB
 - Joker - (5/10)
 - Falafel - (5/10)
 - OneTwoSeven - (6/10)
-- Store 
+- Store
 - Spooktrol
 - Intentions
 - CrimeStoppers
@@ -302,22 +302,32 @@ Ariekei <br>
 
 ---
 ### 🔗 CPTS Exam Progress
-- First attempt started on 11/28/2025 and ended on 12/07/2025 - Solved 3 Flags 
+Exam Attempt 1:
+- First attempt started on 11/28/2025 and ended on 12/07/2025 - Solved 3 Flags
 	- 4 days and 4 hours - flag 1 solved
-	- 4 days and 13 hours - rooted dmz 01
-- Second attempt starting soon ...
+	- 4 days and 13 hours - rooted first machine
+- Did 80% Zephyr Pro Lab in between
+- Second attempt started on 12/25/2025 and ended on 01/04/2026 - Solved 4 Flags
+    - 1 day and 2 hours - flag 4
+    - 8 days and 12 hours - flag 5
+    - 20 minutes - flag 6
+    - 9 hours - flag 7
+
+Exam Attempt 2:
+- Starting Soon ...
+
 ---
 
 ## 📚 References
 
-- [OSCP-like Labs — NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#)  
+- [OSCP-like Labs — NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#)
 - [CPTS Prep Playlist by IppSec](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5)
 
 ---
 
 ## 🤝 Connect
 
-If you’d like to collaborate or study together:  
+If you’d like to collaborate or study together:
 👉 [Connect on LinkedIn](https://www.linkedin.com/in/yourprofile)
 
 
