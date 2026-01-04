@@ -301,7 +301,7 @@ Ariekei <br>
 </details>
 
 ---
-### 🔗 CPTS Exam Progress
+### ⚔️ CPTS Exam Progress
 Exam Attempt 1:
 - First attempt started on 11/28/2025 and ended on 12/07/2025 - Solved 3 Flags
 	- 4 days and 4 hours - flag 1 solved
