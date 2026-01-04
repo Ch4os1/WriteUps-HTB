@@ -100,29 +100,29 @@ cd WriteUps-HTB
 - Armageddon (4/10)
 - Blunder (3.5/10)
 - Popcorn (1.5/10)
-- Postman (4/10),
-- Shocker (1/10),
+- Postman (4/10)
+- Shocker (1/10)
 - Access (3/10)
 - Swagshop (3/10)
 - Arctic (2/10)
 - Blue (1/10)
-- Buff (3/10),
+- Buff (3/10)
 - Devel (2/10)
 - Jerry (1/10)
 - Legacy (1/10)
 - Netmon (1/10)
-- Remote (2/10),
+- Remote (2/10)
 - Broker (1.5/10)
 - Soccer (3.5/10)
 - Sau (1/10)
 - Dog (2.5/10)
-- Help (4/10),
+- Help (4/10)
 - Usage (3.5/10)
 - LinkVortex (3/10)
 - Pandora (4/10)
-- Editorial (3.5/10),
+- Editorial (3.5/10)
 - Networked (3/10)
-- Support (5/10),
+- Support (5/10)
 - Servmon (3/10)
 - Mailing (3/10)
 - Driver (3/10)
@@ -325,12 +325,5 @@ Exam Attempt 2:
 
 ---
 
-## 🤝 Connect
-
-If you’d like to collaborate or study together:
-👉 [Connect on LinkedIn](https://www.linkedin.com/in/yourprofile)
-
-
----
 
 > _“Repetition builds intuition. Precision builds mastery.”_
