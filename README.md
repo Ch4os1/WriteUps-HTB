@@ -312,9 +312,14 @@ Exam Attempt 1:
     - 8 days and 12 hours - flag 5
     - 20 minutes - flag 6
     - 9 hours - flag 7
-
 Exam Attempt 2:
-- Starting Soon ...
+- Failed both attempts on Flag 8
+
+Exam Attempt 3:
+- First attempt started on 06/03/2026
+    - 5 days - obtained the remaining flags
+    - 5 days - for report writing (Redid the entire attack path to capture all the details for reporting)
+- Waiting for review ...
 
 ---
 
