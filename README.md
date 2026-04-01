@@ -80,7 +80,7 @@ cd WriteUps-HTB
 | 🟢 Easy         | 45 / 45   | ██████████ 100% |
 | 🟡 Medium       | 30 / 30   | ██████████ 100% |
 | 🔵 AD           | 30 / 30   | ██████████ 100% |
-| 🔴 Hard (Linux) | 10  / 10  | ██████████ 100% |
+| 🔴 Hard (Linux) | 10 / 10   | ██████████ 100% |
 | 🔗 Pro Lab      | 2 / 2     | ██████████ 100% |
 
 ---
@@ -140,9 +140,6 @@ cd WriteUps-HTB
 - Sense (2/10)
 - OpenAdmin (2/10)
 
-**Additional Practice**
-- Titanic
-- EscapeTwo
 </details>
 
 ---
@@ -185,7 +182,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔵 AD (Total 30/43) - Mixed Difficulty ✅
+### 🔵 AD (Total 30/30) - Mixed Difficulty ✅
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -244,7 +241,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔴 Hard (Total 10/21) - (Web/SQL Focused) ✅
+### 🔴 Hard (Total 10/10) - (Web/SQL Focused) ✅
 <details>
 <summary>Click to expand</summary>
 
@@ -258,16 +255,6 @@ cd WriteUps-HTB
 - Joker - (5/10)
 - Falafel - (5/10)
 - OneTwoSeven - (6/10)
-- Store
-- Spooktrol
-- Intentions
-- CrimeStoppers
-- Pollution
-- Caption
-- Seventee
-- Phoenix
-- Player
-- Cereal
 
 </details>
 
@@ -292,12 +279,12 @@ Ariekei <br>
 
 ---
 
-### 🔗 Pro Labs (2/2) ✅
+### 🔗 Pro Labs (2/2)
 <details>
 <summary>Click to expand</summary>
 
-**Dante** - **Completed** <br>
-** Zephyr** - **Completed**
+**Dante**  <br>
+**Zephyr**
 </details>
 
 ---
