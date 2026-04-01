@@ -260,25 +260,6 @@ cd WriteUps-HTB
 
 ---
 
-### 🤯 Insane (0/9)
-<details>
-<summary>Click to expand</summary>
-
-Sekhmet <br>
-Reddish <br>
-APT <br>
-Bookwarm <br>
-Scanned <br>
-Response <br>
-Absolute <br>
-Kryptos <br>
-Sink <br>
-Jail <br>
-Ariekei <br>
-</details>
-
----
-
 ### 🔗 Pro Labs (2/2)
 <details>
 <summary>Click to expand</summary>
