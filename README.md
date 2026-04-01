@@ -292,7 +292,7 @@ Ariekei <br>
 
 ---
 
-### 🔗 Pro Labs (2/2)
+### 🔗 Pro Labs (2/2) ✅
 <details>
 <summary>Click to expand</summary>
 
