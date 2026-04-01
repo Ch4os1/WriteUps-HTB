@@ -283,8 +283,8 @@ Ariekei <br>
 <details>
 <summary>Click to expand</summary>
 
-**Dante**  <br>
-**Zephyr**
+- **Dante**  <br>
+- **Zephyr**
 </details>
 
 ---
