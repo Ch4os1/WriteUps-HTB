@@ -81,7 +81,7 @@ cd WriteUps-HTB
 | 🟡 Medium       | 30 / 30   | ██████████ 100% |
 | 🔵 AD           | 30 / 30   | ██████████ 100% |
 | 🔴 Hard (Linux) | 10  / 10  | ██████████ 100% |
-| 🔗 Pro Lab      | 2/ 2      | ██████████ 100% |
+| 🔗 Pro Lab      | 2 / 2     | ██████████ 100% |
 
 ---
 
@@ -319,7 +319,7 @@ Exam Attempt 3:
 - First attempt started on 06/03/2026
     - 5 days - obtained the remaining flags
     - 5 days - for report writing (Redid the entire attack path to capture all the details for reporting)
-- Waiting for review ...
+- Submitted on 15/03, waiting for review ...
 
 ---
 
