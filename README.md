@@ -301,30 +301,6 @@ Ariekei <br>
 </details>
 
 ---
-### ⚔️ CPTS Exam Progress
-<details>
-<summary>Click to expand</summary>
-Exam Attempt 1:
-- First attempt started on 11/28/2025 and ended on 12/07/2025 - Solved 3 Flags
-	- 4 days and 4 hours - flag 1 solved
-	- 4 days and 13 hours - rooted first machine
-- Did 80% Zephyr Pro Lab in between
-- Second attempt started on 12/25/2025 and ended on 01/04/2026 - Solved 4 Flags
-    - 1 day and 2 hours - flag 4
-    - 8 days and 12 hours - flag 5
-    - 20 minutes - flag 6
-    - 9 hours - flag 7
-Exam Attempt 2:
-- Failed both attempts on Flag 8
-
-Exam Attempt 3:
-- First attempt started on 06/03/2026
-    - 5 days - obtained the remaining flags
-    - 5 days - for report writing (Redid the entire attack path to capture all the details for reporting)
-- Submitted on 15/03, waiting for review ...
-</details>
-
----
 
 ## 📚 References
 
