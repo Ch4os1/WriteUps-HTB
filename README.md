@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) — 115 Boxes Pwned!
+# WriteUps-HTB (For CPTS) — 116 Boxes Pwned!
 
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
@@ -77,7 +77,7 @@ cd WriteUps-HTB
 
 | Category        | Completed | Progress        |
 | --------------- | --------- | --------------- |
-| 🟢 Easy         | 45 / 45   | ██████████ 100% |
+| 🟢 Easy         | 46 / 46   | ██████████ 100% |
 | 🟡 Medium       | 30 / 30   | ██████████ 100% |
 | 🔵 AD           | 30 / 30   | ██████████ 100% |
 | 🔴 Hard (Linux) | 10 / 10   | ██████████ 100% |
@@ -87,7 +87,7 @@ cd WriteUps-HTB
 
 ## 🧩 Box Lists
 
-### 🟢 Easy (45/45) ✅
+### 🟢 Easy (46/46) 
 <details>
 <summary>Click to expand</summary>
 
@@ -139,12 +139,13 @@ cd WriteUps-HTB
 - Shoppy (3/10)
 - Sense (2/10)
 - OpenAdmin (2/10)
+- Heist (4.5/10)
 
 </details>
 
 ---
 
-### 🟡 Medium (30/30) ✅
+### 🟡 Medium (30/30) 
 <details>
 <summary>Click to expand</summary>
 
@@ -182,7 +183,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔵 AD (Total 30/30) - Mixed Difficulty ✅
+### 🔵 AD (Total 30/30) - Mixed Difficulty 
 <details>
 <summary>AD labs (Click to expand)</summary>
 
@@ -241,7 +242,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔴 Hard (Total 10/10) - (Web/SQL Focused) ✅
+### 🔴 Hard (Total 10/10) - (Web/SQL Focused) 
 <details>
 <summary>Click to expand</summary>
 
@@ -260,7 +261,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🔗 Pro Labs (2/2) ✅
+### 🔗 Pro Labs (2/2) 
 <details>
 <summary>Click to expand</summary>
 
