@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) — 116 Boxes Pwned!
+# WriteUps-HTB (For CPTS) — 117 Boxes Pwned!
 
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
@@ -78,7 +78,7 @@ cd WriteUps-HTB
 | Category        | Completed | Progress        |
 | --------------- | --------- | --------------- |
 | 🟢 Easy         | 46 / 46   | ██████████ 100% |
-| 🟡 Medium       | 30 / 30   | ██████████ 100% |
+| 🟡 Medium       | 31 / 31   | ██████████ 100% |
 | 🔵 AD           | 30 / 30   | ██████████ 100% |
 | 🔴 Hard (Linux) | 10 / 10   | ██████████ 100% |
 | 🔗 Pro Lab      | 2 / 2     | ██████████ 100% |
@@ -145,7 +145,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🟡 Medium (30/30) 
+### 🟡 Medium (31/31) 
 <details>
 <summary>Click to expand</summary>
 
@@ -179,6 +179,7 @@ cd WriteUps-HTB
 - POV (3.5/10)
 - Craft (3.5/10)
 - StreamIO (7/10)
+- Europa (3.5/10)
 </details>
 
 ---
@@ -261,12 +262,13 @@ cd WriteUps-HTB
 
 ---
 
-### 🔗 Pro Labs (2/2) 
+### 🔗 Pro Labs (2/3) 
 <details>
 <summary>Click to expand</summary>
 
 - **Dante**  <br>
-- **Zephyr**
+- **Zephyr** <br>
+- **Offshore** <br>
 </details>
 
 ---
