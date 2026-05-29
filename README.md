@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) — 117 Boxes Pwned!
+# WriteUps-HTB (For CPTS) — 118 Boxes Pwned!
 
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
@@ -77,17 +77,17 @@ cd WriteUps-HTB
 
 | Category        | Completed | Progress        |
 | --------------- | --------- | --------------- |
-| 🟢 Easy         | 46 / 46   | ██████████ 100% |
+| 🟢 Easy         | 47 / 47   | ██████████ 100% |
 | 🟡 Medium       | 31 / 31   | ██████████ 100% |
 | 🔵 AD           | 30 / 30   | ██████████ 100% |
 | 🔴 Hard (Linux) | 10 / 10   | ██████████ 100% |
-| 🔗 Pro Lab      | 2 / 3    | ███████ 66%     |
+| 🔗 Pro Lab      | 2 / 3     | ███████ 66%     |
 
 ---
 
 ## 🧩 Box Lists
 
-### 🟢 Easy (46/46) 
+### 🟢 Easy (47/47) 
 <details>
 <summary>Click to expand</summary>
 
@@ -140,6 +140,7 @@ cd WriteUps-HTB
 - Sense (2/10)
 - OpenAdmin (2/10)
 - Heist (4.5/10)
+- Headless (3.5/10)
 
 </details>
 
