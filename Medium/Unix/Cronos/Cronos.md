@@ -2,12 +2,12 @@
 
 
 ## Lab Details
-- Difficulty:
-- OS:
+- Difficulty: Medium
+- OS: Linux
 
 ## Summary
-- Initial access:
-- Privilege escalation:
+- Initial access: Web
+- Privilege escalation: PolKit LPE
 
 ## Enumeration
 #### Steps
