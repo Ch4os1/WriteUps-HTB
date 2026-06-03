@@ -185,6 +185,9 @@ cd WriteUps-HTB
 - Europa (3.5/10)
 - Cronos (2/10)
 - Jarvis (3.5/10)
+- Europa (3/10)
+- Union (3/10)
+- MonitorsThree (4.5/10)
 </details>
 
 ---
