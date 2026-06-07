@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) — 130 Boxes Pwned!
+# WriteUps-HTB (For CPTS) — 132 Boxes Pwned!
 
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
@@ -78,7 +78,7 @@ cd WriteUps-HTB
 | Category        | Completed | Progress        |
 | --------------- | --------- | --------------- |
 | 🟢 Easy         | 52 / 52   | ██████████ 100% |
-| 🟡 Medium       | 37 / 37   | ██████████ 100% |
+| 🟡 Medium       | 39 / 39   | ██████████ 100% |
 | 🔵 AD           | 31 / 31   | ██████████ 100% |
 | 🔴 Hard (Linux) | 10 / 10   | ██████████ 100% |
 | 🔗 Pro Lab      | 2 / 3     | ███████ 66%     |
@@ -151,7 +151,7 @@ cd WriteUps-HTB
 
 ---
 
-### 🟡 Medium (37/37) 
+### 🟡 Medium (39/39) 
 <details>
 <summary>Click to expand</summary>
 
@@ -192,6 +192,8 @@ cd WriteUps-HTB
 - MonitorsThree (4.5/10)
 - Aragog (2/10)
 - Puppy (3/10)
+- Job (2/10)
+- Bastard (2/10)
 </details>
 
 ---
@@ -290,6 +292,7 @@ cd WriteUps-HTB
 
 - [OSCP-like Labs — NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#)
 - [CPTS Prep Playlist by IppSec](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5)
+- [Official CPTS Preparation Track](https://app.hackthebox.com/tracks/76)
 
 ---
 
