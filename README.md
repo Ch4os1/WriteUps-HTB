@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) — 134 Boxes Pwned!
+# WriteUps-HTB (For CPTS) — 135 Boxes Pwned!
 
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
@@ -77,7 +77,7 @@ cd WriteUps-HTB
 
 | Category        | Completed | Progress        |
 | --------------- | --------- | --------------- |
-| 🟢 Easy         | 53 / 53   | ██████████ 100% |
+| 🟢 Easy         | 54 / 54   | ██████████ 100% |
 | 🟡 Medium       | 40 / 40   | ██████████ 100% |
 | 🔵 AD           | 31 / 31   | ██████████ 100% |
 | 🔴 Hard (Linux) | 10 / 10   | ██████████ 100% |
@@ -87,7 +87,7 @@ cd WriteUps-HTB
 
 ## 🧩 Box Lists
 
-### 🟢 Easy (53/53) 
+### 🟢 Easy (54/54) 
 <details>
 <summary>Click to expand</summary>
 
@@ -146,6 +146,19 @@ cd WriteUps-HTB
 - Love (1.5/10)
 - Eighteen (4.5/10)
 - Bounty (2/10)
+- Titanic
+- Outbound
+- Editor
+- Pilgrimage
+- Codify
+- Tabby
+- Connected
+- Devvortex
+- Irked
+- Silentium
+- Precious
+- Underpass
+- Cctv
 
 </details>
 
@@ -195,6 +208,14 @@ cd WriteUps-HTB
 - Job (2/10)
 - Bastard (2/10)
 - Silo (3/10)
+- Browsed
+- Solidstate
+- Poison
+- Editor
+- Tartarsauce
+- Mentor
+- Nineveh
+
 </details>
 
 ---
@@ -299,3 +320,6 @@ cd WriteUps-HTB
 
 
 > _“Repetition builds intuition. Precision builds mastery.”_
+
+
+
