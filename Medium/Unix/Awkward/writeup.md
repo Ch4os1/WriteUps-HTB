@@ -23,7 +23,6 @@ PORT   STATE SERVICE
 
 ```
 - found `hat-valley.htb` by visiting the `IP`
-![[Pasted image 20250906050958.png]]
 - run `wfuzz` sub-domain enumeration
 ```bash
 $ wfuzz -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt -H "Host:FUZZ.hat-valley.htb" --hw 13 http://10.129.228.81

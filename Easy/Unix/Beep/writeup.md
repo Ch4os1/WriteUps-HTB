@@ -50,14 +50,14 @@ ssh root@10.10.10.7
 Unable to negotiate with 10.10.10.7 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
 ```
  - after searching online, to connect using legacy cipher ssh will require the cipher to be specified
- - we need both server and host cipher to be specified inorder to connect
- - `ssh -oKexAlgorithms=+diffie0hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-rsa root@target_ip`
+ - modern SSH clients disable the target's legacy key-exchange and host-key algorithms by default, so both must be enabled explicitly for this lab
+ - `ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-rsa root@target_ip`
 
 Q7&8: Flags for user fanis and root 
- - located at /root/root.txt and /home/fanis/users.txt
+ - located at `/root/root.txt` and `/home/fanis/user.txt`
 
 #### Lesson Learned
 - Check web app TLS version and if TLS version is 1 or 2 update it, on firefox set security.tls.version.min to 1 in about:config
 - Need to read and understand the exploit, read it carefully
 - Need to understand the output of an exploit
-- How to connect to remote when using legacy cipher`ssh -oKexAlgorithms=+diffie0hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-rsa root@target_ip`
+- How to connect to a legacy SSH service by explicitly enabling its key-exchange and host-key algorithms.

@@ -271,7 +271,6 @@ gDQo8cD48YXNwOkxhYmVsIGlkPSJyZXN1bHQiIHJ1bmF0PSJzZXJ2ZXIiPjwvYXNwOkxhYmVsPiAgICA
 ```
 - Verify the webshell and we can see the webshell
 ![[Pasted image 20260704114731.png]]
-![[Pasted image 20260704114815.png]]
 - Craft a reverse shell payload using https://www.revshells.com/
 ![[Pasted image 20260704114936.png]]
 - Start a listener and execute the reverse shell payload

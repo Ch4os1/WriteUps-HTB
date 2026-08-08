@@ -176,12 +176,12 @@ dir C:\Users\Administrator\Desktop
 # root.txt
 c:\windows\system32\inetsrv>type C:\Users\Administrator\Desktop\root.txt
 type C:\Users\Administrator\Desktop\root.txt
-1846c702219f631ba8d19363af324ca3
+<redacted>
 
 # user.txt
 c:\windows\system32\inetsrv>type C:\Users\babis\Desktop\user.txt
 type C:\Users\babis\Desktop\user.txt
-2cbe6032e3a7f50d95ef0cf8f0ca713c
+<redacted>
 ```
 
 ### Resources

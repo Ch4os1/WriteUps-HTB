@@ -122,14 +122,14 @@ cat users.php
         "gitlab": ""}
 }
 
-````
+```
 - check hashtype `hashid "faca404fd5c0a31cf1897b823c695c85cffeb98d"`
 ```
 Analyzing 'faca404fd5c0a31cf1897b823c695c85cffeb98d'
 [+] SHA-1
 ... 
 ```
-- use https://www.dcode.fr/sha1-hash to decrypt the hash 
+- crack the SHA-1 hash locally with Hashcat (`-m 100`) or John using an appropriate wordlist
 - `password: Password120`
 
 Q7: Submit the flag located in the hugo user's home directory.

