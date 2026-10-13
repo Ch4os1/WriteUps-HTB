@@ -3,10 +3,10 @@
 A complete collection of my **Hack The Box write-ups** used for **CPTS** and **OSCP preparation**.
 Each write-up documents my process, methodology, and lessons learned while honing red team and pentesting skills.
 
-> ⚙️ Difficulty ratings are subjective (x/10).
+> ⚙️ Difficulty ratings are subjective (x/10). <br>
 > 💡 Some write-ups include PoCs, but I highly recommend retrieving them from official sources.
 
-****NEW**** - [Writeups on Web](https://web01.ch4os1.com/home/)
+**[NEW]** - [Writeups on Web](https://web01.ch4os1.com/writeups/)
 ---
 
 ## 🎮 Modes of Practice
