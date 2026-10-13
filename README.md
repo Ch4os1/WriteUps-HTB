@@ -7,6 +7,7 @@ Each write-up documents my process, methodology, and lessons learned while honin
 > 💡 Some write-ups include PoCs, but I highly recommend retrieving them from official sources.
 
 **[NEW]** - [Writeups on Web](https://web01.ch4os1.com/writeups/)
+<br>
 ---
 
 ## 🎮 Modes of Practice
